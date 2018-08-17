@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		4102BF0CCB3A6AB89953353E /* Pods_TServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FECB7C17B011600E97E1B1 /* Pods_TServer.framework */; };
 		4DAEE00021256552009FFB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDFFF21256552009FFB4B /* AppDelegate.m */; };
-		4DAEE00321256552009FFB4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE00221256552009FFB4B /* ViewController.m */; };
-		4DAEE00621256552009FFB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE00421256552009FFB4B /* Main.storyboard */; };
 		4DAEE00821256553009FFB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE00721256553009FFB4B /* Assets.xcassets */; };
-		4DAEE00B21256553009FFB4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE00921256553009FFB4B /* LaunchScreen.storyboard */; };
 		4DAEE00E21256553009FFB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE00D21256553009FFB4B /* main.m */; };
 		4DB7E4FF2126573E009FDA22 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E4FA2126573E009FDA22 /* MBProgressHUD.m */; };
 		4DB7E5002126573E009FDA22 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E4FD2126573E009FDA22 /* MBProgressHUD+MJ.m */; };
@@ -39,6 +36,12 @@
 		4DB7E55D21266185009FDA22 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E55B21266185009FDA22 /* NSString+MD5.m */; };
 		4DB7E56321266246009FDA22 /* TBaseViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E56121266246009FDA22 /* TBaseViewcontroller.m */; };
 		4DB7E56421266246009FDA22 /* TNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E56221266246009FDA22 /* TNavViewController.m */; };
+		4DB7E5BA212675E3009FDA22 /* TTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5B9212675E3009FDA22 /* TTabBarViewController.m */; };
+		4DB7E5BD21269732009FDA22 /* UIImage+TUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5BC21269732009FDA22 /* UIImage+TUtil.m */; };
+		4DB7E5C421269914009FDA22 /* TSMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5C321269914009FDA22 /* TSMineViewController.m */; };
+		4DB7E5C72126993A009FDA22 /* TSEarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5C62126993A009FDA22 /* TSEarningViewController.m */; };
+		4DB7E5CA21269946009FDA22 /* TSOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5C921269946009FDA22 /* TSOrderViewController.m */; };
+		4DB7E5CE2126995D009FDA22 /* TSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5CD2126995D009FDA22 /* TSHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,11 +50,7 @@
 		4DAEDFFB21256552009FFB4B /* TServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAEDFFE21256552009FFB4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DAEDFFF21256552009FFB4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4DAEE00121256552009FFB4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4DAEE00221256552009FFB4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4DAEE00521256552009FFB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DAEE00721256553009FFB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4DAEE00A21256553009FFB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DAEE00C21256553009FFB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DAEE00D21256553009FFB4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DB7E4FA2126573E009FDA22 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
@@ -107,6 +106,18 @@
 		4DB7E56021266246009FDA22 /* TNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNavViewController.h; sourceTree = "<group>"; };
 		4DB7E56121266246009FDA22 /* TBaseViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBaseViewcontroller.m; sourceTree = "<group>"; };
 		4DB7E56221266246009FDA22 /* TNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNavViewController.m; sourceTree = "<group>"; };
+		4DB7E5B8212675E3009FDA22 /* TTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTabBarViewController.h; sourceTree = "<group>"; };
+		4DB7E5B9212675E3009FDA22 /* TTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTabBarViewController.m; sourceTree = "<group>"; };
+		4DB7E5BB21269732009FDA22 /* UIImage+TUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TUtil.h"; sourceTree = "<group>"; };
+		4DB7E5BC21269732009FDA22 /* UIImage+TUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TUtil.m"; sourceTree = "<group>"; };
+		4DB7E5C221269914009FDA22 /* TSMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSMineViewController.h; sourceTree = "<group>"; };
+		4DB7E5C321269914009FDA22 /* TSMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMineViewController.m; sourceTree = "<group>"; };
+		4DB7E5C52126993A009FDA22 /* TSEarningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSEarningViewController.h; sourceTree = "<group>"; };
+		4DB7E5C62126993A009FDA22 /* TSEarningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSEarningViewController.m; sourceTree = "<group>"; };
+		4DB7E5C821269946009FDA22 /* TSOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSOrderViewController.h; sourceTree = "<group>"; };
+		4DB7E5C921269946009FDA22 /* TSOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSOrderViewController.m; sourceTree = "<group>"; };
+		4DB7E5CC2126995D009FDA22 /* TSHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHomeViewController.h; sourceTree = "<group>"; };
+		4DB7E5CD2126995D009FDA22 /* TSHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHomeViewController.m; sourceTree = "<group>"; };
 		6360EBF9EB7840515C4895A1 /* Pods-TServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TServer/Pods-TServer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,12 +165,12 @@
 				4DB7E54421265920009FDA22 /* Commm */,
 				4DAEDFFE21256552009FFB4B /* AppDelegate.h */,
 				4DAEDFFF21256552009FFB4B /* AppDelegate.m */,
-				4DAEE00121256552009FFB4B /* ViewController.h */,
-				4DAEE00221256552009FFB4B /* ViewController.m */,
+				4DB7E5C1212698E1009FDA22 /* Mine */,
+				4DB7E5C0212698BE009FDA22 /* Earnings */,
+				4DB7E5BF212698B5009FDA22 /* Order */,
+				4DB7E5BE212698AF009FDA22 /* Home */,
 				4DB7E4F821265726009FDA22 /* TKits */,
-				4DAEE00421256552009FFB4B /* Main.storyboard */,
 				4DAEE00721256553009FFB4B /* Assets.xcassets */,
-				4DAEE00921256553009FFB4B /* LaunchScreen.storyboard */,
 				4DAEE00C21256553009FFB4B /* Info.plist */,
 				4DAEE00D21256553009FFB4B /* main.m */,
 				4DB7E546212659E2009FDA22 /* TServer.pch */,
@@ -256,6 +267,8 @@
 			children = (
 				4DB7E55C21266185009FDA22 /* NSString+MD5.h */,
 				4DB7E55B21266185009FDA22 /* NSString+MD5.m */,
+				4DB7E5BB21269732009FDA22 /* UIImage+TUtil.h */,
+				4DB7E5BC21269732009FDA22 /* UIImage+TUtil.m */,
 				4DB7E55421265DDC009FDA22 /* UIView+Nib.h */,
 				4DB7E55521265DDC009FDA22 /* UIView+Nib.m */,
 				4DB7E55221265DB8009FDA22 /* UITableView+TRegisterCell.h */,
@@ -283,11 +296,49 @@
 			isa = PBXGroup;
 			children = (
 				4DB7E55F21266246009FDA22 /* TBaseViewcontroller.h */,
-				4DB7E56021266246009FDA22 /* TNavViewController.h */,
 				4DB7E56121266246009FDA22 /* TBaseViewcontroller.m */,
+				4DB7E56021266246009FDA22 /* TNavViewController.h */,
 				4DB7E56221266246009FDA22 /* TNavViewController.m */,
+				4DB7E5B8212675E3009FDA22 /* TTabBarViewController.h */,
+				4DB7E5B9212675E3009FDA22 /* TTabBarViewController.m */,
 			);
 			path = BaseVc;
+			sourceTree = "<group>";
+		};
+		4DB7E5BE212698AF009FDA22 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E5CC2126995D009FDA22 /* TSHomeViewController.h */,
+				4DB7E5CD2126995D009FDA22 /* TSHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4DB7E5BF212698B5009FDA22 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E5C821269946009FDA22 /* TSOrderViewController.h */,
+				4DB7E5C921269946009FDA22 /* TSOrderViewController.m */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		4DB7E5C0212698BE009FDA22 /* Earnings */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E5C52126993A009FDA22 /* TSEarningViewController.h */,
+				4DB7E5C62126993A009FDA22 /* TSEarningViewController.m */,
+			);
+			path = Earnings;
+			sourceTree = "<group>";
+		};
+		4DB7E5C1212698E1009FDA22 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E5C221269914009FDA22 /* TSMineViewController.h */,
+				4DB7E5C321269914009FDA22 /* TSMineViewController.m */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 		502D28FF0B4D634464FE426D /* Pods */ = {
@@ -328,12 +379,13 @@
 		4DAEDFF321256552009FFB4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TS;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Mark;
 				TargetAttributes = {
 					4DAEDFFA21256552009FFB4B = {
 						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -360,10 +412,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAEE00B21256553009FFB4B /* LaunchScreen.storyboard in Resources */,
 				4DB7E5012126573E009FDA22 /* MBProgressHUD.bundle in Resources */,
 				4DAEE00821256553009FFB4B /* Assets.xcassets in Resources */,
-				4DAEE00621256552009FFB4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,45 +499,31 @@
 				4DB7E540212658F6009FDA22 /* MMPopupWindow.m in Sources */,
 				4DB7E5292126589F009FDA22 /* WMMenuItem.m in Sources */,
 				4DB7E542212658F6009FDA22 /* TPopViewController.m in Sources */,
-				4DAEE00321256552009FFB4B /* ViewController.m in Sources */,
 				4DB7E543212658F6009FDA22 /* MMPopupItem.m in Sources */,
 				4DB7E5002126573E009FDA22 /* MBProgressHUD+MJ.m in Sources */,
+				4DB7E5BD21269732009FDA22 /* UIImage+TUtil.m in Sources */,
+				4DB7E5CE2126995D009FDA22 /* TSHomeViewController.m in Sources */,
 				4DB7E5282126589F009FDA22 /* WMProgressView.m in Sources */,
 				4DB7E5272126589F009FDA22 /* WMMenuView.m in Sources */,
 				4DB7E53E212658F6009FDA22 /* MMSheetView.m in Sources */,
+				4DB7E5BA212675E3009FDA22 /* TTabBarViewController.m in Sources */,
 				4DB7E53C212658F6009FDA22 /* TAlertController.m in Sources */,
+				4DB7E5CA21269946009FDA22 /* TSOrderViewController.m in Sources */,
 				4DB7E55A21265E06009FDA22 /* T2TView.m in Sources */,
 				4DB7E55021265C8B009FDA22 /* UIView+AddOther.m in Sources */,
 				4DB7E56321266246009FDA22 /* TBaseViewcontroller.m in Sources */,
 				4DB7E56421266246009FDA22 /* TNavViewController.m in Sources */,
+				4DB7E5C72126993A009FDA22 /* TSEarningViewController.m in Sources */,
 				4DAEE00E21256553009FFB4B /* main.m in Sources */,
 				4DB7E53F212658F6009FDA22 /* MMPopupCategory.m in Sources */,
 				4DAEE00021256552009FFB4B /* AppDelegate.m in Sources */,
 				4DB7E51C21265880009FDA22 /* WMPageController.m in Sources */,
+				4DB7E5C421269914009FDA22 /* TSMineViewController.m in Sources */,
 				4DB7E4FF2126573E009FDA22 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4DAEE00421256552009FFB4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DAEE00521256552009FFB4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4DAEE00921256553009FFB4B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DAEE00A21256553009FFB4B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4DAEE00F21256553009FFB4B /* Debug */ = {
@@ -605,14 +641,16 @@
 			baseConfigurationReference = 6360EBF9EB7840515C4895A1 /* Pods-TServer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3UF52T2NV2;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TServer/TServer.pch";
 				INFOPLIST_FILE = TServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.233.TServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -621,14 +659,16 @@
 			baseConfigurationReference = 3CA8ED95E0C50A87F1A106B7 /* Pods-TServer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3UF52T2NV2;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TServer/TServer.pch";
 				INFOPLIST_FILE = TServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.233.TServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

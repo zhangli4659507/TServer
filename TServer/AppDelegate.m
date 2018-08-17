@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TSHomeViewController.h"
+#import "TSOrderViewController.h"
+#import "TSEarningViewController.h"
+#import "TSMineViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,11 +19,27 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    if (@available(iOS 11.0, *)){
+        [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
+    }
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    self.window.clipsToBounds =YES;
+    [self initTabbarVc];
     // Override point for customization after application launch.
     return YES;
 }
 
-
+- (void)initTabbarVc {
+    TTabbarConfig *home = [[TTabbarConfig alloc] initWithTitle:@"首页" imaName:@"tab_icon_home_normal" imaSelectName:@"tab_icon_home_selected" vc:[[TNavViewController alloc] initWithRootViewController:[[TSHomeViewController alloc] init]]];
+    TTabbarConfig *order = [[TTabbarConfig alloc] initWithTitle:@"订单" imaName:@"tab_icon_tk_normal" imaSelectName:@"tab_icon_tk_selected" vc:[[TNavViewController alloc] initWithRootViewController:[[TSOrderViewController alloc] init]]];
+    TTabbarConfig *earning = [[TTabbarConfig alloc] initWithTitle:@"收益" imaName:@"tab_icon_mycourse_normal" imaSelectName:@"tab_icon_mycourse_selected" vc:[[TNavViewController alloc] initWithRootViewController:[[TSEarningViewController alloc] init]]];
+    TTabbarConfig *mine = [[TTabbarConfig alloc] initWithTitle:@"我的" imaName:@"tab_icon_grzx_normal" imaSelectName:@"tab_icon_grzx_selected" vc:[[TNavViewController alloc] initWithRootViewController:[[TSMineViewController alloc] init]]];
+    
+    self.tabBarVc = [[TTabBarViewController alloc] initWithConfigArr:@[home,order,earning,mine]];
+    self.window.rootViewController = self.tabBarVc;
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
