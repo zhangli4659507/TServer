@@ -42,6 +42,9 @@
 		4DB7E5C72126993A009FDA22 /* TSEarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5C62126993A009FDA22 /* TSEarningViewController.m */; };
 		4DB7E5CA21269946009FDA22 /* TSOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5C921269946009FDA22 /* TSOrderViewController.m */; };
 		4DB7E5CE2126995D009FDA22 /* TSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5CD2126995D009FDA22 /* TSHomeViewController.m */; };
+		4DB7E6142126B3F3009FDA22 /* TComputerTextHeightTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E6122126B3F3009FDA22 /* TComputerTextHeightTool.m */; };
+		4DB7E6172126B40B009FDA22 /* UIBarButtonItem+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E6152126B40B009FDA22 /* UIBarButtonItem+WB.m */; };
+		4DB7E6192126B48A009FDA22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7E6182126B489009FDA22 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +121,11 @@
 		4DB7E5C921269946009FDA22 /* TSOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSOrderViewController.m; sourceTree = "<group>"; };
 		4DB7E5CC2126995D009FDA22 /* TSHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHomeViewController.h; sourceTree = "<group>"; };
 		4DB7E5CD2126995D009FDA22 /* TSHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHomeViewController.m; sourceTree = "<group>"; };
+		4DB7E6122126B3F3009FDA22 /* TComputerTextHeightTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TComputerTextHeightTool.m; sourceTree = "<group>"; };
+		4DB7E6132126B3F3009FDA22 /* TComputerTextHeightTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TComputerTextHeightTool.h; sourceTree = "<group>"; };
+		4DB7E6152126B40B009FDA22 /* UIBarButtonItem+WB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WB.m"; sourceTree = "<group>"; };
+		4DB7E6162126B40B009FDA22 /* UIBarButtonItem+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WB.h"; sourceTree = "<group>"; };
+		4DB7E6182126B489009FDA22 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		6360EBF9EB7840515C4895A1 /* Pods-TServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TServer/Pods-TServer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +182,7 @@
 				4DAEE00C21256553009FFB4B /* Info.plist */,
 				4DAEE00D21256553009FFB4B /* main.m */,
 				4DB7E546212659E2009FDA22 /* TServer.pch */,
+				4DB7E6182126B489009FDA22 /* LaunchScreen.xib */,
 			);
 			path = TServer;
 			sourceTree = "<group>";
@@ -265,6 +274,8 @@
 		4DB7E54721265BF4009FDA22 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				4DB7E6162126B40B009FDA22 /* UIBarButtonItem+WB.h */,
+				4DB7E6152126B40B009FDA22 /* UIBarButtonItem+WB.m */,
 				4DB7E55C21266185009FDA22 /* NSString+MD5.h */,
 				4DB7E55B21266185009FDA22 /* NSString+MD5.m */,
 				4DB7E5BB21269732009FDA22 /* UIImage+TUtil.h */,
@@ -286,6 +297,8 @@
 		4DB7E55721265DF5009FDA22 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				4DB7E6132126B3F3009FDA22 /* TComputerTextHeightTool.h */,
+				4DB7E6122126B3F3009FDA22 /* TComputerTextHeightTool.m */,
 				4DB7E55921265E06009FDA22 /* T2TView.h */,
 				4DB7E55821265E06009FDA22 /* T2TView.m */,
 			);
@@ -413,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB7E5012126573E009FDA22 /* MBProgressHUD.bundle in Resources */,
+				4DB7E6192126B48A009FDA22 /* LaunchScreen.xib in Resources */,
 				4DAEE00821256553009FFB4B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,10 +503,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB7E5262126589F009FDA22 /* WMScrollView.m in Sources */,
+				4DB7E6172126B40B009FDA22 /* UIBarButtonItem+WB.m in Sources */,
 				4DB7E54A21265C02009FDA22 /* UIColor+Hex.m in Sources */,
 				4DB7E55D21266185009FDA22 /* NSString+MD5.m in Sources */,
 				4DB7E541212658F6009FDA22 /* MMPopupView.m in Sources */,
 				4DB7E53D212658F6009FDA22 /* MMAlertView.m in Sources */,
+				4DB7E6142126B3F3009FDA22 /* TComputerTextHeightTool.m in Sources */,
 				4DB7E54D21265C65009FDA22 /* NSObject+EFoundation.m in Sources */,
 				4DB7E55621265DDC009FDA22 /* UIView+Nib.m in Sources */,
 				4DB7E55321265DB8009FDA22 /* UITableView+TRegisterCell.m in Sources */,
