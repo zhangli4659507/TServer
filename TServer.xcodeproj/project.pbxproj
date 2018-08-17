@@ -3,19 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4102BF0CCB3A6AB89953353E /* Pods_TServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FECB7C17B011600E97E1B1 /* Pods_TServer.framework */; };
 		4DAEE00021256552009FFB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDFFF21256552009FFB4B /* AppDelegate.m */; };
 		4DAEE00321256552009FFB4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE00221256552009FFB4B /* ViewController.m */; };
 		4DAEE00621256552009FFB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE00421256552009FFB4B /* Main.storyboard */; };
 		4DAEE00821256553009FFB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE00721256553009FFB4B /* Assets.xcassets */; };
 		4DAEE00B21256553009FFB4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE00921256553009FFB4B /* LaunchScreen.storyboard */; };
 		4DAEE00E21256553009FFB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE00D21256553009FFB4B /* main.m */; };
+		4DB7E4FF2126573E009FDA22 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E4FA2126573E009FDA22 /* MBProgressHUD.m */; };
+		4DB7E5002126573E009FDA22 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E4FD2126573E009FDA22 /* MBProgressHUD+MJ.m */; };
+		4DB7E5012126573E009FDA22 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7E4FE2126573E009FDA22 /* MBProgressHUD.bundle */; };
+		4DB7E51C21265880009FDA22 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E51B21265880009FDA22 /* WMPageController.m */; };
+		4DB7E5262126589F009FDA22 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E51F2126589E009FDA22 /* WMScrollView.m */; };
+		4DB7E5272126589F009FDA22 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5202126589E009FDA22 /* WMMenuView.m */; };
+		4DB7E5282126589F009FDA22 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5232126589F009FDA22 /* WMProgressView.m */; };
+		4DB7E5292126589F009FDA22 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5252126589F009FDA22 /* WMMenuItem.m */; };
+		4DB7E53C212658F6009FDA22 /* TAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E52B212658F6009FDA22 /* TAlertController.m */; };
+		4DB7E53D212658F6009FDA22 /* MMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E52C212658F6009FDA22 /* MMAlertView.m */; };
+		4DB7E53E212658F6009FDA22 /* MMSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E52D212658F6009FDA22 /* MMSheetView.m */; };
+		4DB7E53F212658F6009FDA22 /* MMPopupCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E52F212658F6009FDA22 /* MMPopupCategory.m */; };
+		4DB7E540212658F6009FDA22 /* MMPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E532212658F6009FDA22 /* MMPopupWindow.m */; };
+		4DB7E541212658F6009FDA22 /* MMPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E537212658F6009FDA22 /* MMPopupView.m */; };
+		4DB7E542212658F6009FDA22 /* TPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E539212658F6009FDA22 /* TPopViewController.m */; };
+		4DB7E543212658F6009FDA22 /* MMPopupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E53B212658F6009FDA22 /* MMPopupItem.m */; };
+		4DB7E54A21265C02009FDA22 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E54921265C01009FDA22 /* UIColor+Hex.m */; };
+		4DB7E54D21265C65009FDA22 /* NSObject+EFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E54C21265C65009FDA22 /* NSObject+EFoundation.m */; };
+		4DB7E55021265C8B009FDA22 /* UIView+AddOther.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E54E21265C8B009FDA22 /* UIView+AddOther.m */; };
+		4DB7E55321265DB8009FDA22 /* UITableView+TRegisterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E55121265DB8009FDA22 /* UITableView+TRegisterCell.m */; };
+		4DB7E55621265DDC009FDA22 /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E55521265DDC009FDA22 /* UIView+Nib.m */; };
+		4DB7E55A21265E06009FDA22 /* T2TView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E55821265E06009FDA22 /* T2TView.m */; };
+		4DB7E55D21266185009FDA22 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E55B21266185009FDA22 /* NSString+MD5.m */; };
+		4DB7E56321266246009FDA22 /* TBaseViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E56121266246009FDA22 /* TBaseViewcontroller.m */; };
+		4DB7E56421266246009FDA22 /* TNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E56221266246009FDA22 /* TNavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08FECB7C17B011600E97E1B1 /* Pods_TServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA8ED95E0C50A87F1A106B7 /* Pods-TServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TServer/Pods-TServer.release.xcconfig"; sourceTree = "<group>"; };
 		4DAEDFFB21256552009FFB4B /* TServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAEDFFE21256552009FFB4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DAEDFFF21256552009FFB4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +54,60 @@
 		4DAEE00A21256553009FFB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DAEE00C21256553009FFB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DAEE00D21256553009FFB4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DB7E4FA2126573E009FDA22 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4DB7E4FB2126573E009FDA22 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		4DB7E4FC2126573E009FDA22 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4DB7E4FD2126573E009FDA22 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		4DB7E4FE2126573E009FDA22 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		4DB7E51921265880009FDA22 /* WMPageConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageConst.h; sourceTree = "<group>"; };
+		4DB7E51A21265880009FDA22 /* WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
+		4DB7E51B21265880009FDA22 /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
+		4DB7E51E2126589E009FDA22 /* WMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
+		4DB7E51F2126589E009FDA22 /* WMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMScrollView.m; sourceTree = "<group>"; };
+		4DB7E5202126589E009FDA22 /* WMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
+		4DB7E5212126589E009FDA22 /* WMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
+		4DB7E5222126589F009FDA22 /* WMMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
+		4DB7E5232126589F009FDA22 /* WMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
+		4DB7E5242126589F009FDA22 /* WMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
+		4DB7E5252126589F009FDA22 /* WMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
+		4DB7E52B212658F6009FDA22 /* TAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAlertController.m; sourceTree = "<group>"; };
+		4DB7E52C212658F6009FDA22 /* MMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAlertView.m; sourceTree = "<group>"; };
+		4DB7E52D212658F6009FDA22 /* MMSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSheetView.m; sourceTree = "<group>"; };
+		4DB7E52E212658F6009FDA22 /* MMPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupView.h; sourceTree = "<group>"; };
+		4DB7E52F212658F6009FDA22 /* MMPopupCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupCategory.m; sourceTree = "<group>"; };
+		4DB7E530212658F6009FDA22 /* MMPopupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupItem.h; sourceTree = "<group>"; };
+		4DB7E531212658F6009FDA22 /* TPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPopViewController.h; sourceTree = "<group>"; };
+		4DB7E532212658F6009FDA22 /* MMPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupWindow.m; sourceTree = "<group>"; };
+		4DB7E533212658F6009FDA22 /* TAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAlertController.h; sourceTree = "<group>"; };
+		4DB7E534212658F6009FDA22 /* MMSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSheetView.h; sourceTree = "<group>"; };
+		4DB7E535212658F6009FDA22 /* MMPopupDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupDefine.h; sourceTree = "<group>"; };
+		4DB7E536212658F6009FDA22 /* MMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAlertView.h; sourceTree = "<group>"; };
+		4DB7E537212658F6009FDA22 /* MMPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupView.m; sourceTree = "<group>"; };
+		4DB7E538212658F6009FDA22 /* MMPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupWindow.h; sourceTree = "<group>"; };
+		4DB7E539212658F6009FDA22 /* TPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPopViewController.m; sourceTree = "<group>"; };
+		4DB7E53A212658F6009FDA22 /* MMPopupCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupCategory.h; sourceTree = "<group>"; };
+		4DB7E53B212658F6009FDA22 /* MMPopupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupItem.m; sourceTree = "<group>"; };
+		4DB7E5452126593C009FDA22 /* TBasicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBasicDefine.h; sourceTree = "<group>"; };
+		4DB7E546212659E2009FDA22 /* TServer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TServer.pch; sourceTree = "<group>"; };
+		4DB7E54821265C01009FDA22 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		4DB7E54921265C01009FDA22 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		4DB7E54B21265C65009FDA22 /* NSObject+EFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EFoundation.h"; sourceTree = "<group>"; };
+		4DB7E54C21265C65009FDA22 /* NSObject+EFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EFoundation.m"; sourceTree = "<group>"; };
+		4DB7E54E21265C8B009FDA22 /* UIView+AddOther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddOther.m"; sourceTree = "<group>"; };
+		4DB7E54F21265C8B009FDA22 /* UIView+AddOther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddOther.h"; sourceTree = "<group>"; };
+		4DB7E55121265DB8009FDA22 /* UITableView+TRegisterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TRegisterCell.m"; sourceTree = "<group>"; };
+		4DB7E55221265DB8009FDA22 /* UITableView+TRegisterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TRegisterCell.h"; sourceTree = "<group>"; };
+		4DB7E55421265DDC009FDA22 /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		4DB7E55521265DDC009FDA22 /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		4DB7E55821265E06009FDA22 /* T2TView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2TView.m; sourceTree = "<group>"; };
+		4DB7E55921265E06009FDA22 /* T2TView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2TView.h; sourceTree = "<group>"; };
+		4DB7E55B21266185009FDA22 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		4DB7E55C21266185009FDA22 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		4DB7E55F21266246009FDA22 /* TBaseViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBaseViewcontroller.h; sourceTree = "<group>"; };
+		4DB7E56021266246009FDA22 /* TNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNavViewController.h; sourceTree = "<group>"; };
+		4DB7E56121266246009FDA22 /* TBaseViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBaseViewcontroller.m; sourceTree = "<group>"; };
+		4DB7E56221266246009FDA22 /* TNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNavViewController.m; sourceTree = "<group>"; };
+		6360EBF9EB7840515C4895A1 /* Pods-TServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TServer/Pods-TServer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +115,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4102BF0CCB3A6AB89953353E /* Pods_TServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30BE18562CC60D9D52D5E81E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08FECB7C17B011600E97E1B1 /* Pods_TServer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4DAEDFF221256552009FFB4B = {
 			isa = PBXGroup;
 			children = (
 				4DAEDFFD21256552009FFB4B /* TServer */,
 				4DAEDFFC21256552009FFB4B /* Products */,
+				502D28FF0B4D634464FE426D /* Pods */,
+				30BE18562CC60D9D52D5E81E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +151,152 @@
 		4DAEDFFD21256552009FFB4B /* TServer */ = {
 			isa = PBXGroup;
 			children = (
+				4DB7E54421265920009FDA22 /* Commm */,
 				4DAEDFFE21256552009FFB4B /* AppDelegate.h */,
 				4DAEDFFF21256552009FFB4B /* AppDelegate.m */,
 				4DAEE00121256552009FFB4B /* ViewController.h */,
 				4DAEE00221256552009FFB4B /* ViewController.m */,
+				4DB7E4F821265726009FDA22 /* TKits */,
 				4DAEE00421256552009FFB4B /* Main.storyboard */,
 				4DAEE00721256553009FFB4B /* Assets.xcassets */,
 				4DAEE00921256553009FFB4B /* LaunchScreen.storyboard */,
 				4DAEE00C21256553009FFB4B /* Info.plist */,
 				4DAEE00D21256553009FFB4B /* main.m */,
+				4DB7E546212659E2009FDA22 /* TServer.pch */,
 			);
 			path = TServer;
+			sourceTree = "<group>";
+		};
+		4DB7E4F821265726009FDA22 /* TKits */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E55721265DF5009FDA22 /* Tool */,
+				4DB7E54721265BF4009FDA22 /* Category */,
+				4DB7E52A212658F6009FDA22 /* MMPopupView-private */,
+				4DB7E5182126586E009FDA22 /* WM */,
+				4DB7E4F92126573E009FDA22 /* MBProgressHUD-private */,
+			);
+			path = TKits;
+			sourceTree = "<group>";
+		};
+		4DB7E4F92126573E009FDA22 /* MBProgressHUD-private */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E4FC2126573E009FDA22 /* MBProgressHUD.h */,
+				4DB7E4FA2126573E009FDA22 /* MBProgressHUD.m */,
+				4DB7E4FB2126573E009FDA22 /* MBProgressHUD+MJ.h */,
+				4DB7E4FD2126573E009FDA22 /* MBProgressHUD+MJ.m */,
+				4DB7E4FE2126573E009FDA22 /* MBProgressHUD.bundle */,
+			);
+			path = "MBProgressHUD-private";
+			sourceTree = "<group>";
+		};
+		4DB7E5182126586E009FDA22 /* WM */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E51A21265880009FDA22 /* WMPageController.h */,
+				4DB7E51B21265880009FDA22 /* WMPageController.m */,
+				4DB7E51921265880009FDA22 /* WMPageConst.h */,
+				4DB7E51D21265884009FDA22 /* WMMenuView */,
+			);
+			path = WM;
+			sourceTree = "<group>";
+		};
+		4DB7E51D21265884009FDA22 /* WMMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E5222126589F009FDA22 /* WMMenuItem.h */,
+				4DB7E5252126589F009FDA22 /* WMMenuItem.m */,
+				4DB7E5212126589E009FDA22 /* WMMenuView.h */,
+				4DB7E5202126589E009FDA22 /* WMMenuView.m */,
+				4DB7E5242126589F009FDA22 /* WMProgressView.h */,
+				4DB7E5232126589F009FDA22 /* WMProgressView.m */,
+				4DB7E51E2126589E009FDA22 /* WMScrollView.h */,
+				4DB7E51F2126589E009FDA22 /* WMScrollView.m */,
+			);
+			path = WMMenuView;
+			sourceTree = "<group>";
+		};
+		4DB7E52A212658F6009FDA22 /* MMPopupView-private */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E535212658F6009FDA22 /* MMPopupDefine.h */,
+				4DB7E533212658F6009FDA22 /* TAlertController.h */,
+				4DB7E52B212658F6009FDA22 /* TAlertController.m */,
+				4DB7E536212658F6009FDA22 /* MMAlertView.h */,
+				4DB7E52C212658F6009FDA22 /* MMAlertView.m */,
+				4DB7E534212658F6009FDA22 /* MMSheetView.h */,
+				4DB7E52D212658F6009FDA22 /* MMSheetView.m */,
+				4DB7E52E212658F6009FDA22 /* MMPopupView.h */,
+				4DB7E537212658F6009FDA22 /* MMPopupView.m */,
+				4DB7E538212658F6009FDA22 /* MMPopupWindow.h */,
+				4DB7E532212658F6009FDA22 /* MMPopupWindow.m */,
+				4DB7E531212658F6009FDA22 /* TPopViewController.h */,
+				4DB7E539212658F6009FDA22 /* TPopViewController.m */,
+				4DB7E53A212658F6009FDA22 /* MMPopupCategory.h */,
+				4DB7E52F212658F6009FDA22 /* MMPopupCategory.m */,
+				4DB7E530212658F6009FDA22 /* MMPopupItem.h */,
+				4DB7E53B212658F6009FDA22 /* MMPopupItem.m */,
+			);
+			name = "MMPopupView-private";
+			path = "../../../T2T/Examda/Examda/TKits/MMPopupView-private";
+			sourceTree = "<group>";
+		};
+		4DB7E54421265920009FDA22 /* Commm */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E55E21266246009FDA22 /* BaseVc */,
+				4DB7E5452126593C009FDA22 /* TBasicDefine.h */,
+			);
+			path = Commm;
+			sourceTree = "<group>";
+		};
+		4DB7E54721265BF4009FDA22 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E55C21266185009FDA22 /* NSString+MD5.h */,
+				4DB7E55B21266185009FDA22 /* NSString+MD5.m */,
+				4DB7E55421265DDC009FDA22 /* UIView+Nib.h */,
+				4DB7E55521265DDC009FDA22 /* UIView+Nib.m */,
+				4DB7E55221265DB8009FDA22 /* UITableView+TRegisterCell.h */,
+				4DB7E55121265DB8009FDA22 /* UITableView+TRegisterCell.m */,
+				4DB7E54F21265C8B009FDA22 /* UIView+AddOther.h */,
+				4DB7E54E21265C8B009FDA22 /* UIView+AddOther.m */,
+				4DB7E54821265C01009FDA22 /* UIColor+Hex.h */,
+				4DB7E54921265C01009FDA22 /* UIColor+Hex.m */,
+				4DB7E54B21265C65009FDA22 /* NSObject+EFoundation.h */,
+				4DB7E54C21265C65009FDA22 /* NSObject+EFoundation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4DB7E55721265DF5009FDA22 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E55921265E06009FDA22 /* T2TView.h */,
+				4DB7E55821265E06009FDA22 /* T2TView.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		4DB7E55E21266246009FDA22 /* BaseVc */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E55F21266246009FDA22 /* TBaseViewcontroller.h */,
+				4DB7E56021266246009FDA22 /* TNavViewController.h */,
+				4DB7E56121266246009FDA22 /* TBaseViewcontroller.m */,
+				4DB7E56221266246009FDA22 /* TNavViewController.m */,
+			);
+			path = BaseVc;
+			sourceTree = "<group>";
+		};
+		502D28FF0B4D634464FE426D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6360EBF9EB7840515C4895A1 /* Pods-TServer.debug.xcconfig */,
+				3CA8ED95E0C50A87F1A106B7 /* Pods-TServer.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DAEE01121256553009FFB4B /* Build configuration list for PBXNativeTarget "TServer" */;
 			buildPhases = (
+				B3261EEADAEE6E8CC2A4D927 /* [CP] Check Pods Manifest.lock */,
 				4DAEDFF721256552009FFB4B /* Sources */,
 				4DAEDFF821256552009FFB4B /* Frameworks */,
 				4DAEDFF921256552009FFB4B /* Resources */,
+				79F9490F5DF8EA20CA68623D /* [CP] Embed Pods Frameworks */,
+				E80FCB8AA860133319805E69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -102,11 +333,12 @@
 				TargetAttributes = {
 					4DAEDFFA21256552009FFB4B = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 4DAEDFF621256552009FFB4B /* Build configuration list for PBXProject "TServer" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -129,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DAEE00B21256553009FFB4B /* LaunchScreen.storyboard in Resources */,
+				4DB7E5012126573E009FDA22 /* MBProgressHUD.bundle in Resources */,
 				4DAEE00821256553009FFB4B /* Assets.xcassets in Resources */,
 				4DAEE00621256552009FFB4B /* Main.storyboard in Resources */,
 			);
@@ -136,14 +369,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79F9490F5DF8EA20CA68623D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TServer/Pods-TServer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TOWebViewController/TOWebViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOWebViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TServer/Pods-TServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3261EEADAEE6E8CC2A4D927 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TServer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E80FCB8AA860133319805E69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TServer/Pods-TServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4DAEDFF721256552009FFB4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB7E5262126589F009FDA22 /* WMScrollView.m in Sources */,
+				4DB7E54A21265C02009FDA22 /* UIColor+Hex.m in Sources */,
+				4DB7E55D21266185009FDA22 /* NSString+MD5.m in Sources */,
+				4DB7E541212658F6009FDA22 /* MMPopupView.m in Sources */,
+				4DB7E53D212658F6009FDA22 /* MMAlertView.m in Sources */,
+				4DB7E54D21265C65009FDA22 /* NSObject+EFoundation.m in Sources */,
+				4DB7E55621265DDC009FDA22 /* UIView+Nib.m in Sources */,
+				4DB7E55321265DB8009FDA22 /* UITableView+TRegisterCell.m in Sources */,
+				4DB7E540212658F6009FDA22 /* MMPopupWindow.m in Sources */,
+				4DB7E5292126589F009FDA22 /* WMMenuItem.m in Sources */,
+				4DB7E542212658F6009FDA22 /* TPopViewController.m in Sources */,
 				4DAEE00321256552009FFB4B /* ViewController.m in Sources */,
+				4DB7E543212658F6009FDA22 /* MMPopupItem.m in Sources */,
+				4DB7E5002126573E009FDA22 /* MBProgressHUD+MJ.m in Sources */,
+				4DB7E5282126589F009FDA22 /* WMProgressView.m in Sources */,
+				4DB7E5272126589F009FDA22 /* WMMenuView.m in Sources */,
+				4DB7E53E212658F6009FDA22 /* MMSheetView.m in Sources */,
+				4DB7E53C212658F6009FDA22 /* TAlertController.m in Sources */,
+				4DB7E55A21265E06009FDA22 /* T2TView.m in Sources */,
+				4DB7E55021265C8B009FDA22 /* UIView+AddOther.m in Sources */,
+				4DB7E56321266246009FDA22 /* TBaseViewcontroller.m in Sources */,
+				4DB7E56421266246009FDA22 /* TNavViewController.m in Sources */,
 				4DAEE00E21256553009FFB4B /* main.m in Sources */,
+				4DB7E53F212658F6009FDA22 /* MMPopupCategory.m in Sources */,
 				4DAEE00021256552009FFB4B /* AppDelegate.m in Sources */,
+				4DB7E51C21265880009FDA22 /* WMPageController.m in Sources */,
+				4DB7E4FF2126573E009FDA22 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,15 +602,14 @@
 		};
 		4DAEE01221256553009FFB4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6360EBF9EB7840515C4895A1 /* Pods-TServer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3UF52T2NV2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TServer/TServer.pch";
 				INFOPLIST_FILE = TServer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.233.TServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,15 +618,14 @@
 		};
 		4DAEE01321256553009FFB4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA8ED95E0C50A87F1A106B7 /* Pods-TServer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3UF52T2NV2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TServer/TServer.pch";
 				INFOPLIST_FILE = TServer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.233.TServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
