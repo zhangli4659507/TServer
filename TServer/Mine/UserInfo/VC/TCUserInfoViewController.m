@@ -1,21 +1,22 @@
 //
-//  TSMineViewController.m
-//  TServer
+//  TCUserInfoViewController.m
+//  TClient
 //
-//  Created by Mark on 2018/8/17.
+//  Created by mark_zhang on 2018/8/20.
 //  Copyright © 2018年 Mark. All rights reserved.
 //
 
-#import "TSMineViewController.h"
+#import "TCUserInfoViewController.h"
 
-@interface TSMineViewController ()
+@interface TCUserInfoViewController ()
 
 @end
 
-@implementation TSMineViewController
+@implementation TCUserInfoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"个人资料";
     // Do any additional setup after loading the view.
 }
 

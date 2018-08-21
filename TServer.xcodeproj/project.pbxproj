@@ -8,6 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		4102BF0CCB3A6AB89953353E /* Pods_TServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FECB7C17B011600E97E1B1 /* Pods_TServer.framework */; };
+		4D0FEEA0212BB03F0021E9E8 /* TCUserChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE66212BB03E0021E9E8 /* TCUserChangeViewController.m */; };
+		4D0FEEA1212BB03F0021E9E8 /* TCAppDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE6B212BB03E0021E9E8 /* TCAppDownloadViewController.m */; };
+		4D0FEEA3212BB03F0021E9E8 /* TCMHCellConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE72212BB03E0021E9E8 /* TCMHCellConfigModel.m */; };
+		4D0FEEA4212BB03F0021E9E8 /* TCMHHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FEE74212BB03E0021E9E8 /* TCMHHeaderCell.xib */; };
+		4D0FEEA5212BB03F0021E9E8 /* TCMHInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FEE78212BB03E0021E9E8 /* TCMHInfoTableViewCell.xib */; };
+		4D0FEEA6212BB03F0021E9E8 /* TCMHTableFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FEE7A212BB03E0021E9E8 /* TCMHTableFootView.xib */; };
+		4D0FEEA7212BB03F0021E9E8 /* TCMHInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE7B212BB03E0021E9E8 /* TCMHInfoTableViewCell.m */; };
+		4D0FEEA8212BB03F0021E9E8 /* TNUHeadBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE7C212BB03E0021E9E8 /* TNUHeadBgView.m */; };
+		4D0FEEA9212BB03F0021E9E8 /* TCMHHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE7D212BB03E0021E9E8 /* TCMHHeaderCell.m */; };
+		4D0FEEAA212BB03F0021E9E8 /* TCMHTableFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE7E212BB03E0021E9E8 /* TCMHTableFootView.m */; };
+		4D0FEEAB212BB03F0021E9E8 /* TCMineHeaderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE80212BB03E0021E9E8 /* TCMineHeaderSection.m */; };
+		4D0FEEAC212BB03F0021E9E8 /* TCMHInfoSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE81212BB03E0021E9E8 /* TCMHInfoSection.m */; };
+		4D0FEEAD212BB03F0021E9E8 /* TCMyFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE86212BB03E0021E9E8 /* TCMyFriendViewController.m */; };
+		4D0FEEAE212BB03F0021E9E8 /* TCChangePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE8B212BB03E0021E9E8 /* TCChangePwdViewController.m */; };
+		4D0FEEAF212BB03F0021E9E8 /* TCAcountSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE8E212BB03E0021E9E8 /* TCAcountSetViewController.m */; };
+		4D0FEEB0212BB03F0021E9E8 /* TCConnetServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE93212BB03E0021E9E8 /* TCConnetServiceViewController.m */; };
+		4D0FEEB1212BB03F0021E9E8 /* TCChangeAvoidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE97212BB03F0021E9E8 /* TCChangeAvoidViewController.m */; };
+		4D0FEEB2212BB03F0021E9E8 /* TCInventFriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE9B212BB03F0021E9E8 /* TCInventFriendVC.m */; };
+		4D0FEEB3212BB03F0021E9E8 /* TCUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE9F212BB03F0021E9E8 /* TCUserInfoViewController.m */; };
+		4D0FEEB9212BB0A80021E9E8 /* TOBaseSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEEB6212BB0A80021E9E8 /* TOBaseSection.m */; };
+		4D0FEEBA212BB0A80021E9E8 /* TOTableViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEEB7212BB0A80021E9E8 /* TOTableViewTool.m */; };
 		4DAEE00021256552009FFB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDFFF21256552009FFB4B /* AppDelegate.m */; };
 		4DAEE00821256553009FFB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE00721256553009FFB4B /* Assets.xcassets */; };
 		4DAEE00E21256553009FFB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE00D21256553009FFB4B /* main.m */; };
@@ -50,6 +71,45 @@
 /* Begin PBXFileReference section */
 		08FECB7C17B011600E97E1B1 /* Pods_TServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA8ED95E0C50A87F1A106B7 /* Pods-TServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TServer/Pods-TServer.release.xcconfig"; sourceTree = "<group>"; };
+		4D0FEE66212BB03E0021E9E8 /* TCUserChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUserChangeViewController.m; sourceTree = "<group>"; };
+		4D0FEE67212BB03E0021E9E8 /* TCUserChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUserChangeViewController.h; sourceTree = "<group>"; };
+		4D0FEE6A212BB03E0021E9E8 /* TCAppDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAppDownloadViewController.h; sourceTree = "<group>"; };
+		4D0FEE6B212BB03E0021E9E8 /* TCAppDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAppDownloadViewController.m; sourceTree = "<group>"; };
+		4D0FEE71212BB03E0021E9E8 /* TCMHCellConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMHCellConfigModel.h; sourceTree = "<group>"; };
+		4D0FEE72212BB03E0021E9E8 /* TCMHCellConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMHCellConfigModel.m; sourceTree = "<group>"; };
+		4D0FEE74212BB03E0021E9E8 /* TCMHHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCMHHeaderCell.xib; sourceTree = "<group>"; };
+		4D0FEE75212BB03E0021E9E8 /* TNUHeadBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNUHeadBgView.h; sourceTree = "<group>"; };
+		4D0FEE76212BB03E0021E9E8 /* TCMHInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMHInfoTableViewCell.h; sourceTree = "<group>"; };
+		4D0FEE77212BB03E0021E9E8 /* TCMHTableFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMHTableFootView.h; sourceTree = "<group>"; };
+		4D0FEE78212BB03E0021E9E8 /* TCMHInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCMHInfoTableViewCell.xib; sourceTree = "<group>"; };
+		4D0FEE79212BB03E0021E9E8 /* TCMHHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMHHeaderCell.h; sourceTree = "<group>"; };
+		4D0FEE7A212BB03E0021E9E8 /* TCMHTableFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCMHTableFootView.xib; sourceTree = "<group>"; };
+		4D0FEE7B212BB03E0021E9E8 /* TCMHInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMHInfoTableViewCell.m; sourceTree = "<group>"; };
+		4D0FEE7C212BB03E0021E9E8 /* TNUHeadBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNUHeadBgView.m; sourceTree = "<group>"; };
+		4D0FEE7D212BB03E0021E9E8 /* TCMHHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMHHeaderCell.m; sourceTree = "<group>"; };
+		4D0FEE7E212BB03E0021E9E8 /* TCMHTableFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMHTableFootView.m; sourceTree = "<group>"; };
+		4D0FEE80212BB03E0021E9E8 /* TCMineHeaderSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMineHeaderSection.m; sourceTree = "<group>"; };
+		4D0FEE81212BB03E0021E9E8 /* TCMHInfoSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMHInfoSection.m; sourceTree = "<group>"; };
+		4D0FEE82212BB03E0021E9E8 /* TCMineHeaderSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMineHeaderSection.h; sourceTree = "<group>"; };
+		4D0FEE83212BB03E0021E9E8 /* TCMHInfoSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMHInfoSection.h; sourceTree = "<group>"; };
+		4D0FEE86212BB03E0021E9E8 /* TCMyFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMyFriendViewController.m; sourceTree = "<group>"; };
+		4D0FEE87212BB03E0021E9E8 /* TCMyFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMyFriendViewController.h; sourceTree = "<group>"; };
+		4D0FEE8A212BB03E0021E9E8 /* TCChangePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCChangePwdViewController.h; sourceTree = "<group>"; };
+		4D0FEE8B212BB03E0021E9E8 /* TCChangePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCChangePwdViewController.m; sourceTree = "<group>"; };
+		4D0FEE8E212BB03E0021E9E8 /* TCAcountSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAcountSetViewController.m; sourceTree = "<group>"; };
+		4D0FEE8F212BB03E0021E9E8 /* TCAcountSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAcountSetViewController.h; sourceTree = "<group>"; };
+		4D0FEE92212BB03E0021E9E8 /* TCConnetServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConnetServiceViewController.h; sourceTree = "<group>"; };
+		4D0FEE93212BB03E0021E9E8 /* TCConnetServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConnetServiceViewController.m; sourceTree = "<group>"; };
+		4D0FEE96212BB03F0021E9E8 /* TCChangeAvoidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCChangeAvoidViewController.h; sourceTree = "<group>"; };
+		4D0FEE97212BB03F0021E9E8 /* TCChangeAvoidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCChangeAvoidViewController.m; sourceTree = "<group>"; };
+		4D0FEE9A212BB03F0021E9E8 /* TCInventFriendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCInventFriendVC.h; sourceTree = "<group>"; };
+		4D0FEE9B212BB03F0021E9E8 /* TCInventFriendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCInventFriendVC.m; sourceTree = "<group>"; };
+		4D0FEE9E212BB03F0021E9E8 /* TCUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUserInfoViewController.h; sourceTree = "<group>"; };
+		4D0FEE9F212BB03F0021E9E8 /* TCUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUserInfoViewController.m; sourceTree = "<group>"; };
+		4D0FEEB5212BB0A80021E9E8 /* TOTableViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOTableViewTool.h; sourceTree = "<group>"; };
+		4D0FEEB6212BB0A80021E9E8 /* TOBaseSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOBaseSection.m; sourceTree = "<group>"; };
+		4D0FEEB7212BB0A80021E9E8 /* TOTableViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOTableViewTool.m; sourceTree = "<group>"; };
+		4D0FEEB8212BB0A80021E9E8 /* TOBaseSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOBaseSection.h; sourceTree = "<group>"; };
 		4DAEDFFB21256552009FFB4B /* TServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAEDFFE21256552009FFB4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DAEDFFF21256552009FFB4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -147,6 +207,228 @@
 				08FECB7C17B011600E97E1B1 /* Pods_TServer.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D0FEE64212BB03D0021E9E8 /* UserChange */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE65212BB03E0021E9E8 /* VC */,
+			);
+			path = UserChange;
+			sourceTree = "<group>";
+		};
+		4D0FEE65212BB03E0021E9E8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE66212BB03E0021E9E8 /* TCUserChangeViewController.m */,
+				4D0FEE67212BB03E0021E9E8 /* TCUserChangeViewController.h */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4D0FEE68212BB03E0021E9E8 /* AppDownload */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE69212BB03E0021E9E8 /* VC */,
+			);
+			path = AppDownload;
+			sourceTree = "<group>";
+		};
+		4D0FEE69212BB03E0021E9E8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE6A212BB03E0021E9E8 /* TCAppDownloadViewController.h */,
+				4D0FEE6B212BB03E0021E9E8 /* TCAppDownloadViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4D0FEE6C212BB03E0021E9E8 /* MineHomeCenter */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE6D212BB03E0021E9E8 /* VC */,
+				4D0FEE70212BB03E0021E9E8 /* Model */,
+				4D0FEE73212BB03E0021E9E8 /* View */,
+				4D0FEE7F212BB03E0021E9E8 /* Tool */,
+			);
+			path = MineHomeCenter;
+			sourceTree = "<group>";
+		};
+		4D0FEE6D212BB03E0021E9E8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7E5C221269914009FDA22 /* TSMineViewController.h */,
+				4DB7E5C321269914009FDA22 /* TSMineViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4D0FEE70212BB03E0021E9E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE71212BB03E0021E9E8 /* TCMHCellConfigModel.h */,
+				4D0FEE72212BB03E0021E9E8 /* TCMHCellConfigModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D0FEE73212BB03E0021E9E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE74212BB03E0021E9E8 /* TCMHHeaderCell.xib */,
+				4D0FEE75212BB03E0021E9E8 /* TNUHeadBgView.h */,
+				4D0FEE76212BB03E0021E9E8 /* TCMHInfoTableViewCell.h */,
+				4D0FEE77212BB03E0021E9E8 /* TCMHTableFootView.h */,
+				4D0FEE78212BB03E0021E9E8 /* TCMHInfoTableViewCell.xib */,
+				4D0FEE79212BB03E0021E9E8 /* TCMHHeaderCell.h */,
+				4D0FEE7A212BB03E0021E9E8 /* TCMHTableFootView.xib */,
+				4D0FEE7B212BB03E0021E9E8 /* TCMHInfoTableViewCell.m */,
+				4D0FEE7C212BB03E0021E9E8 /* TNUHeadBgView.m */,
+				4D0FEE7D212BB03E0021E9E8 /* TCMHHeaderCell.m */,
+				4D0FEE7E212BB03E0021E9E8 /* TCMHTableFootView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D0FEE7F212BB03E0021E9E8 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE80212BB03E0021E9E8 /* TCMineHeaderSection.m */,
+				4D0FEE81212BB03E0021E9E8 /* TCMHInfoSection.m */,
+				4D0FEE82212BB03E0021E9E8 /* TCMineHeaderSection.h */,
+				4D0FEE83212BB03E0021E9E8 /* TCMHInfoSection.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		4D0FEE84212BB03E0021E9E8 /* MyFriend */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE85212BB03E0021E9E8 /* VC */,
+			);
+			path = MyFriend;
+			sourceTree = "<group>";
+		};
+		4D0FEE85212BB03E0021E9E8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE86212BB03E0021E9E8 /* TCMyFriendViewController.m */,
+				4D0FEE87212BB03E0021E9E8 /* TCMyFriendViewController.h */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4D0FEE88212BB03E0021E9E8 /* ChangePwd */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE89212BB03E0021E9E8 /* VC */,
+			);
+			path = ChangePwd;
+			sourceTree = "<group>";
+		};
+		4D0FEE89212BB03E0021E9E8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE8A212BB03E0021E9E8 /* TCChangePwdViewController.h */,
+				4D0FEE8B212BB03E0021E9E8 /* TCChangePwdViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4D0FEE8C212BB03E0021E9E8 /* AcountSet */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE8D212BB03E0021E9E8 /* VC */,
+			);
+			path = AcountSet;
+			sourceTree = "<group>";
+		};
+		4D0FEE8D212BB03E0021E9E8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE8E212BB03E0021E9E8 /* TCAcountSetViewController.m */,
+				4D0FEE8F212BB03E0021E9E8 /* TCAcountSetViewController.h */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4D0FEE90212BB03E0021E9E8 /* ConnectService */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE91212BB03E0021E9E8 /* VC */,
+			);
+			path = ConnectService;
+			sourceTree = "<group>";
+		};
+		4D0FEE91212BB03E0021E9E8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE92212BB03E0021E9E8 /* TCConnetServiceViewController.h */,
+				4D0FEE93212BB03E0021E9E8 /* TCConnetServiceViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4D0FEE94212BB03F0021E9E8 /* ChangeAvoid */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE95212BB03F0021E9E8 /* VC */,
+			);
+			path = ChangeAvoid;
+			sourceTree = "<group>";
+		};
+		4D0FEE95212BB03F0021E9E8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE96212BB03F0021E9E8 /* TCChangeAvoidViewController.h */,
+				4D0FEE97212BB03F0021E9E8 /* TCChangeAvoidViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4D0FEE98212BB03F0021E9E8 /* InventFriend */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE99212BB03F0021E9E8 /* Vc */,
+			);
+			path = InventFriend;
+			sourceTree = "<group>";
+		};
+		4D0FEE99212BB03F0021E9E8 /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE9A212BB03F0021E9E8 /* TCInventFriendVC.h */,
+				4D0FEE9B212BB03F0021E9E8 /* TCInventFriendVC.m */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+		4D0FEE9C212BB03F0021E9E8 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE9D212BB03F0021E9E8 /* VC */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		4D0FEE9D212BB03F0021E9E8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEE9E212BB03F0021E9E8 /* TCUserInfoViewController.h */,
+				4D0FEE9F212BB03F0021E9E8 /* TCUserInfoViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4D0FEEB4212BB0A80021E9E8 /* TableViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FEEB5212BB0A80021E9E8 /* TOTableViewTool.h */,
+				4D0FEEB7212BB0A80021E9E8 /* TOTableViewTool.m */,
+				4D0FEEB8212BB0A80021E9E8 /* TOBaseSection.h */,
+				4D0FEEB6212BB0A80021E9E8 /* TOBaseSection.m */,
+			);
+			path = TableViewTool;
 			sourceTree = "<group>";
 		};
 		4DAEDFF221256552009FFB4B = {
@@ -297,6 +579,7 @@
 		4DB7E55721265DF5009FDA22 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				4D0FEEB4212BB0A80021E9E8 /* TableViewTool */,
 				4DB7E6132126B3F3009FDA22 /* TComputerTextHeightTool.h */,
 				4DB7E6122126B3F3009FDA22 /* TComputerTextHeightTool.m */,
 				4DB7E55921265E06009FDA22 /* T2TView.h */,
@@ -348,8 +631,16 @@
 		4DB7E5C1212698E1009FDA22 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				4DB7E5C221269914009FDA22 /* TSMineViewController.h */,
-				4DB7E5C321269914009FDA22 /* TSMineViewController.m */,
+				4D0FEE8C212BB03E0021E9E8 /* AcountSet */,
+				4D0FEE68212BB03E0021E9E8 /* AppDownload */,
+				4D0FEE94212BB03F0021E9E8 /* ChangeAvoid */,
+				4D0FEE88212BB03E0021E9E8 /* ChangePwd */,
+				4D0FEE90212BB03E0021E9E8 /* ConnectService */,
+				4D0FEE98212BB03F0021E9E8 /* InventFriend */,
+				4D0FEE6C212BB03E0021E9E8 /* MineHomeCenter */,
+				4D0FEE84212BB03E0021E9E8 /* MyFriend */,
+				4D0FEE64212BB03D0021E9E8 /* UserChange */,
+				4D0FEE9C212BB03F0021E9E8 /* UserInfo */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -425,7 +716,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0FEEA4212BB03F0021E9E8 /* TCMHHeaderCell.xib in Resources */,
 				4DB7E5012126573E009FDA22 /* MBProgressHUD.bundle in Resources */,
+				4D0FEEA5212BB03F0021E9E8 /* TCMHInfoTableViewCell.xib in Resources */,
+				4D0FEEA6212BB03F0021E9E8 /* TCMHTableFootView.xib in Resources */,
 				4DB7E6192126B48A009FDA22 /* LaunchScreen.xib in Resources */,
 				4DAEE00821256553009FFB4B /* Assets.xcassets in Resources */,
 			);
@@ -509,31 +803,49 @@
 				4DB7E541212658F6009FDA22 /* MMPopupView.m in Sources */,
 				4DB7E53D212658F6009FDA22 /* MMAlertView.m in Sources */,
 				4DB7E6142126B3F3009FDA22 /* TComputerTextHeightTool.m in Sources */,
+				4D0FEEA0212BB03F0021E9E8 /* TCUserChangeViewController.m in Sources */,
+				4D0FEEB0212BB03F0021E9E8 /* TCConnetServiceViewController.m in Sources */,
 				4DB7E54D21265C65009FDA22 /* NSObject+EFoundation.m in Sources */,
+				4D0FEEB3212BB03F0021E9E8 /* TCUserInfoViewController.m in Sources */,
+				4D0FEEAE212BB03F0021E9E8 /* TCChangePwdViewController.m in Sources */,
 				4DB7E55621265DDC009FDA22 /* UIView+Nib.m in Sources */,
+				4D0FEEAD212BB03F0021E9E8 /* TCMyFriendViewController.m in Sources */,
+				4D0FEEB1212BB03F0021E9E8 /* TCChangeAvoidViewController.m in Sources */,
 				4DB7E55321265DB8009FDA22 /* UITableView+TRegisterCell.m in Sources */,
 				4DB7E540212658F6009FDA22 /* MMPopupWindow.m in Sources */,
 				4DB7E5292126589F009FDA22 /* WMMenuItem.m in Sources */,
+				4D0FEEAC212BB03F0021E9E8 /* TCMHInfoSection.m in Sources */,
 				4DB7E542212658F6009FDA22 /* TPopViewController.m in Sources */,
 				4DB7E543212658F6009FDA22 /* MMPopupItem.m in Sources */,
+				4D0FEEA7212BB03F0021E9E8 /* TCMHInfoTableViewCell.m in Sources */,
+				4D0FEEAB212BB03F0021E9E8 /* TCMineHeaderSection.m in Sources */,
 				4DB7E5002126573E009FDA22 /* MBProgressHUD+MJ.m in Sources */,
 				4DB7E5BD21269732009FDA22 /* UIImage+TUtil.m in Sources */,
 				4DB7E5CE2126995D009FDA22 /* TSHomeViewController.m in Sources */,
 				4DB7E5282126589F009FDA22 /* WMProgressView.m in Sources */,
 				4DB7E5272126589F009FDA22 /* WMMenuView.m in Sources */,
 				4DB7E53E212658F6009FDA22 /* MMSheetView.m in Sources */,
+				4D0FEEAA212BB03F0021E9E8 /* TCMHTableFootView.m in Sources */,
+				4D0FEEA9212BB03F0021E9E8 /* TCMHHeaderCell.m in Sources */,
+				4D0FEEA8212BB03F0021E9E8 /* TNUHeadBgView.m in Sources */,
 				4DB7E5BA212675E3009FDA22 /* TTabBarViewController.m in Sources */,
 				4DB7E53C212658F6009FDA22 /* TAlertController.m in Sources */,
 				4DB7E5CA21269946009FDA22 /* TSOrderViewController.m in Sources */,
+				4D0FEEB9212BB0A80021E9E8 /* TOBaseSection.m in Sources */,
 				4DB7E55A21265E06009FDA22 /* T2TView.m in Sources */,
 				4DB7E55021265C8B009FDA22 /* UIView+AddOther.m in Sources */,
+				4D0FEEA3212BB03F0021E9E8 /* TCMHCellConfigModel.m in Sources */,
 				4DB7E56321266246009FDA22 /* TBaseViewcontroller.m in Sources */,
+				4D0FEEA1212BB03F0021E9E8 /* TCAppDownloadViewController.m in Sources */,
 				4DB7E56421266246009FDA22 /* TNavViewController.m in Sources */,
 				4DB7E5C72126993A009FDA22 /* TSEarningViewController.m in Sources */,
 				4DAEE00E21256553009FFB4B /* main.m in Sources */,
+				4D0FEEBA212BB0A80021E9E8 /* TOTableViewTool.m in Sources */,
 				4DB7E53F212658F6009FDA22 /* MMPopupCategory.m in Sources */,
 				4DAEE00021256552009FFB4B /* AppDelegate.m in Sources */,
+				4D0FEEB2212BB03F0021E9E8 /* TCInventFriendVC.m in Sources */,
 				4DB7E51C21265880009FDA22 /* WMPageController.m in Sources */,
+				4D0FEEAF212BB03F0021E9E8 /* TCAcountSetViewController.m in Sources */,
 				4DB7E5C421269914009FDA22 /* TSMineViewController.m in Sources */,
 				4DB7E4FF2126573E009FDA22 /* MBProgressHUD.m in Sources */,
 			);
