@@ -93,51 +93,51 @@
     [section tableViewRegisterView:self.tableView];
     section.dataSource = @[@1];
     
-    TCMHInfoSection *secondSection = [[TCMHInfoSection alloc] init];
-    [secondSection tableViewRegisterView:self.tableView];
-    secondSection.dataSource = [self seccondSectionItems];
+//    TCMHInfoSection *secondSection = [[TCMHInfoSection alloc] init];
+//    [secondSection tableViewRegisterView:self.tableView];
+//    secondSection.dataSource = [self seccondSectionItems];
     
     TCMHInfoSection *thirdSection = [[TCMHInfoSection alloc] init];
     [thirdSection tableViewRegisterView:self.tableView];
     thirdSection.dataSource = [self thirdSectionItems];
     
-    self.tableViewTool.sectionArray = @[section,secondSection,thirdSection];
+    self.tableViewTool.sectionArray = @[section,thirdSection];
     [self.tableView reloadData];
     
     
 }
 
-- (NSArray<TCMHCellConfigModel *> *)seccondSectionItems {
-    
-    TCMHInfoCellConfigModel *superiorItem = [[TCMHInfoCellConfigModel alloc] initWithHeadImaName:@"" title:@"我的上级" actionHandleBlock:^{
-        
-    }];
-    superiorItem.info = @"12345567";
-    
-    TCMHBasicCellConfigModel *inventFriendItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"邀请好友" actionHandleBlock:^{
-        TCInventFriendVC *ivc = [[TCInventFriendVC alloc] init];
-        [self.navigationController pushViewController:ivc animated:YES];
-    }];
-    
-    TCMHBasicCellConfigModel *profitSetItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"利润设置" actionHandleBlock:^{
-        TCAcountSetViewController *avc = [[TCAcountSetViewController alloc] init];
-        [self.navigationController pushViewController:avc animated:YES];
-    }];
-    profitSetItem.rightInfo = @"已设置";
-    
-    TCMHBasicCellConfigModel *myFriendItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"我的伙伴" actionHandleBlock:^{
-        TCMyFriendViewController *mvc = [[TCMyFriendViewController alloc] init];
-        [self.navigationController pushViewController:mvc animated:YES];
-    }];
-    
-    return @[superiorItem,inventFriendItem,profitSetItem,myFriendItem];
-}
+//- (NSArray<TCMHCellConfigModel *> *)seccondSectionItems {
+//
+//    TCMHInfoCellConfigModel *superiorItem = [[TCMHInfoCellConfigModel alloc] initWithHeadImaName:@"" title:@"我的上级" actionHandleBlock:^{
+//
+//    }];
+//    superiorItem.info = @"12345567";
+//
+//    TCMHBasicCellConfigModel *inventFriendItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"邀请好友" actionHandleBlock:^{
+//        TCInventFriendVC *ivc = [[TCInventFriendVC alloc] init];
+//        [self.navigationController pushViewController:ivc animated:YES];
+//    }];
+//
+//    TCMHBasicCellConfigModel *profitSetItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"利润设置" actionHandleBlock:^{
+//        TCAcountSetViewController *avc = [[TCAcountSetViewController alloc] init];
+//        [self.navigationController pushViewController:avc animated:YES];
+//    }];
+//    profitSetItem.rightInfo = @"已设置";
+//
+//    TCMHBasicCellConfigModel *myFriendItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"我的伙伴" actionHandleBlock:^{
+//        TCMyFriendViewController *mvc = [[TCMyFriendViewController alloc] init];
+//        [self.navigationController pushViewController:mvc animated:YES];
+//    }];
+//
+//    return @[superiorItem,inventFriendItem,profitSetItem,myFriendItem];
+//}
 
 - (NSArray<TCMHCellConfigModel *> *)thirdSectionItems {
-    TCMHBasicCellConfigModel *accountChangeItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"账户变动" actionHandleBlock:^{
-        TCUserChangeViewController *cvc = [[TCUserChangeViewController alloc] init];
-        [self.navigationController pushViewController:cvc animated:YES];
-    }];
+//    TCMHBasicCellConfigModel *accountChangeItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"账户变动" actionHandleBlock:^{
+//        TCUserChangeViewController *cvc = [[TCUserChangeViewController alloc] init];
+//        [self.navigationController pushViewController:cvc animated:YES];
+//    }];
     
     TCMHBasicCellConfigModel *collectServiceItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"联系客服" actionHandleBlock:^{
         TCConnetServiceViewController *cvc  = [[TCConnetServiceViewController alloc] init];
@@ -159,16 +159,16 @@
         [self.navigationController pushViewController:cvc animated:YES];
     }];
     
-    TCMHSwitchCellConfigModel *voiceSwitchItem = [[TCMHSwitchCellConfigModel alloc] initWithHeadImaName:@"" title:@"语音提醒" actionHandleBlock:^{
-        
-    }];
-    
-    TCMHBasicCellConfigModel *downloadAppItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"APP下载" actionHandleBlock:^{
-        TCAppDownloadViewController *avc = [[TCAppDownloadViewController alloc] init];
-        [self.navigationController pushViewController:avc animated:YES];
-    }];
-    
-    return @[accountChangeItem,collectServiceItem,userInfoItem,changeAvoidItem,changePwdItem,voiceSwitchItem,downloadAppItem];
+//    TCMHSwitchCellConfigModel *voiceSwitchItem = [[TCMHSwitchCellConfigModel alloc] initWithHeadImaName:@"" title:@"语音提醒" actionHandleBlock:^{
+//
+//    }];
+//
+//    TCMHBasicCellConfigModel *downloadAppItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"APP下载" actionHandleBlock:^{
+//        TCAppDownloadViewController *avc = [[TCAppDownloadViewController alloc] init];
+//        [self.navigationController pushViewController:avc animated:YES];
+//    }];
+//
+    return @[collectServiceItem,userInfoItem,changeAvoidItem,changePwdItem];
     
 }
 
@@ -181,7 +181,7 @@
     
     if (!_headBgView) {
         _headBgView = [[TNUHeadBgView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, TMCHHeadViewHeight)];
-        _headBgView.imgView.image = [UIImage imageWithColor:[UIColor colorWithHexString:@"#e13b29"]];
+        _headBgView.imgView.image = [UIImage imageWithColor:kThemeColor];
     }
     return _headBgView;
 }

@@ -340,17 +340,17 @@
 		4D0FEE73212BB03E0021E9E8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4D0FEE74212BB03E0021E9E8 /* TCMHHeaderCell.xib */,
 				4D0FEE75212BB03E0021E9E8 /* TNUHeadBgView.h */,
+				4D0FEE7C212BB03E0021E9E8 /* TNUHeadBgView.m */,
 				4D0FEE76212BB03E0021E9E8 /* TCMHInfoTableViewCell.h */,
-				4D0FEE77212BB03E0021E9E8 /* TCMHTableFootView.h */,
+				4D0FEE7B212BB03E0021E9E8 /* TCMHInfoTableViewCell.m */,
 				4D0FEE78212BB03E0021E9E8 /* TCMHInfoTableViewCell.xib */,
 				4D0FEE79212BB03E0021E9E8 /* TCMHHeaderCell.h */,
-				4D0FEE7A212BB03E0021E9E8 /* TCMHTableFootView.xib */,
-				4D0FEE7B212BB03E0021E9E8 /* TCMHInfoTableViewCell.m */,
-				4D0FEE7C212BB03E0021E9E8 /* TNUHeadBgView.m */,
 				4D0FEE7D212BB03E0021E9E8 /* TCMHHeaderCell.m */,
+				4D0FEE74212BB03E0021E9E8 /* TCMHHeaderCell.xib */,
+				4D0FEE77212BB03E0021E9E8 /* TCMHTableFootView.h */,
 				4D0FEE7E212BB03E0021E9E8 /* TCMHTableFootView.m */,
+				4D0FEE7A212BB03E0021E9E8 /* TCMHTableFootView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";

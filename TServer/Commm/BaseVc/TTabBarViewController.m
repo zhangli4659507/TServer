@@ -49,7 +49,7 @@
     [[UITabBarItem appearanceWhenContainedIn:[TTabBarViewController class], nil] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithHexString:@"#555555"]
                                                                                                            } forState:UIControlStateNormal];
     
-    [[UITabBarItem appearanceWhenContainedIn:[TTabBarViewController class], nil] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithHexString:@"#e13b29"]
+    [[UITabBarItem appearanceWhenContainedIn:[TTabBarViewController class], nil] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithHexString:@"#279AF9"]
                                                                                                            } forState:UIControlStateSelected];
     
     self.tabBar.translucent = NO;
