@@ -13,6 +13,12 @@
 
 #endif
 
+#ifdef DEBUG
+#define NSLog(...) printf("[%s] %s\n",[[[NSDate date] description] UTF8String],[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
+#else
+#define NSSLog(...)
+#endif
+
 NS_INLINE NSDateFormatter *DateFormatter()
 {
     static NSDateFormatter *formatter;
@@ -41,6 +47,16 @@ NS_INLINE NSString *TimeYMDTextWithDatestr(NSString *originalText)
     NSString *timeText = [formatter stringFromDate:date];
     return timeText;
 }
+
+static NSString *const TLogin_success_notiName = @"TLogin_success_notiName";
+static NSString *const TLogin_Out_NotiName = @"TLogin_Out_NotiName";
+static NSString *const TLogin_Token_SaveKey = @"TLogin_Token_SaveKey";
+static NSString *const TLogin_Mobile_saveKey = @"TLogin_Mobile_saveKey";
+static NSString *const TLogin_pwd_saveKey = @"TLogin_pwd_saveKey";
+
+static NSString *const TApi_key_Str = @"wmi";
+static NSString *const TSecret_key_Str = @"FF850EABD8BCAF3BCF2E0695B1C4C8FD";
+
 #define WEAK_REF(obj)\
 __weak typeof(obj) weak_##obj = obj; \
 
@@ -71,5 +87,17 @@ __weak typeof(obj) weak_##obj = obj; \
 #define kAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"
 #define RGB(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 #define kImaWithImaName(str)  [UIImage imageNamed:str]
+#define kUserDefaults [NSUserDefaults standardUserDefaults]
+#define kDefaultHeadImg [UIImage imageNamed:@"ico_head_portrait"]
+#define kThemeColor  [UIColor colorWithHexString:@"#279AF9"]
+#define kFilePathAtCachWithName(fileNAme) [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject] stringByAppendingPathComponent:fileNAme]
+//缓存路径-document目录
+#define kFilePathAtDocumentWithName(fileNAme) [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject] stringByAppendingPathComponent:fileNAme]
+//当前window
+#define kCurrentWindow [UIApplication sharedApplication].keyWindow
+//屏幕高度
+#define kScreenHeight CGRectGetHeight([UIScreen mainScreen].bounds)
+//屏幕宽
+#define kScreenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
 
 #endif /* TBasicDefine_h */

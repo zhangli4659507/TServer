@@ -9,5 +9,7 @@ target "TServer" do
     pod 'SDWebImage', '~>3.7'
     pod 'MJExtension'
     pod 'TOWebViewController', '~> 2.2.8'
+    pod 'IQKeyboardManager'
+    pod 'FLAnimatedImage', '~> 1.0.12'
 end
 

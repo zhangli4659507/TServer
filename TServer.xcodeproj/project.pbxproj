@@ -21,7 +21,6 @@
 		4D0FEEAB212BB03F0021E9E8 /* TCMineHeaderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE80212BB03E0021E9E8 /* TCMineHeaderSection.m */; };
 		4D0FEEAC212BB03F0021E9E8 /* TCMHInfoSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE81212BB03E0021E9E8 /* TCMHInfoSection.m */; };
 		4D0FEEAD212BB03F0021E9E8 /* TCMyFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE86212BB03E0021E9E8 /* TCMyFriendViewController.m */; };
-		4D0FEEAE212BB03F0021E9E8 /* TCChangePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE8B212BB03E0021E9E8 /* TCChangePwdViewController.m */; };
 		4D0FEEAF212BB03F0021E9E8 /* TCAcountSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE8E212BB03E0021E9E8 /* TCAcountSetViewController.m */; };
 		4D0FEEB0212BB03F0021E9E8 /* TCConnetServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE93212BB03E0021E9E8 /* TCConnetServiceViewController.m */; };
 		4D0FEEB1212BB03F0021E9E8 /* TCChangeAvoidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE97212BB03F0021E9E8 /* TCChangeAvoidViewController.m */; };
@@ -40,14 +39,6 @@
 		4DB7E5272126589F009FDA22 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5202126589E009FDA22 /* WMMenuView.m */; };
 		4DB7E5282126589F009FDA22 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5232126589F009FDA22 /* WMProgressView.m */; };
 		4DB7E5292126589F009FDA22 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E5252126589F009FDA22 /* WMMenuItem.m */; };
-		4DB7E53C212658F6009FDA22 /* TAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E52B212658F6009FDA22 /* TAlertController.m */; };
-		4DB7E53D212658F6009FDA22 /* MMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E52C212658F6009FDA22 /* MMAlertView.m */; };
-		4DB7E53E212658F6009FDA22 /* MMSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E52D212658F6009FDA22 /* MMSheetView.m */; };
-		4DB7E53F212658F6009FDA22 /* MMPopupCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E52F212658F6009FDA22 /* MMPopupCategory.m */; };
-		4DB7E540212658F6009FDA22 /* MMPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E532212658F6009FDA22 /* MMPopupWindow.m */; };
-		4DB7E541212658F6009FDA22 /* MMPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E537212658F6009FDA22 /* MMPopupView.m */; };
-		4DB7E542212658F6009FDA22 /* TPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E539212658F6009FDA22 /* TPopViewController.m */; };
-		4DB7E543212658F6009FDA22 /* MMPopupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E53B212658F6009FDA22 /* MMPopupItem.m */; };
 		4DB7E54A21265C02009FDA22 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E54921265C01009FDA22 /* UIColor+Hex.m */; };
 		4DB7E54D21265C65009FDA22 /* NSObject+EFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E54C21265C65009FDA22 /* NSObject+EFoundation.m */; };
 		4DB7E55021265C8B009FDA22 /* UIView+AddOther.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E54E21265C8B009FDA22 /* UIView+AddOther.m */; };
@@ -66,6 +57,39 @@
 		4DB7E6142126B3F3009FDA22 /* TComputerTextHeightTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E6122126B3F3009FDA22 /* TComputerTextHeightTool.m */; };
 		4DB7E6172126B40B009FDA22 /* UIBarButtonItem+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E6152126B40B009FDA22 /* UIBarButtonItem+WB.m */; };
 		4DB7E6192126B48A009FDA22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7E6182126B489009FDA22 /* LaunchScreen.xib */; };
+		BCA3E055216BA636004B7C19 /* TAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E044216BA636004B7C19 /* TAlertController.m */; };
+		BCA3E056216BA636004B7C19 /* MMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E045216BA636004B7C19 /* MMAlertView.m */; };
+		BCA3E057216BA636004B7C19 /* MMSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E046216BA636004B7C19 /* MMSheetView.m */; };
+		BCA3E058216BA636004B7C19 /* MMPopupCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E048216BA636004B7C19 /* MMPopupCategory.m */; };
+		BCA3E059216BA636004B7C19 /* MMPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E04B216BA636004B7C19 /* MMPopupWindow.m */; };
+		BCA3E05A216BA636004B7C19 /* MMPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E050216BA636004B7C19 /* MMPopupView.m */; };
+		BCA3E05B216BA636004B7C19 /* TPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E052216BA636004B7C19 /* TPopViewController.m */; };
+		BCA3E05C216BA636004B7C19 /* MMPopupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E054216BA636004B7C19 /* MMPopupItem.m */; };
+		BCA3E065216BA707004B7C19 /* TCSelectAreaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA3E05E216BA707004B7C19 /* TCSelectAreaView.xib */; };
+		BCA3E066216BA707004B7C19 /* TAreaTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E05F216BA707004B7C19 /* TAreaTool.m */; };
+		BCA3E067216BA707004B7C19 /* TCSelectAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E060216BA707004B7C19 /* TCSelectAreaView.m */; };
+		BCA3E068216BA707004B7C19 /* TAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E061216BA707004B7C19 /* TAreaModel.m */; };
+		BCA3E06C216BA74B004B7C19 /* TUploadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E06B216BA74B004B7C19 /* TUploadTool.m */; };
+		BCA3E071216BA74F004B7C19 /* TFailhub.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA3E06F216BA74F004B7C19 /* TFailhub.xib */; };
+		BCA3E072216BA74F004B7C19 /* TFailhub.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E070216BA74F004B7C19 /* TFailhub.m */; };
+		BCA3E078216BA758004B7C19 /* TLodingHub.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E074216BA758004B7C19 /* TLodingHub.m */; };
+		BCA3E079216BA758004B7C19 /* TLodingHub.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA3E075216BA758004B7C19 /* TLodingHub.xib */; };
+		BCA3E07A216BA758004B7C19 /* loding.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCA3E077216BA758004B7C19 /* loding.gif */; };
+		BCA3E082216BA764004B7C19 /* ESystemTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E07C216BA763004B7C19 /* ESystemTool.m */; };
+		BCA3E083216BA764004B7C19 /* ESandBoxTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E07E216BA764004B7C19 /* ESandBoxTool.m */; };
+		BCA3E084216BA764004B7C19 /* EGetCacheSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E07F216BA764004B7C19 /* EGetCacheSize.m */; };
+		BCA3E08A216BA76C004B7C19 /* TResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E086216BA76C004B7C19 /* TResponse.m */; };
+		BCA3E08B216BA76C004B7C19 /* THTTPRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E088216BA76C004B7C19 /* THTTPRequestTool.m */; };
+		BCA3E08E216BA840004B7C19 /* NSString+TDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E08C216BA840004B7C19 /* NSString+TDigest.m */; };
+		BCA3E09E216BA86F004B7C19 /* TCRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E091216BA86E004B7C19 /* TCRegisterViewController.m */; };
+		BCA3E09F216BA86F004B7C19 /* TCRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA3E093216BA86E004B7C19 /* TCRegisterViewController.xib */; };
+		BCA3E0A0216BA86F004B7C19 /* TCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA3E096216BA86F004B7C19 /* TCLoginViewController.xib */; };
+		BCA3E0A1216BA86F004B7C19 /* TCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E097216BA86F004B7C19 /* TCLoginViewController.m */; };
+		BCA3E0A2216BA86F004B7C19 /* TCUserManger.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E09A216BA86F004B7C19 /* TCUserManger.m */; };
+		BCA3E0A3216BA86F004B7C19 /* TCUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E09B216BA86F004B7C19 /* TCUserInfoModel.m */; };
+		BCA3E0A9216BA8C2004B7C19 /* TCChangePwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA3E0A6216BA8C1004B7C19 /* TCChangePwdViewController.xib */; };
+		BCA3E0AA216BA8C2004B7C19 /* TCChangePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E0A8216BA8C1004B7C19 /* TCChangePwdViewController.m */; };
+		BCA3E0AD216BA8EA004B7C19 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E0AB216BA8EA004B7C19 /* UIImage+Scale.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,8 +118,6 @@
 		4D0FEE83212BB03E0021E9E8 /* TCMHInfoSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMHInfoSection.h; sourceTree = "<group>"; };
 		4D0FEE86212BB03E0021E9E8 /* TCMyFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMyFriendViewController.m; sourceTree = "<group>"; };
 		4D0FEE87212BB03E0021E9E8 /* TCMyFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMyFriendViewController.h; sourceTree = "<group>"; };
-		4D0FEE8A212BB03E0021E9E8 /* TCChangePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCChangePwdViewController.h; sourceTree = "<group>"; };
-		4D0FEE8B212BB03E0021E9E8 /* TCChangePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCChangePwdViewController.m; sourceTree = "<group>"; };
 		4D0FEE8E212BB03E0021E9E8 /* TCAcountSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAcountSetViewController.m; sourceTree = "<group>"; };
 		4D0FEE8F212BB03E0021E9E8 /* TCAcountSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAcountSetViewController.h; sourceTree = "<group>"; };
 		4D0FEE92212BB03E0021E9E8 /* TCConnetServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConnetServiceViewController.h; sourceTree = "<group>"; };
@@ -132,23 +154,6 @@
 		4DB7E5232126589F009FDA22 /* WMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
 		4DB7E5242126589F009FDA22 /* WMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
 		4DB7E5252126589F009FDA22 /* WMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
-		4DB7E52B212658F6009FDA22 /* TAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAlertController.m; sourceTree = "<group>"; };
-		4DB7E52C212658F6009FDA22 /* MMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAlertView.m; sourceTree = "<group>"; };
-		4DB7E52D212658F6009FDA22 /* MMSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSheetView.m; sourceTree = "<group>"; };
-		4DB7E52E212658F6009FDA22 /* MMPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupView.h; sourceTree = "<group>"; };
-		4DB7E52F212658F6009FDA22 /* MMPopupCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupCategory.m; sourceTree = "<group>"; };
-		4DB7E530212658F6009FDA22 /* MMPopupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupItem.h; sourceTree = "<group>"; };
-		4DB7E531212658F6009FDA22 /* TPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPopViewController.h; sourceTree = "<group>"; };
-		4DB7E532212658F6009FDA22 /* MMPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupWindow.m; sourceTree = "<group>"; };
-		4DB7E533212658F6009FDA22 /* TAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAlertController.h; sourceTree = "<group>"; };
-		4DB7E534212658F6009FDA22 /* MMSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSheetView.h; sourceTree = "<group>"; };
-		4DB7E535212658F6009FDA22 /* MMPopupDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupDefine.h; sourceTree = "<group>"; };
-		4DB7E536212658F6009FDA22 /* MMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAlertView.h; sourceTree = "<group>"; };
-		4DB7E537212658F6009FDA22 /* MMPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupView.m; sourceTree = "<group>"; };
-		4DB7E538212658F6009FDA22 /* MMPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupWindow.h; sourceTree = "<group>"; };
-		4DB7E539212658F6009FDA22 /* TPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPopViewController.m; sourceTree = "<group>"; };
-		4DB7E53A212658F6009FDA22 /* MMPopupCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupCategory.h; sourceTree = "<group>"; };
-		4DB7E53B212658F6009FDA22 /* MMPopupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupItem.m; sourceTree = "<group>"; };
 		4DB7E5452126593C009FDA22 /* TBasicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBasicDefine.h; sourceTree = "<group>"; };
 		4DB7E546212659E2009FDA22 /* TServer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TServer.pch; sourceTree = "<group>"; };
 		4DB7E54821265C01009FDA22 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
@@ -187,6 +192,66 @@
 		4DB7E6162126B40B009FDA22 /* UIBarButtonItem+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WB.h"; sourceTree = "<group>"; };
 		4DB7E6182126B489009FDA22 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		6360EBF9EB7840515C4895A1 /* Pods-TServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TServer/Pods-TServer.debug.xcconfig"; sourceTree = "<group>"; };
+		BCA3E044216BA636004B7C19 /* TAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAlertController.m; sourceTree = "<group>"; };
+		BCA3E045216BA636004B7C19 /* MMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAlertView.m; sourceTree = "<group>"; };
+		BCA3E046216BA636004B7C19 /* MMSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSheetView.m; sourceTree = "<group>"; };
+		BCA3E047216BA636004B7C19 /* MMPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupView.h; sourceTree = "<group>"; };
+		BCA3E048216BA636004B7C19 /* MMPopupCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupCategory.m; sourceTree = "<group>"; };
+		BCA3E049216BA636004B7C19 /* MMPopupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupItem.h; sourceTree = "<group>"; };
+		BCA3E04A216BA636004B7C19 /* TPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPopViewController.h; sourceTree = "<group>"; };
+		BCA3E04B216BA636004B7C19 /* MMPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupWindow.m; sourceTree = "<group>"; };
+		BCA3E04C216BA636004B7C19 /* TAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAlertController.h; sourceTree = "<group>"; };
+		BCA3E04D216BA636004B7C19 /* MMSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSheetView.h; sourceTree = "<group>"; };
+		BCA3E04E216BA636004B7C19 /* MMPopupDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupDefine.h; sourceTree = "<group>"; };
+		BCA3E04F216BA636004B7C19 /* MMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAlertView.h; sourceTree = "<group>"; };
+		BCA3E050216BA636004B7C19 /* MMPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupView.m; sourceTree = "<group>"; };
+		BCA3E051216BA636004B7C19 /* MMPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupWindow.h; sourceTree = "<group>"; };
+		BCA3E052216BA636004B7C19 /* TPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPopViewController.m; sourceTree = "<group>"; };
+		BCA3E053216BA636004B7C19 /* MMPopupCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPopupCategory.h; sourceTree = "<group>"; };
+		BCA3E054216BA636004B7C19 /* MMPopupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPopupItem.m; sourceTree = "<group>"; };
+		BCA3E05E216BA707004B7C19 /* TCSelectAreaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCSelectAreaView.xib; sourceTree = "<group>"; };
+		BCA3E05F216BA707004B7C19 /* TAreaTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAreaTool.m; sourceTree = "<group>"; };
+		BCA3E060216BA707004B7C19 /* TCSelectAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSelectAreaView.m; sourceTree = "<group>"; };
+		BCA3E061216BA707004B7C19 /* TAreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAreaModel.m; sourceTree = "<group>"; };
+		BCA3E062216BA707004B7C19 /* TAreaTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAreaTool.h; sourceTree = "<group>"; };
+		BCA3E063216BA707004B7C19 /* TCSelectAreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSelectAreaView.h; sourceTree = "<group>"; };
+		BCA3E064216BA707004B7C19 /* TAreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAreaModel.h; sourceTree = "<group>"; };
+		BCA3E06A216BA74B004B7C19 /* TUploadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUploadTool.h; sourceTree = "<group>"; };
+		BCA3E06B216BA74B004B7C19 /* TUploadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUploadTool.m; sourceTree = "<group>"; };
+		BCA3E06E216BA74F004B7C19 /* TFailhub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFailhub.h; sourceTree = "<group>"; };
+		BCA3E06F216BA74F004B7C19 /* TFailhub.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFailhub.xib; sourceTree = "<group>"; };
+		BCA3E070216BA74F004B7C19 /* TFailhub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFailhub.m; sourceTree = "<group>"; };
+		BCA3E074216BA758004B7C19 /* TLodingHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLodingHub.m; sourceTree = "<group>"; };
+		BCA3E075216BA758004B7C19 /* TLodingHub.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLodingHub.xib; sourceTree = "<group>"; };
+		BCA3E076216BA758004B7C19 /* TLodingHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLodingHub.h; sourceTree = "<group>"; };
+		BCA3E077216BA758004B7C19 /* loding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loding.gif; sourceTree = "<group>"; };
+		BCA3E07C216BA763004B7C19 /* ESystemTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESystemTool.m; sourceTree = "<group>"; };
+		BCA3E07D216BA763004B7C19 /* EGetCacheSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGetCacheSize.h; sourceTree = "<group>"; };
+		BCA3E07E216BA764004B7C19 /* ESandBoxTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESandBoxTool.m; sourceTree = "<group>"; };
+		BCA3E07F216BA764004B7C19 /* EGetCacheSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGetCacheSize.m; sourceTree = "<group>"; };
+		BCA3E080216BA764004B7C19 /* ESystemTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESystemTool.h; sourceTree = "<group>"; };
+		BCA3E081216BA764004B7C19 /* ESandBoxTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESandBoxTool.h; sourceTree = "<group>"; };
+		BCA3E086216BA76C004B7C19 /* TResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TResponse.m; sourceTree = "<group>"; };
+		BCA3E087216BA76C004B7C19 /* THTTPRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPRequestTool.h; sourceTree = "<group>"; };
+		BCA3E088216BA76C004B7C19 /* THTTPRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPRequestTool.m; sourceTree = "<group>"; };
+		BCA3E089216BA76C004B7C19 /* TResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TResponse.h; sourceTree = "<group>"; };
+		BCA3E08C216BA840004B7C19 /* NSString+TDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TDigest.m"; sourceTree = "<group>"; };
+		BCA3E08D216BA840004B7C19 /* NSString+TDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TDigest.h"; sourceTree = "<group>"; };
+		BCA3E091216BA86E004B7C19 /* TCRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRegisterViewController.m; sourceTree = "<group>"; };
+		BCA3E092216BA86E004B7C19 /* TCRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRegisterViewController.h; sourceTree = "<group>"; };
+		BCA3E093216BA86E004B7C19 /* TCRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCRegisterViewController.xib; sourceTree = "<group>"; };
+		BCA3E096216BA86F004B7C19 /* TCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCLoginViewController.xib; sourceTree = "<group>"; };
+		BCA3E097216BA86F004B7C19 /* TCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLoginViewController.m; sourceTree = "<group>"; };
+		BCA3E098216BA86F004B7C19 /* TCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLoginViewController.h; sourceTree = "<group>"; };
+		BCA3E09A216BA86F004B7C19 /* TCUserManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUserManger.m; sourceTree = "<group>"; };
+		BCA3E09B216BA86F004B7C19 /* TCUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUserInfoModel.m; sourceTree = "<group>"; };
+		BCA3E09C216BA86F004B7C19 /* TCUserManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUserManger.h; sourceTree = "<group>"; };
+		BCA3E09D216BA86F004B7C19 /* TCUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUserInfoModel.h; sourceTree = "<group>"; };
+		BCA3E0A6216BA8C1004B7C19 /* TCChangePwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCChangePwdViewController.xib; sourceTree = "<group>"; };
+		BCA3E0A7216BA8C1004B7C19 /* TCChangePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCChangePwdViewController.h; sourceTree = "<group>"; };
+		BCA3E0A8216BA8C1004B7C19 /* TCChangePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCChangePwdViewController.m; sourceTree = "<group>"; };
+		BCA3E0AB216BA8EA004B7C19 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		BCA3E0AC216BA8EA004B7C19 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,23 +379,6 @@
 			children = (
 				4D0FEE86212BB03E0021E9E8 /* TCMyFriendViewController.m */,
 				4D0FEE87212BB03E0021E9E8 /* TCMyFriendViewController.h */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		4D0FEE88212BB03E0021E9E8 /* ChangePwd */ = {
-			isa = PBXGroup;
-			children = (
-				4D0FEE89212BB03E0021E9E8 /* VC */,
-			);
-			path = ChangePwd;
-			sourceTree = "<group>";
-		};
-		4D0FEE89212BB03E0021E9E8 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				4D0FEE8A212BB03E0021E9E8 /* TCChangePwdViewController.h */,
-				4D0FEE8B212BB03E0021E9E8 /* TCChangePwdViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -472,9 +520,9 @@
 		4DB7E4F821265726009FDA22 /* TKits */ = {
 			isa = PBXGroup;
 			children = (
+				BCA3E043216BA636004B7C19 /* MMPopupView-private */,
 				4DB7E55721265DF5009FDA22 /* Tool */,
 				4DB7E54721265BF4009FDA22 /* Category */,
-				4DB7E52A212658F6009FDA22 /* MMPopupView-private */,
 				4DB7E5182126586E009FDA22 /* WM */,
 				4DB7E4F92126573E009FDA22 /* MBProgressHUD-private */,
 			);
@@ -519,34 +567,10 @@
 			path = WMMenuView;
 			sourceTree = "<group>";
 		};
-		4DB7E52A212658F6009FDA22 /* MMPopupView-private */ = {
-			isa = PBXGroup;
-			children = (
-				4DB7E535212658F6009FDA22 /* MMPopupDefine.h */,
-				4DB7E533212658F6009FDA22 /* TAlertController.h */,
-				4DB7E52B212658F6009FDA22 /* TAlertController.m */,
-				4DB7E536212658F6009FDA22 /* MMAlertView.h */,
-				4DB7E52C212658F6009FDA22 /* MMAlertView.m */,
-				4DB7E534212658F6009FDA22 /* MMSheetView.h */,
-				4DB7E52D212658F6009FDA22 /* MMSheetView.m */,
-				4DB7E52E212658F6009FDA22 /* MMPopupView.h */,
-				4DB7E537212658F6009FDA22 /* MMPopupView.m */,
-				4DB7E538212658F6009FDA22 /* MMPopupWindow.h */,
-				4DB7E532212658F6009FDA22 /* MMPopupWindow.m */,
-				4DB7E531212658F6009FDA22 /* TPopViewController.h */,
-				4DB7E539212658F6009FDA22 /* TPopViewController.m */,
-				4DB7E53A212658F6009FDA22 /* MMPopupCategory.h */,
-				4DB7E52F212658F6009FDA22 /* MMPopupCategory.m */,
-				4DB7E530212658F6009FDA22 /* MMPopupItem.h */,
-				4DB7E53B212658F6009FDA22 /* MMPopupItem.m */,
-			);
-			name = "MMPopupView-private";
-			path = "../../../T2T/Examda/Examda/TKits/MMPopupView-private";
-			sourceTree = "<group>";
-		};
 		4DB7E54421265920009FDA22 /* Commm */ = {
 			isa = PBXGroup;
 			children = (
+				BCA3E05D216BA707004B7C19 /* AreaTool */,
 				4DB7E55E21266246009FDA22 /* BaseVc */,
 				4DB7E5452126593C009FDA22 /* TBasicDefine.h */,
 			);
@@ -556,6 +580,10 @@
 		4DB7E54721265BF4009FDA22 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BCA3E0AC216BA8EA004B7C19 /* UIImage+Scale.h */,
+				BCA3E0AB216BA8EA004B7C19 /* UIImage+Scale.m */,
+				BCA3E08D216BA840004B7C19 /* NSString+TDigest.h */,
+				BCA3E08C216BA840004B7C19 /* NSString+TDigest.m */,
 				4DB7E6162126B40B009FDA22 /* UIBarButtonItem+WB.h */,
 				4DB7E6152126B40B009FDA22 /* UIBarButtonItem+WB.m */,
 				4DB7E55C21266185009FDA22 /* NSString+MD5.h */,
@@ -579,6 +607,11 @@
 		4DB7E55721265DF5009FDA22 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				BCA3E085216BA76C004B7C19 /* RequestTool */,
+				BCA3E07B216BA763004B7C19 /* FileCacheTool */,
+				BCA3E073216BA758004B7C19 /* LoadingHub */,
+				BCA3E06D216BA74F004B7C19 /* FailHub */,
+				BCA3E069216BA74B004B7C19 /* UploadImage */,
 				4D0FEEB4212BB0A80021E9E8 /* TableViewTool */,
 				4DB7E6132126B3F3009FDA22 /* TComputerTextHeightTool.h */,
 				4DB7E6122126B3F3009FDA22 /* TComputerTextHeightTool.m */,
@@ -631,10 +664,12 @@
 		4DB7E5C1212698E1009FDA22 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				BCA3E0A4216BA8C1004B7C19 /* ChangePwd */,
+				BCA3E094216BA86F004B7C19 /* Login */,
+				BCA3E08F216BA86E004B7C19 /* Register */,
 				4D0FEE8C212BB03E0021E9E8 /* AcountSet */,
 				4D0FEE68212BB03E0021E9E8 /* AppDownload */,
 				4D0FEE94212BB03F0021E9E8 /* ChangeAvoid */,
-				4D0FEE88212BB03E0021E9E8 /* ChangePwd */,
 				4D0FEE90212BB03E0021E9E8 /* ConnectService */,
 				4D0FEE98212BB03F0021E9E8 /* InventFriend */,
 				4D0FEE6C212BB03E0021E9E8 /* MineHomeCenter */,
@@ -654,6 +689,166 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BCA3E043216BA636004B7C19 /* MMPopupView-private */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E044216BA636004B7C19 /* TAlertController.m */,
+				BCA3E045216BA636004B7C19 /* MMAlertView.m */,
+				BCA3E046216BA636004B7C19 /* MMSheetView.m */,
+				BCA3E047216BA636004B7C19 /* MMPopupView.h */,
+				BCA3E048216BA636004B7C19 /* MMPopupCategory.m */,
+				BCA3E049216BA636004B7C19 /* MMPopupItem.h */,
+				BCA3E04A216BA636004B7C19 /* TPopViewController.h */,
+				BCA3E04B216BA636004B7C19 /* MMPopupWindow.m */,
+				BCA3E04C216BA636004B7C19 /* TAlertController.h */,
+				BCA3E04D216BA636004B7C19 /* MMSheetView.h */,
+				BCA3E04E216BA636004B7C19 /* MMPopupDefine.h */,
+				BCA3E04F216BA636004B7C19 /* MMAlertView.h */,
+				BCA3E050216BA636004B7C19 /* MMPopupView.m */,
+				BCA3E051216BA636004B7C19 /* MMPopupWindow.h */,
+				BCA3E052216BA636004B7C19 /* TPopViewController.m */,
+				BCA3E053216BA636004B7C19 /* MMPopupCategory.h */,
+				BCA3E054216BA636004B7C19 /* MMPopupItem.m */,
+			);
+			path = "MMPopupView-private";
+			sourceTree = "<group>";
+		};
+		BCA3E05D216BA707004B7C19 /* AreaTool */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E063216BA707004B7C19 /* TCSelectAreaView.h */,
+				BCA3E060216BA707004B7C19 /* TCSelectAreaView.m */,
+				BCA3E05E216BA707004B7C19 /* TCSelectAreaView.xib */,
+				BCA3E064216BA707004B7C19 /* TAreaModel.h */,
+				BCA3E061216BA707004B7C19 /* TAreaModel.m */,
+				BCA3E062216BA707004B7C19 /* TAreaTool.h */,
+				BCA3E05F216BA707004B7C19 /* TAreaTool.m */,
+			);
+			name = AreaTool;
+			path = ../../../TClient/TClient/Comm/AreaTool;
+			sourceTree = "<group>";
+		};
+		BCA3E069216BA74B004B7C19 /* UploadImage */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E06A216BA74B004B7C19 /* TUploadTool.h */,
+				BCA3E06B216BA74B004B7C19 /* TUploadTool.m */,
+			);
+			path = UploadImage;
+			sourceTree = "<group>";
+		};
+		BCA3E06D216BA74F004B7C19 /* FailHub */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E06E216BA74F004B7C19 /* TFailhub.h */,
+				BCA3E06F216BA74F004B7C19 /* TFailhub.xib */,
+				BCA3E070216BA74F004B7C19 /* TFailhub.m */,
+			);
+			path = FailHub;
+			sourceTree = "<group>";
+		};
+		BCA3E073216BA758004B7C19 /* LoadingHub */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E074216BA758004B7C19 /* TLodingHub.m */,
+				BCA3E075216BA758004B7C19 /* TLodingHub.xib */,
+				BCA3E076216BA758004B7C19 /* TLodingHub.h */,
+				BCA3E077216BA758004B7C19 /* loding.gif */,
+			);
+			path = LoadingHub;
+			sourceTree = "<group>";
+		};
+		BCA3E07B216BA763004B7C19 /* FileCacheTool */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E07C216BA763004B7C19 /* ESystemTool.m */,
+				BCA3E07D216BA763004B7C19 /* EGetCacheSize.h */,
+				BCA3E07E216BA764004B7C19 /* ESandBoxTool.m */,
+				BCA3E07F216BA764004B7C19 /* EGetCacheSize.m */,
+				BCA3E080216BA764004B7C19 /* ESystemTool.h */,
+				BCA3E081216BA764004B7C19 /* ESandBoxTool.h */,
+			);
+			path = FileCacheTool;
+			sourceTree = "<group>";
+		};
+		BCA3E085216BA76C004B7C19 /* RequestTool */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E086216BA76C004B7C19 /* TResponse.m */,
+				BCA3E087216BA76C004B7C19 /* THTTPRequestTool.h */,
+				BCA3E088216BA76C004B7C19 /* THTTPRequestTool.m */,
+				BCA3E089216BA76C004B7C19 /* TResponse.h */,
+			);
+			path = RequestTool;
+			sourceTree = "<group>";
+		};
+		BCA3E08F216BA86E004B7C19 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E090216BA86E004B7C19 /* VC */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		BCA3E090216BA86E004B7C19 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E091216BA86E004B7C19 /* TCRegisterViewController.m */,
+				BCA3E092216BA86E004B7C19 /* TCRegisterViewController.h */,
+				BCA3E093216BA86E004B7C19 /* TCRegisterViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BCA3E094216BA86F004B7C19 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E095216BA86F004B7C19 /* VC */,
+				BCA3E099216BA86F004B7C19 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BCA3E095216BA86F004B7C19 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E096216BA86F004B7C19 /* TCLoginViewController.xib */,
+				BCA3E097216BA86F004B7C19 /* TCLoginViewController.m */,
+				BCA3E098216BA86F004B7C19 /* TCLoginViewController.h */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BCA3E099216BA86F004B7C19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E09C216BA86F004B7C19 /* TCUserManger.h */,
+				BCA3E09A216BA86F004B7C19 /* TCUserManger.m */,
+				BCA3E09D216BA86F004B7C19 /* TCUserInfoModel.h */,
+				BCA3E09B216BA86F004B7C19 /* TCUserInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCA3E0A4216BA8C1004B7C19 /* ChangePwd */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E0A5216BA8C1004B7C19 /* VC */,
+			);
+			name = ChangePwd;
+			path = ../../../TClient/TClient/Mine/ChangePwd;
+			sourceTree = "<group>";
+		};
+		BCA3E0A5216BA8C1004B7C19 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E0A6216BA8C1004B7C19 /* TCChangePwdViewController.xib */,
+				BCA3E0A7216BA8C1004B7C19 /* TCChangePwdViewController.h */,
+				BCA3E0A8216BA8C1004B7C19 /* TCChangePwdViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -666,7 +861,6 @@
 				4DAEDFF821256552009FFB4B /* Frameworks */,
 				4DAEDFF921256552009FFB4B /* Resources */,
 				79F9490F5DF8EA20CA68623D /* [CP] Embed Pods Frameworks */,
-				E80FCB8AA860133319805E69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -717,10 +911,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D0FEEA4212BB03F0021E9E8 /* TCMHHeaderCell.xib in Resources */,
+				BCA3E0A0216BA86F004B7C19 /* TCLoginViewController.xib in Resources */,
 				4DB7E5012126573E009FDA22 /* MBProgressHUD.bundle in Resources */,
 				4D0FEEA5212BB03F0021E9E8 /* TCMHInfoTableViewCell.xib in Resources */,
+				BCA3E07A216BA758004B7C19 /* loding.gif in Resources */,
+				BCA3E065216BA707004B7C19 /* TCSelectAreaView.xib in Resources */,
+				BCA3E071216BA74F004B7C19 /* TFailhub.xib in Resources */,
+				BCA3E0A9216BA8C2004B7C19 /* TCChangePwdViewController.xib in Resources */,
 				4D0FEEA6212BB03F0021E9E8 /* TCMHTableFootView.xib in Resources */,
 				4DB7E6192126B48A009FDA22 /* LaunchScreen.xib in Resources */,
+				BCA3E079216BA758004B7C19 /* TLodingHub.xib in Resources */,
+				BCA3E09F216BA86F004B7C19 /* TCRegisterViewController.xib in Resources */,
 				4DAEE00821256553009FFB4B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -736,6 +937,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TServer/Pods-TServer-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
@@ -745,6 +948,8 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
@@ -774,21 +979,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E80FCB8AA860133319805E69 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TServer/Pods-TServer-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -796,56 +986,73 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA3E08B216BA76C004B7C19 /* THTTPRequestTool.m in Sources */,
 				4DB7E5262126589F009FDA22 /* WMScrollView.m in Sources */,
+				BCA3E068216BA707004B7C19 /* TAreaModel.m in Sources */,
 				4DB7E6172126B40B009FDA22 /* UIBarButtonItem+WB.m in Sources */,
 				4DB7E54A21265C02009FDA22 /* UIColor+Hex.m in Sources */,
 				4DB7E55D21266185009FDA22 /* NSString+MD5.m in Sources */,
-				4DB7E541212658F6009FDA22 /* MMPopupView.m in Sources */,
-				4DB7E53D212658F6009FDA22 /* MMAlertView.m in Sources */,
+				BCA3E0A2216BA86F004B7C19 /* TCUserManger.m in Sources */,
+				BCA3E0A3216BA86F004B7C19 /* TCUserInfoModel.m in Sources */,
 				4DB7E6142126B3F3009FDA22 /* TComputerTextHeightTool.m in Sources */,
 				4D0FEEA0212BB03F0021E9E8 /* TCUserChangeViewController.m in Sources */,
 				4D0FEEB0212BB03F0021E9E8 /* TCConnetServiceViewController.m in Sources */,
+				BCA3E055216BA636004B7C19 /* TAlertController.m in Sources */,
+				BCA3E057216BA636004B7C19 /* MMSheetView.m in Sources */,
 				4DB7E54D21265C65009FDA22 /* NSObject+EFoundation.m in Sources */,
 				4D0FEEB3212BB03F0021E9E8 /* TCUserInfoViewController.m in Sources */,
-				4D0FEEAE212BB03F0021E9E8 /* TCChangePwdViewController.m in Sources */,
+				BCA3E059216BA636004B7C19 /* MMPopupWindow.m in Sources */,
 				4DB7E55621265DDC009FDA22 /* UIView+Nib.m in Sources */,
 				4D0FEEAD212BB03F0021E9E8 /* TCMyFriendViewController.m in Sources */,
 				4D0FEEB1212BB03F0021E9E8 /* TCChangeAvoidViewController.m in Sources */,
 				4DB7E55321265DB8009FDA22 /* UITableView+TRegisterCell.m in Sources */,
-				4DB7E540212658F6009FDA22 /* MMPopupWindow.m in Sources */,
 				4DB7E5292126589F009FDA22 /* WMMenuItem.m in Sources */,
 				4D0FEEAC212BB03F0021E9E8 /* TCMHInfoSection.m in Sources */,
-				4DB7E542212658F6009FDA22 /* TPopViewController.m in Sources */,
-				4DB7E543212658F6009FDA22 /* MMPopupItem.m in Sources */,
+				BCA3E066216BA707004B7C19 /* TAreaTool.m in Sources */,
 				4D0FEEA7212BB03F0021E9E8 /* TCMHInfoTableViewCell.m in Sources */,
 				4D0FEEAB212BB03F0021E9E8 /* TCMineHeaderSection.m in Sources */,
 				4DB7E5002126573E009FDA22 /* MBProgressHUD+MJ.m in Sources */,
 				4DB7E5BD21269732009FDA22 /* UIImage+TUtil.m in Sources */,
+				BCA3E084216BA764004B7C19 /* EGetCacheSize.m in Sources */,
+				BCA3E078216BA758004B7C19 /* TLodingHub.m in Sources */,
 				4DB7E5CE2126995D009FDA22 /* TSHomeViewController.m in Sources */,
+				BCA3E0A1216BA86F004B7C19 /* TCLoginViewController.m in Sources */,
+				BCA3E0AA216BA8C2004B7C19 /* TCChangePwdViewController.m in Sources */,
+				BCA3E072216BA74F004B7C19 /* TFailhub.m in Sources */,
 				4DB7E5282126589F009FDA22 /* WMProgressView.m in Sources */,
 				4DB7E5272126589F009FDA22 /* WMMenuView.m in Sources */,
-				4DB7E53E212658F6009FDA22 /* MMSheetView.m in Sources */,
 				4D0FEEAA212BB03F0021E9E8 /* TCMHTableFootView.m in Sources */,
+				BCA3E067216BA707004B7C19 /* TCSelectAreaView.m in Sources */,
+				BCA3E08A216BA76C004B7C19 /* TResponse.m in Sources */,
+				BCA3E082216BA764004B7C19 /* ESystemTool.m in Sources */,
+				BCA3E08E216BA840004B7C19 /* NSString+TDigest.m in Sources */,
 				4D0FEEA9212BB03F0021E9E8 /* TCMHHeaderCell.m in Sources */,
 				4D0FEEA8212BB03F0021E9E8 /* TNUHeadBgView.m in Sources */,
+				BCA3E05C216BA636004B7C19 /* MMPopupItem.m in Sources */,
+				BCA3E05A216BA636004B7C19 /* MMPopupView.m in Sources */,
 				4DB7E5BA212675E3009FDA22 /* TTabBarViewController.m in Sources */,
-				4DB7E53C212658F6009FDA22 /* TAlertController.m in Sources */,
 				4DB7E5CA21269946009FDA22 /* TSOrderViewController.m in Sources */,
 				4D0FEEB9212BB0A80021E9E8 /* TOBaseSection.m in Sources */,
 				4DB7E55A21265E06009FDA22 /* T2TView.m in Sources */,
 				4DB7E55021265C8B009FDA22 /* UIView+AddOther.m in Sources */,
+				BCA3E06C216BA74B004B7C19 /* TUploadTool.m in Sources */,
 				4D0FEEA3212BB03F0021E9E8 /* TCMHCellConfigModel.m in Sources */,
+				BCA3E056216BA636004B7C19 /* MMAlertView.m in Sources */,
 				4DB7E56321266246009FDA22 /* TBaseViewcontroller.m in Sources */,
 				4D0FEEA1212BB03F0021E9E8 /* TCAppDownloadViewController.m in Sources */,
+				BCA3E05B216BA636004B7C19 /* TPopViewController.m in Sources */,
+				BCA3E0AD216BA8EA004B7C19 /* UIImage+Scale.m in Sources */,
 				4DB7E56421266246009FDA22 /* TNavViewController.m in Sources */,
 				4DB7E5C72126993A009FDA22 /* TSEarningViewController.m in Sources */,
 				4DAEE00E21256553009FFB4B /* main.m in Sources */,
+				BCA3E083216BA764004B7C19 /* ESandBoxTool.m in Sources */,
+				BCA3E058216BA636004B7C19 /* MMPopupCategory.m in Sources */,
 				4D0FEEBA212BB0A80021E9E8 /* TOTableViewTool.m in Sources */,
-				4DB7E53F212658F6009FDA22 /* MMPopupCategory.m in Sources */,
 				4DAEE00021256552009FFB4B /* AppDelegate.m in Sources */,
 				4D0FEEB2212BB03F0021E9E8 /* TCInventFriendVC.m in Sources */,
 				4DB7E51C21265880009FDA22 /* WMPageController.m in Sources */,
 				4D0FEEAF212BB03F0021E9E8 /* TCAcountSetViewController.m in Sources */,
+				BCA3E09E216BA86F004B7C19 /* TCRegisterViewController.m in Sources */,
 				4DB7E5C421269914009FDA22 /* TSMineViewController.m in Sources */,
 				4DB7E4FF2126573E009FDA22 /* MBProgressHUD.m in Sources */,
 			);
