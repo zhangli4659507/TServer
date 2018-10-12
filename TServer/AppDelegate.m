@@ -11,6 +11,8 @@
 #import "TSOrderViewController.h"
 #import "TSEarningViewController.h"
 #import "TSMineViewController.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import "TCLoginViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -26,9 +28,30 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     self.window.clipsToBounds =YES;
+    
+    IQKeyboardManager *manger =  [IQKeyboardManager sharedManager];
+    [manger setEnable:YES];
+    manger.shouldResignOnTouchOutside = YES;
+    manger.toolbarPreviousBarButtonItemImage = kImaWithImaName(@"icon_arrow_left");
+    manger.toolbarNextBarButtonItemImage = kImaWithImaName(@"icon_arrow_right");
+    [manger setEnableAutoToolbar:YES];
     [self initTabbarVc];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeRootVc) name:TLogin_success_notiName object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeRootVc) name:TLogin_Out_NotiName object:nil];
+    [self changeRootVc];
     // Override point for customization after application launch.
     return YES;
+}
+
+- (void)changeRootVc {
+    
+    if ([TCUserManger shareUserManger].loginState) {
+        self.window.rootViewController = self.tabBarVc;
+    } else {
+        TCLoginViewController *loginVc = [[TCLoginViewController alloc] init];
+        TNavViewController *nav = [[TNavViewController alloc] initWithRootViewController:loginVc];
+        self.window.rootViewController = nav;
+    }
 }
 
 - (void)initTabbarVc {

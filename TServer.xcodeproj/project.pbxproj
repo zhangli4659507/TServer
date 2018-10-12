@@ -25,9 +25,10 @@
 		4D0FEEB0212BB03F0021E9E8 /* TCConnetServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE93212BB03E0021E9E8 /* TCConnetServiceViewController.m */; };
 		4D0FEEB1212BB03F0021E9E8 /* TCChangeAvoidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE97212BB03F0021E9E8 /* TCChangeAvoidViewController.m */; };
 		4D0FEEB2212BB03F0021E9E8 /* TCInventFriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE9B212BB03F0021E9E8 /* TCInventFriendVC.m */; };
-		4D0FEEB3212BB03F0021E9E8 /* TCUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE9F212BB03F0021E9E8 /* TCUserInfoViewController.m */; };
 		4D0FEEB9212BB0A80021E9E8 /* TOBaseSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEEB6212BB0A80021E9E8 /* TOBaseSection.m */; };
 		4D0FEEBA212BB0A80021E9E8 /* TOTableViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEEB7212BB0A80021E9E8 /* TOTableViewTool.m */; };
+		4D366A2F217091FD004B5E1D /* TCUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D366A2C217091FC004B5E1D /* TCUserInfoViewController.m */; };
+		4D366A30217091FD004B5E1D /* TCUserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D366A2D217091FC004B5E1D /* TCUserInfoViewController.xib */; };
 		4DAEE00021256552009FFB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDFFF21256552009FFB4B /* AppDelegate.m */; };
 		4DAEE00821256553009FFB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE00721256553009FFB4B /* Assets.xcassets */; };
 		4DAEE00E21256553009FFB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE00D21256553009FFB4B /* main.m */; };
@@ -126,12 +127,13 @@
 		4D0FEE97212BB03F0021E9E8 /* TCChangeAvoidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCChangeAvoidViewController.m; sourceTree = "<group>"; };
 		4D0FEE9A212BB03F0021E9E8 /* TCInventFriendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCInventFriendVC.h; sourceTree = "<group>"; };
 		4D0FEE9B212BB03F0021E9E8 /* TCInventFriendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCInventFriendVC.m; sourceTree = "<group>"; };
-		4D0FEE9E212BB03F0021E9E8 /* TCUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUserInfoViewController.h; sourceTree = "<group>"; };
-		4D0FEE9F212BB03F0021E9E8 /* TCUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUserInfoViewController.m; sourceTree = "<group>"; };
 		4D0FEEB5212BB0A80021E9E8 /* TOTableViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOTableViewTool.h; sourceTree = "<group>"; };
 		4D0FEEB6212BB0A80021E9E8 /* TOBaseSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOBaseSection.m; sourceTree = "<group>"; };
 		4D0FEEB7212BB0A80021E9E8 /* TOTableViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOTableViewTool.m; sourceTree = "<group>"; };
 		4D0FEEB8212BB0A80021E9E8 /* TOBaseSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOBaseSection.h; sourceTree = "<group>"; };
+		4D366A2C217091FC004B5E1D /* TCUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUserInfoViewController.m; sourceTree = "<group>"; };
+		4D366A2D217091FC004B5E1D /* TCUserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCUserInfoViewController.xib; sourceTree = "<group>"; };
+		4D366A2E217091FD004B5E1D /* TCUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUserInfoViewController.h; sourceTree = "<group>"; };
 		4DAEDFFB21256552009FFB4B /* TServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAEDFFE21256552009FFB4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DAEDFFF21256552009FFB4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -462,8 +464,9 @@
 		4D0FEE9D212BB03F0021E9E8 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				4D0FEE9E212BB03F0021E9E8 /* TCUserInfoViewController.h */,
-				4D0FEE9F212BB03F0021E9E8 /* TCUserInfoViewController.m */,
+				4D366A2E217091FD004B5E1D /* TCUserInfoViewController.h */,
+				4D366A2C217091FC004B5E1D /* TCUserInfoViewController.m */,
+				4D366A2D217091FC004B5E1D /* TCUserInfoViewController.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -916,6 +919,7 @@
 				4D0FEEA5212BB03F0021E9E8 /* TCMHInfoTableViewCell.xib in Resources */,
 				BCA3E07A216BA758004B7C19 /* loding.gif in Resources */,
 				BCA3E065216BA707004B7C19 /* TCSelectAreaView.xib in Resources */,
+				4D366A30217091FD004B5E1D /* TCUserInfoViewController.xib in Resources */,
 				BCA3E071216BA74F004B7C19 /* TFailhub.xib in Resources */,
 				BCA3E0A9216BA8C2004B7C19 /* TCChangePwdViewController.xib in Resources */,
 				4D0FEEA6212BB03F0021E9E8 /* TCMHTableFootView.xib in Resources */,
@@ -1000,7 +1004,6 @@
 				BCA3E055216BA636004B7C19 /* TAlertController.m in Sources */,
 				BCA3E057216BA636004B7C19 /* MMSheetView.m in Sources */,
 				4DB7E54D21265C65009FDA22 /* NSObject+EFoundation.m in Sources */,
-				4D0FEEB3212BB03F0021E9E8 /* TCUserInfoViewController.m in Sources */,
 				BCA3E059216BA636004B7C19 /* MMPopupWindow.m in Sources */,
 				4DB7E55621265DDC009FDA22 /* UIView+Nib.m in Sources */,
 				4D0FEEAD212BB03F0021E9E8 /* TCMyFriendViewController.m in Sources */,
@@ -1036,6 +1039,7 @@
 				4DB7E55A21265E06009FDA22 /* T2TView.m in Sources */,
 				4DB7E55021265C8B009FDA22 /* UIView+AddOther.m in Sources */,
 				BCA3E06C216BA74B004B7C19 /* TUploadTool.m in Sources */,
+				4D366A2F217091FD004B5E1D /* TCUserInfoViewController.m in Sources */,
 				4D0FEEA3212BB03F0021E9E8 /* TCMHCellConfigModel.m in Sources */,
 				BCA3E056216BA636004B7C19 /* MMAlertView.m in Sources */,
 				4DB7E56321266246009FDA22 /* TBaseViewcontroller.m in Sources */,
