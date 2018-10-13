@@ -101,6 +101,12 @@
 		BCEF7D362171A92500074688 /* TSHUnlockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D342171A92500074688 /* TSHUnlockCell.m */; };
 		BCEF7D372171A92500074688 /* TSHUnlockCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEF7D352171A92500074688 /* TSHUnlockCell.xib */; };
 		BCEF7D3A2171AE5F00074688 /* TSHUnlockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D392171AE5F00074688 /* TSHUnlockModel.m */; };
+		BCEF7D3E2171DA1100074688 /* TSORegisterOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D3D2171DA1100074688 /* TSORegisterOrderVC.m */; };
+		BCEF7D422171DA4200074688 /* TSOUnlockOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D412171DA4200074688 /* TSOUnlockOrderVC.m */; };
+		BCEF7D4A2171DC0A00074688 /* TSORegisterOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D492171DC0A00074688 /* TSORegisterOrderModel.m */; };
+		BCEF7D4D2171DCEB00074688 /* TSRegisterOrderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D4C2171DCEB00074688 /* TSRegisterOrderSection.m */; };
+		BCEF7D512171DD0900074688 /* TSRegisterOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D4F2171DD0900074688 /* TSRegisterOrderCell.m */; };
+		BCEF7D522171DD0900074688 /* TSRegisterOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEF7D502171DD0900074688 /* TSRegisterOrderCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -282,6 +288,17 @@
 		BCEF7D352171A92500074688 /* TSHUnlockCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSHUnlockCell.xib; sourceTree = "<group>"; };
 		BCEF7D382171AE5F00074688 /* TSHUnlockModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHUnlockModel.h; sourceTree = "<group>"; };
 		BCEF7D392171AE5F00074688 /* TSHUnlockModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHUnlockModel.m; sourceTree = "<group>"; };
+		BCEF7D3C2171DA1100074688 /* TSORegisterOrderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSORegisterOrderVC.h; sourceTree = "<group>"; };
+		BCEF7D3D2171DA1100074688 /* TSORegisterOrderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSORegisterOrderVC.m; sourceTree = "<group>"; };
+		BCEF7D402171DA4200074688 /* TSOUnlockOrderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSOUnlockOrderVC.h; sourceTree = "<group>"; };
+		BCEF7D412171DA4200074688 /* TSOUnlockOrderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSOUnlockOrderVC.m; sourceTree = "<group>"; };
+		BCEF7D482171DC0A00074688 /* TSORegisterOrderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSORegisterOrderModel.h; sourceTree = "<group>"; };
+		BCEF7D492171DC0A00074688 /* TSORegisterOrderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSORegisterOrderModel.m; sourceTree = "<group>"; };
+		BCEF7D4B2171DCEB00074688 /* TSRegisterOrderSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSRegisterOrderSection.h; sourceTree = "<group>"; };
+		BCEF7D4C2171DCEB00074688 /* TSRegisterOrderSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSRegisterOrderSection.m; sourceTree = "<group>"; };
+		BCEF7D4E2171DD0900074688 /* TSRegisterOrderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSRegisterOrderCell.h; sourceTree = "<group>"; };
+		BCEF7D4F2171DD0900074688 /* TSRegisterOrderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSRegisterOrderCell.m; sourceTree = "<group>"; };
+		BCEF7D502171DD0900074688 /* TSRegisterOrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSRegisterOrderCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -679,6 +696,8 @@
 		4DB7E5BF212698B5009FDA22 /* Order */ = {
 			isa = PBXGroup;
 			children = (
+				BCEF7D3F2171DA1500074688 /* UnlockOrder */,
+				BCEF7D3B2171D9D300074688 /* RegisterOrder */,
 				4DB7E5C821269946009FDA22 /* TSOrderViewController.h */,
 				4DB7E5C921269946009FDA22 /* TSOrderViewController.m */,
 			);
@@ -978,6 +997,71 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		BCEF7D3B2171D9D300074688 /* RegisterOrder */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D472171DBDE00074688 /* Tool */,
+				BCEF7D462171DBD700074688 /* View */,
+				BCEF7D452171DBD100074688 /* Model */,
+				BCEF7D442171DBC200074688 /* VC */,
+			);
+			path = RegisterOrder;
+			sourceTree = "<group>";
+		};
+		BCEF7D3F2171DA1500074688 /* UnlockOrder */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D432171DBB600074688 /* VC */,
+			);
+			path = UnlockOrder;
+			sourceTree = "<group>";
+		};
+		BCEF7D432171DBB600074688 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D402171DA4200074688 /* TSOUnlockOrderVC.h */,
+				BCEF7D412171DA4200074688 /* TSOUnlockOrderVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BCEF7D442171DBC200074688 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D3C2171DA1100074688 /* TSORegisterOrderVC.h */,
+				BCEF7D3D2171DA1100074688 /* TSORegisterOrderVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BCEF7D452171DBD100074688 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D482171DC0A00074688 /* TSORegisterOrderModel.h */,
+				BCEF7D492171DC0A00074688 /* TSORegisterOrderModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCEF7D462171DBD700074688 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D4E2171DD0900074688 /* TSRegisterOrderCell.h */,
+				BCEF7D4F2171DD0900074688 /* TSRegisterOrderCell.m */,
+				BCEF7D502171DD0900074688 /* TSRegisterOrderCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCEF7D472171DBDE00074688 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D4B2171DCEB00074688 /* TSRegisterOrderSection.h */,
+				BCEF7D4C2171DCEB00074688 /* TSRegisterOrderSection.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1041,6 +1125,7 @@
 			files = (
 				4D0FEEA4212BB03F0021E9E8 /* TCMHHeaderCell.xib in Resources */,
 				BCEF7D24217196CC00074688 /* TSHRegisterCell.xib in Resources */,
+				BCEF7D522171DD0900074688 /* TSRegisterOrderCell.xib in Resources */,
 				BCA3E0A0216BA86F004B7C19 /* TCLoginViewController.xib in Resources */,
 				4DB7E5012126573E009FDA22 /* MBProgressHUD.bundle in Resources */,
 				4D0FEEA5212BB03F0021E9E8 /* TCMHInfoTableViewCell.xib in Resources */,
@@ -1135,6 +1220,7 @@
 				4DB7E54D21265C65009FDA22 /* NSObject+EFoundation.m in Sources */,
 				BCA3E059216BA636004B7C19 /* MMPopupWindow.m in Sources */,
 				BCEF7D322171A8AE00074688 /* TSHUnLockSection.m in Sources */,
+				BCEF7D422171DA4200074688 /* TSOUnlockOrderVC.m in Sources */,
 				4DB7E55621265DDC009FDA22 /* UIView+Nib.m in Sources */,
 				4D0FEEAD212BB03F0021E9E8 /* TCMyFriendViewController.m in Sources */,
 				4D0FEEB1212BB03F0021E9E8 /* TCChangeAvoidViewController.m in Sources */,
@@ -1155,13 +1241,16 @@
 				BCA3E072216BA74F004B7C19 /* TFailhub.m in Sources */,
 				4DB7E5282126589F009FDA22 /* WMProgressView.m in Sources */,
 				4DB7E5272126589F009FDA22 /* WMMenuView.m in Sources */,
+				BCEF7D3E2171DA1100074688 /* TSORegisterOrderVC.m in Sources */,
 				BCEF7D3A2171AE5F00074688 /* TSHUnlockModel.m in Sources */,
 				4D0FEEAA212BB03F0021E9E8 /* TCMHTableFootView.m in Sources */,
 				BCA3E067216BA707004B7C19 /* TCSelectAreaView.m in Sources */,
+				BCEF7D4A2171DC0A00074688 /* TSORegisterOrderModel.m in Sources */,
 				BCA3E08A216BA76C004B7C19 /* TResponse.m in Sources */,
 				BCA3E082216BA764004B7C19 /* ESystemTool.m in Sources */,
 				BCA3E08E216BA840004B7C19 /* NSString+TDigest.m in Sources */,
 				BCEF7D1921718FF200074688 /* TSHRegisterViewController.m in Sources */,
+				BCEF7D4D2171DCEB00074688 /* TSRegisterOrderSection.m in Sources */,
 				4D0FEEA9212BB03F0021E9E8 /* TCMHHeaderCell.m in Sources */,
 				BCEF7D1C2171901200074688 /* TSHUnlockViewController.m in Sources */,
 				4D0FEEA8212BB03F0021E9E8 /* TNUHeadBgView.m in Sources */,
@@ -1170,6 +1259,7 @@
 				4DB7E5BA212675E3009FDA22 /* TTabBarViewController.m in Sources */,
 				4DB7E5CA21269946009FDA22 /* TSOrderViewController.m in Sources */,
 				4D0FEEB9212BB0A80021E9E8 /* TOBaseSection.m in Sources */,
+				BCEF7D512171DD0900074688 /* TSRegisterOrderCell.m in Sources */,
 				4DB7E55A21265E06009FDA22 /* T2TView.m in Sources */,
 				4DB7E55021265C8B009FDA22 /* UIView+AddOther.m in Sources */,
 				BCA3E06C216BA74B004B7C19 /* TUploadTool.m in Sources */,
