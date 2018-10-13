@@ -91,6 +91,16 @@
 		BCA3E0A9216BA8C2004B7C19 /* TCChangePwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA3E0A6216BA8C1004B7C19 /* TCChangePwdViewController.xib */; };
 		BCA3E0AA216BA8C2004B7C19 /* TCChangePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E0A8216BA8C1004B7C19 /* TCChangePwdViewController.m */; };
 		BCA3E0AD216BA8EA004B7C19 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E0AB216BA8EA004B7C19 /* UIImage+Scale.m */; };
+		BCEF7D1921718FF200074688 /* TSHRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D1821718FF200074688 /* TSHRegisterViewController.m */; };
+		BCEF7D1C2171901200074688 /* TSHUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D1B2171901200074688 /* TSHUnlockViewController.m */; };
+		BCEF7D23217196CC00074688 /* TSHRegisterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D21217196CC00074688 /* TSHRegisterCell.m */; };
+		BCEF7D24217196CC00074688 /* TSHRegisterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEF7D22217196CC00074688 /* TSHRegisterCell.xib */; };
+		BCEF7D2721719DE800074688 /* TSHRegisterOerderListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D2621719DE800074688 /* TSHRegisterOerderListModel.m */; };
+		BCEF7D2B2171A1C600074688 /* TSHRegisterSection.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D2A2171A1C600074688 /* TSHRegisterSection.m */; };
+		BCEF7D322171A8AE00074688 /* TSHUnLockSection.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D312171A8AE00074688 /* TSHUnLockSection.m */; };
+		BCEF7D362171A92500074688 /* TSHUnlockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D342171A92500074688 /* TSHUnlockCell.m */; };
+		BCEF7D372171A92500074688 /* TSHUnlockCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEF7D352171A92500074688 /* TSHUnlockCell.xib */; };
+		BCEF7D3A2171AE5F00074688 /* TSHUnlockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D392171AE5F00074688 /* TSHUnlockModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -254,6 +264,24 @@
 		BCA3E0A8216BA8C1004B7C19 /* TCChangePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCChangePwdViewController.m; sourceTree = "<group>"; };
 		BCA3E0AB216BA8EA004B7C19 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
 		BCA3E0AC216BA8EA004B7C19 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		BCEF7D1721718FF200074688 /* TSHRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHRegisterViewController.h; sourceTree = "<group>"; };
+		BCEF7D1821718FF200074688 /* TSHRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHRegisterViewController.m; sourceTree = "<group>"; };
+		BCEF7D1A2171901200074688 /* TSHUnlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHUnlockViewController.h; sourceTree = "<group>"; };
+		BCEF7D1B2171901200074688 /* TSHUnlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHUnlockViewController.m; sourceTree = "<group>"; };
+		BCEF7D20217196CC00074688 /* TSHRegisterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHRegisterCell.h; sourceTree = "<group>"; };
+		BCEF7D21217196CC00074688 /* TSHRegisterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHRegisterCell.m; sourceTree = "<group>"; };
+		BCEF7D22217196CC00074688 /* TSHRegisterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSHRegisterCell.xib; sourceTree = "<group>"; };
+		BCEF7D2521719DE800074688 /* TSHRegisterOerderListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHRegisterOerderListModel.h; sourceTree = "<group>"; };
+		BCEF7D2621719DE800074688 /* TSHRegisterOerderListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHRegisterOerderListModel.m; sourceTree = "<group>"; };
+		BCEF7D292171A1C600074688 /* TSHRegisterSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHRegisterSection.h; sourceTree = "<group>"; };
+		BCEF7D2A2171A1C600074688 /* TSHRegisterSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHRegisterSection.m; sourceTree = "<group>"; };
+		BCEF7D302171A8AE00074688 /* TSHUnLockSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHUnLockSection.h; sourceTree = "<group>"; };
+		BCEF7D312171A8AE00074688 /* TSHUnLockSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHUnLockSection.m; sourceTree = "<group>"; };
+		BCEF7D332171A92500074688 /* TSHUnlockCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHUnlockCell.h; sourceTree = "<group>"; };
+		BCEF7D342171A92500074688 /* TSHUnlockCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHUnlockCell.m; sourceTree = "<group>"; };
+		BCEF7D352171A92500074688 /* TSHUnlockCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSHUnlockCell.xib; sourceTree = "<group>"; };
+		BCEF7D382171AE5F00074688 /* TSHUnlockModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHUnlockModel.h; sourceTree = "<group>"; };
+		BCEF7D392171AE5F00074688 /* TSHUnlockModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHUnlockModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -640,6 +668,8 @@
 		4DB7E5BE212698AF009FDA22 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BCEF7D1621718EDE00074688 /* Unlock */,
+				BCEF7D1521718EC200074688 /* Register */,
 				4DB7E5CC2126995D009FDA22 /* TSHomeViewController.h */,
 				4DB7E5CD2126995D009FDA22 /* TSHomeViewController.m */,
 			);
@@ -852,6 +882,102 @@
 			path = VC;
 			sourceTree = "<group>";
 		};
+		BCEF7D1521718EC200074688 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D282171A1AA00074688 /* Tool */,
+				BCEF7D1F2171967000074688 /* Model */,
+				BCEF7D1E2171966300074688 /* View */,
+				BCEF7D1D2171965800074688 /* VC */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		BCEF7D1621718EDE00074688 /* Unlock */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D2F2171A85600074688 /* Tool */,
+				BCEF7D2E2171A85000074688 /* Model */,
+				BCEF7D2D2171A84B00074688 /* View */,
+				BCEF7D2C2171A84200074688 /* VC */,
+			);
+			path = Unlock;
+			sourceTree = "<group>";
+		};
+		BCEF7D1D2171965800074688 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D1721718FF200074688 /* TSHRegisterViewController.h */,
+				BCEF7D1821718FF200074688 /* TSHRegisterViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BCEF7D1E2171966300074688 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D20217196CC00074688 /* TSHRegisterCell.h */,
+				BCEF7D21217196CC00074688 /* TSHRegisterCell.m */,
+				BCEF7D22217196CC00074688 /* TSHRegisterCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCEF7D1F2171967000074688 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D2521719DE800074688 /* TSHRegisterOerderListModel.h */,
+				BCEF7D2621719DE800074688 /* TSHRegisterOerderListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCEF7D282171A1AA00074688 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D292171A1C600074688 /* TSHRegisterSection.h */,
+				BCEF7D2A2171A1C600074688 /* TSHRegisterSection.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		BCEF7D2C2171A84200074688 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D1A2171901200074688 /* TSHUnlockViewController.h */,
+				BCEF7D1B2171901200074688 /* TSHUnlockViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BCEF7D2D2171A84B00074688 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D332171A92500074688 /* TSHUnlockCell.h */,
+				BCEF7D342171A92500074688 /* TSHUnlockCell.m */,
+				BCEF7D352171A92500074688 /* TSHUnlockCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCEF7D2E2171A85000074688 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D382171AE5F00074688 /* TSHUnlockModel.h */,
+				BCEF7D392171AE5F00074688 /* TSHUnlockModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCEF7D2F2171A85600074688 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D302171A8AE00074688 /* TSHUnLockSection.h */,
+				BCEF7D312171A8AE00074688 /* TSHUnLockSection.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -914,6 +1040,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D0FEEA4212BB03F0021E9E8 /* TCMHHeaderCell.xib in Resources */,
+				BCEF7D24217196CC00074688 /* TSHRegisterCell.xib in Resources */,
 				BCA3E0A0216BA86F004B7C19 /* TCLoginViewController.xib in Resources */,
 				4DB7E5012126573E009FDA22 /* MBProgressHUD.bundle in Resources */,
 				4D0FEEA5212BB03F0021E9E8 /* TCMHInfoTableViewCell.xib in Resources */,
@@ -925,6 +1052,7 @@
 				4D0FEEA6212BB03F0021E9E8 /* TCMHTableFootView.xib in Resources */,
 				4DB7E6192126B48A009FDA22 /* LaunchScreen.xib in Resources */,
 				BCA3E079216BA758004B7C19 /* TLodingHub.xib in Resources */,
+				BCEF7D372171A92500074688 /* TSHUnlockCell.xib in Resources */,
 				BCA3E09F216BA86F004B7C19 /* TCRegisterViewController.xib in Resources */,
 				4DAEE00821256553009FFB4B /* Assets.xcassets in Resources */,
 			);
@@ -998,6 +1126,7 @@
 				4DB7E55D21266185009FDA22 /* NSString+MD5.m in Sources */,
 				BCA3E0A2216BA86F004B7C19 /* TCUserManger.m in Sources */,
 				BCA3E0A3216BA86F004B7C19 /* TCUserInfoModel.m in Sources */,
+				BCEF7D23217196CC00074688 /* TSHRegisterCell.m in Sources */,
 				4DB7E6142126B3F3009FDA22 /* TComputerTextHeightTool.m in Sources */,
 				4D0FEEA0212BB03F0021E9E8 /* TCUserChangeViewController.m in Sources */,
 				4D0FEEB0212BB03F0021E9E8 /* TCConnetServiceViewController.m in Sources */,
@@ -1005,6 +1134,7 @@
 				BCA3E057216BA636004B7C19 /* MMSheetView.m in Sources */,
 				4DB7E54D21265C65009FDA22 /* NSObject+EFoundation.m in Sources */,
 				BCA3E059216BA636004B7C19 /* MMPopupWindow.m in Sources */,
+				BCEF7D322171A8AE00074688 /* TSHUnLockSection.m in Sources */,
 				4DB7E55621265DDC009FDA22 /* UIView+Nib.m in Sources */,
 				4D0FEEAD212BB03F0021E9E8 /* TCMyFriendViewController.m in Sources */,
 				4D0FEEB1212BB03F0021E9E8 /* TCChangeAvoidViewController.m in Sources */,
@@ -1021,15 +1151,19 @@
 				4DB7E5CE2126995D009FDA22 /* TSHomeViewController.m in Sources */,
 				BCA3E0A1216BA86F004B7C19 /* TCLoginViewController.m in Sources */,
 				BCA3E0AA216BA8C2004B7C19 /* TCChangePwdViewController.m in Sources */,
+				BCEF7D2B2171A1C600074688 /* TSHRegisterSection.m in Sources */,
 				BCA3E072216BA74F004B7C19 /* TFailhub.m in Sources */,
 				4DB7E5282126589F009FDA22 /* WMProgressView.m in Sources */,
 				4DB7E5272126589F009FDA22 /* WMMenuView.m in Sources */,
+				BCEF7D3A2171AE5F00074688 /* TSHUnlockModel.m in Sources */,
 				4D0FEEAA212BB03F0021E9E8 /* TCMHTableFootView.m in Sources */,
 				BCA3E067216BA707004B7C19 /* TCSelectAreaView.m in Sources */,
 				BCA3E08A216BA76C004B7C19 /* TResponse.m in Sources */,
 				BCA3E082216BA764004B7C19 /* ESystemTool.m in Sources */,
 				BCA3E08E216BA840004B7C19 /* NSString+TDigest.m in Sources */,
+				BCEF7D1921718FF200074688 /* TSHRegisterViewController.m in Sources */,
 				4D0FEEA9212BB03F0021E9E8 /* TCMHHeaderCell.m in Sources */,
+				BCEF7D1C2171901200074688 /* TSHUnlockViewController.m in Sources */,
 				4D0FEEA8212BB03F0021E9E8 /* TNUHeadBgView.m in Sources */,
 				BCA3E05C216BA636004B7C19 /* MMPopupItem.m in Sources */,
 				BCA3E05A216BA636004B7C19 /* MMPopupView.m in Sources */,
@@ -1039,6 +1173,7 @@
 				4DB7E55A21265E06009FDA22 /* T2TView.m in Sources */,
 				4DB7E55021265C8B009FDA22 /* UIView+AddOther.m in Sources */,
 				BCA3E06C216BA74B004B7C19 /* TUploadTool.m in Sources */,
+				BCEF7D2721719DE800074688 /* TSHRegisterOerderListModel.m in Sources */,
 				4D366A2F217091FD004B5E1D /* TCUserInfoViewController.m in Sources */,
 				4D0FEEA3212BB03F0021E9E8 /* TCMHCellConfigModel.m in Sources */,
 				BCA3E056216BA636004B7C19 /* MMAlertView.m in Sources */,
@@ -1049,6 +1184,7 @@
 				4DB7E56421266246009FDA22 /* TNavViewController.m in Sources */,
 				4DB7E5C72126993A009FDA22 /* TSEarningViewController.m in Sources */,
 				4DAEE00E21256553009FFB4B /* main.m in Sources */,
+				BCEF7D362171A92500074688 /* TSHUnlockCell.m in Sources */,
 				BCA3E083216BA764004B7C19 /* ESandBoxTool.m in Sources */,
 				BCA3E058216BA636004B7C19 /* MMPopupCategory.m in Sources */,
 				4D0FEEBA212BB0A80021E9E8 /* TOTableViewTool.m in Sources */,

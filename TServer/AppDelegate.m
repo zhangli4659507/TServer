@@ -57,10 +57,10 @@
 - (void)initTabbarVc {
     TTabbarConfig *home = [[TTabbarConfig alloc] initWithTitle:@"首页" imaName:@"tab_icon_home_normal" imaSelectName:@"tab_icon_home_selected" vc:[[TNavViewController alloc] initWithRootViewController:[[TSHomeViewController alloc] init]]];
     TTabbarConfig *order = [[TTabbarConfig alloc] initWithTitle:@"订单" imaName:@"tab_icon_tk_normal" imaSelectName:@"tab_icon_tk_selected" vc:[[TNavViewController alloc] initWithRootViewController:[[TSOrderViewController alloc] init]]];
-    TTabbarConfig *earning = [[TTabbarConfig alloc] initWithTitle:@"收益" imaName:@"tab_icon_mycourse_normal" imaSelectName:@"tab_icon_mycourse_selected" vc:[[TNavViewController alloc] initWithRootViewController:[[TSEarningViewController alloc] init]]];
+//    TTabbarConfig *earning = [[TTabbarConfig alloc] initWithTitle:@"收益" imaName:@"tab_icon_mycourse_normal" imaSelectName:@"tab_icon_mycourse_selected" vc:[[TNavViewController alloc] initWithRootViewController:[[TSEarningViewController alloc] init]]];
     TTabbarConfig *mine = [[TTabbarConfig alloc] initWithTitle:@"我的" imaName:@"tab_icon_grzx_normal" imaSelectName:@"tab_icon_grzx_selected" vc:[[TNavViewController alloc] initWithRootViewController:[[TSMineViewController alloc] init]]];
     
-    self.tabBarVc = [[TTabBarViewController alloc] initWithConfigArr:@[home,order,earning,mine]];
+    self.tabBarVc = [[TTabBarViewController alloc] initWithConfigArr:@[home,order,mine]];
     self.window.rootViewController = self.tabBarVc;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
