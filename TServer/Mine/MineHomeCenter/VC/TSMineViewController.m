@@ -149,10 +149,10 @@
         [self.navigationController pushViewController:uvc animated:YES];
     }];
     
-    TCMHBasicCellConfigModel *changeAvoidItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"修改解禁" actionHandleBlock:^{
-        TCChangeAvoidViewController *avc = [[TCChangeAvoidViewController alloc] init];
-        [self.navigationController pushViewController:avc animated:YES];
-    }];
+//    TCMHBasicCellConfigModel *changeAvoidItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"修改解禁" actionHandleBlock:^{
+//        TCChangeAvoidViewController *avc = [[TCChangeAvoidViewController alloc] init];
+//        [self.navigationController pushViewController:avc animated:YES];
+//    }];
     
     TCMHBasicCellConfigModel *changePwdItem = [[TCMHBasicCellConfigModel alloc] initWithHeadImaName:@"" title:@"修改密码" actionHandleBlock:^{
         TCChangePwdViewController *cvc = [[TCChangePwdViewController alloc] init];
@@ -168,7 +168,7 @@
 //        [self.navigationController pushViewController:avc animated:YES];
 //    }];
 //
-    return @[collectServiceItem,userInfoItem,changeAvoidItem,changePwdItem];
+    return @[collectServiceItem,userInfoItem,changePwdItem];
     
 }
 
