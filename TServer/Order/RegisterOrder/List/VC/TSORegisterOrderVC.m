@@ -121,6 +121,10 @@
     
     TSORegisterOrderDetailVC *dvc = [[TSORegisterOrderDetailVC alloc] init];
     dvc.order_id = orderModel.order_id;
+    WEAK_REF(self);
+    [dvc setHandleSuccessBlock:^{
+        [weak_self.tableView.mj_header beginRefreshing];
+    }];
     [self.navigationController pushViewController:dvc animated:YES];
 }
 

@@ -141,9 +141,7 @@
         [self navBackAction];
         self.selectItemBlock(orderModel);
     }
-//    TSORegisterOrderDetailVC *dvc = [[TSORegisterOrderDetailVC alloc] init];
-//    dvc.order_id = orderModel.order_id;
-//    [self.navigationController pushViewController:dvc animated:YES];
+
 }
 
 #pragma mark - getterFunc
