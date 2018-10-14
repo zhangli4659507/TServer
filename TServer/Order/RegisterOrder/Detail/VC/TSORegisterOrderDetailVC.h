@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TSORegisterOrderDetailVC : TBaseViewcontroller
 @property (nonatomic, assign) NSInteger order_id;
+@property (nonatomic, copy) void (^handleSuccessBlock)();
 @end
 
 NS_ASSUME_NONNULL_END

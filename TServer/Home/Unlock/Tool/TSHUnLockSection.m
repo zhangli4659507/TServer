@@ -17,8 +17,14 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndex:(NSInteger)index {
     
     TSHUnlockCell *cell = [tableView dequeueReusableCellWithIdentifier:TSHUnlockCellClassName];
+    if (self.dataSource.count > index) {
+        [cell configUiWithModel:self.dataSource[index]];
+        WEAK_REF(self);
+        [cell setActionOrderBlock:^{
+            !weak_self.didSelectedBlock?:weak_self.didSelectedBlock(weak_self.dataSource[index]);
+        }];
+    }
     return cell;
-    
     }
 
 @end

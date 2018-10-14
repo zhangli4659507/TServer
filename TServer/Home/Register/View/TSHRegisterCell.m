@@ -29,6 +29,7 @@ NSString *const TSHRegisterCellClassName = @"TSHRegisterCell";
 }
 
 - (IBAction)actionOrderBtn:(id)sender {
+    !self.actionOrderBlock?:self.actionOrderBlock();
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

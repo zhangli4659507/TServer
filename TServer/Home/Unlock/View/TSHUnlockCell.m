@@ -21,8 +21,15 @@ NSString *const TSHUnlockCellClassName = @"TSHUnlockCell";
 }
 
 - (void)configUiWithModel:(TSHUnlockListModel *)model {
+    self.orderNumLbl.text = [NSString stringWithFormat:@"订单号：%@",model.order_sn];
+    self.addTimeLbl.text = model.add_time;
+    self.priceLbl.text = [NSString stringWithFormat:@"佣金：%@",model.order_price];
+    self.nickNameLbl.text = [NSString stringWithFormat:@"下单人：%@",model.nickname];
     
     
+}
+- (IBAction)actionOkBtn:(id)sender {
+     !self.actionOrderBlock?:self.actionOrderBlock();
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

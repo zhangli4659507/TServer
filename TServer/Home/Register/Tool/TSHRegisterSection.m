@@ -20,6 +20,10 @@
     if(self.dataSource.count > index) {
         
         [cell configUiWithListModel:self.dataSource[index]];
+        WEAK_REF(self);
+        [cell setActionOrderBlock:^{
+            !weak_self.didSelectedBlock?:weak_self.didSelectedBlock(weak_self.dataSource[index]);
+        }];
     }
     return cell;
 }

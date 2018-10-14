@@ -76,8 +76,6 @@
             [MBProgressHUD showError:kUnNilStr(response.msg)];
         }
     }];
-    
-    
 }
 
 - (void)requestBindWxWithWxUserInfoModel:(TSWxInfoListModel *)wxUserInfoModel {

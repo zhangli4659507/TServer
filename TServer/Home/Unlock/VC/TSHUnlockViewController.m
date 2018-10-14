@@ -105,6 +105,23 @@
     }];
 }
 
+- (void)requestOrderWithModel:(TSHUnlockListModel *)orderModel {
+    
+    NSDateFormatter *dateFormatter = DateFormatter();
+    NSString *timestamp = [dateFormatter stringFromDate:[NSDate date]];
+    NSMutableDictionary *parInfoDic = [NSMutableDictionary dictionaryWithDictionary:@{@"timestamp":kUnNilStr(timestamp),@"api_key":kUnNilStr(TApi_key_Str),@"data":@{@"order_id":@(orderModel.order_id)}}];
+    NSDictionary *signDic = @{@"timestamp":kUnNilStr(timestamp),@"api_key":kUnNilStr(TApi_key_Str),@"order_id":@(orderModel.order_id)};
+    [MBProgressHUD showMessage:@"正在处理...."];
+    [THTTPRequestTool postSignRequestDataWithUrl:@"api/jiedan/order/unseal_order_do" par:parInfoDic signDicInfo:signDic finishBlock:^(TResponse *response) {
+        if (response.code == TRequestSuccessCode) {
+            [MBProgressHUD showSuccess:@"接单成功"];
+            [self.tableView.mj_header beginRefreshing];
+        } else {
+            [MBProgressHUD showError:kUnNilStr(response.msg)];
+        }
+    }];
+}
+
 - (void)setupDataWithListModel:(TSHUnlockModel *)listModel {
     
     [self.dataArr addObjectsFromArray:listModel.list];
@@ -130,6 +147,10 @@
     if (_section == nil) {
         _section = [[TSHUnLockSection alloc] init];
         [_section tableViewRegisterView:self.tableView];
+        WEAK_REF(self);
+        [_section setDidSelectedBlock:^(id  _Nonnull model) {
+            [weak_self requestOrderWithModel:model];
+        }];
     }
     return _section;
 }
