@@ -58,6 +58,10 @@
 		4DB7E6142126B3F3009FDA22 /* TComputerTextHeightTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E6122126B3F3009FDA22 /* TComputerTextHeightTool.m */; };
 		4DB7E6172126B40B009FDA22 /* UIBarButtonItem+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7E6152126B40B009FDA22 /* UIBarButtonItem+WB.m */; };
 		4DB7E6192126B48A009FDA22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7E6182126B489009FDA22 /* LaunchScreen.xib */; };
+		BC5504952172F417003CBEC1 /* TSRegisterOrderDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5504942172F417003CBEC1 /* TSRegisterOrderDetailModel.m */; };
+		BC55049C2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55049A2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.m */; };
+		BC55049D2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC55049B2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.xib */; };
+		BC5504A1217300B9003CBEC1 /* TSUnlockOrderDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5504A0217300B9003CBEC1 /* TSUnlockOrderDetailModel.m */; };
 		BCA3E055216BA636004B7C19 /* TAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E044216BA636004B7C19 /* TAlertController.m */; };
 		BCA3E056216BA636004B7C19 /* MMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E045216BA636004B7C19 /* MMAlertView.m */; };
 		BCA3E057216BA636004B7C19 /* MMSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E046216BA636004B7C19 /* MMSheetView.m */; };
@@ -212,6 +216,13 @@
 		4DB7E6162126B40B009FDA22 /* UIBarButtonItem+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WB.h"; sourceTree = "<group>"; };
 		4DB7E6182126B489009FDA22 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		6360EBF9EB7840515C4895A1 /* Pods-TServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TServer/Pods-TServer.debug.xcconfig"; sourceTree = "<group>"; };
+		BC5504932172F417003CBEC1 /* TSRegisterOrderDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSRegisterOrderDetailModel.h; sourceTree = "<group>"; };
+		BC5504942172F417003CBEC1 /* TSRegisterOrderDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSRegisterOrderDetailModel.m; sourceTree = "<group>"; };
+		BC5504992172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSRegisterOrderDetailViewController.h; sourceTree = "<group>"; };
+		BC55049A2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSRegisterOrderDetailViewController.m; sourceTree = "<group>"; };
+		BC55049B2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSRegisterOrderDetailViewController.xib; sourceTree = "<group>"; };
+		BC55049F217300B9003CBEC1 /* TSUnlockOrderDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSUnlockOrderDetailModel.h; sourceTree = "<group>"; };
+		BC5504A0217300B9003CBEC1 /* TSUnlockOrderDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSUnlockOrderDetailModel.m; sourceTree = "<group>"; };
 		BCA3E044216BA636004B7C19 /* TAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAlertController.m; sourceTree = "<group>"; };
 		BCA3E045216BA636004B7C19 /* MMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAlertView.m; sourceTree = "<group>"; };
 		BCA3E046216BA636004B7C19 /* MMSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSheetView.m; sourceTree = "<group>"; };
@@ -746,6 +757,61 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BC5504912172F3E5003CBEC1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D552171E55E00074688 /* TSORegisterOrderDetailVC.h */,
+				BCEF7D562171E55E00074688 /* TSORegisterOrderDetailVC.m */,
+				BCEF7D572171E55E00074688 /* TSORegisterOrderDetailVC.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BC5504922172F3F0003CBEC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC5504932172F417003CBEC1 /* TSRegisterOrderDetailModel.h */,
+				BC5504942172F417003CBEC1 /* TSRegisterOrderDetailModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC5504962172FCAC003CBEC1 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF7D432171DBB600074688 /* VC */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		BC5504972172FCB6003CBEC1 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BC55049E2173009B003CBEC1 /* Model */,
+				BC5504982172FCBD003CBEC1 /* VC */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		BC5504982172FCBD003CBEC1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BC5504992172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.h */,
+				BC55049A2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.m */,
+				BC55049B2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BC55049E2173009B003CBEC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC55049F217300B9003CBEC1 /* TSUnlockOrderDetailModel.h */,
+				BC5504A0217300B9003CBEC1 /* TSUnlockOrderDetailModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BCA3E043216BA636004B7C19 /* MMPopupView-private */ = {
 			isa = PBXGroup;
 			children = (
@@ -1014,7 +1080,8 @@
 		BCEF7D3F2171DA1500074688 /* UnlockOrder */ = {
 			isa = PBXGroup;
 			children = (
-				BCEF7D432171DBB600074688 /* VC */,
+				BC5504972172FCB6003CBEC1 /* Detail */,
+				BC5504962172FCAC003CBEC1 /* List */,
 			);
 			path = UnlockOrder;
 			sourceTree = "<group>";
@@ -1079,9 +1146,8 @@
 		BCEF7D542171E50300074688 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				BCEF7D552171E55E00074688 /* TSORegisterOrderDetailVC.h */,
-				BCEF7D562171E55E00074688 /* TSORegisterOrderDetailVC.m */,
-				BCEF7D572171E55E00074688 /* TSORegisterOrderDetailVC.xib */,
+				BC5504922172F3F0003CBEC1 /* Model */,
+				BC5504912172F3E5003CBEC1 /* VC */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -1159,6 +1225,7 @@
 				BCA3E071216BA74F004B7C19 /* TFailhub.xib in Resources */,
 				BCA3E0A9216BA8C2004B7C19 /* TCChangePwdViewController.xib in Resources */,
 				4D0FEEA6212BB03F0021E9E8 /* TCMHTableFootView.xib in Resources */,
+				BC55049D2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.xib in Resources */,
 				4DB7E6192126B48A009FDA22 /* LaunchScreen.xib in Resources */,
 				BCA3E079216BA758004B7C19 /* TLodingHub.xib in Resources */,
 				BCEF7D372171A92500074688 /* TSHUnlockCell.xib in Resources */,
@@ -1235,6 +1302,7 @@
 				4DB7E54A21265C02009FDA22 /* UIColor+Hex.m in Sources */,
 				4DB7E55D21266185009FDA22 /* NSString+MD5.m in Sources */,
 				BCA3E0A2216BA86F004B7C19 /* TCUserManger.m in Sources */,
+				BC5504952172F417003CBEC1 /* TSRegisterOrderDetailModel.m in Sources */,
 				BCA3E0A3216BA86F004B7C19 /* TCUserInfoModel.m in Sources */,
 				BCEF7D23217196CC00074688 /* TSHRegisterCell.m in Sources */,
 				4DB7E6142126B3F3009FDA22 /* TComputerTextHeightTool.m in Sources */,
@@ -1251,6 +1319,7 @@
 				4D0FEEB1212BB03F0021E9E8 /* TCChangeAvoidViewController.m in Sources */,
 				4DB7E55321265DB8009FDA22 /* UITableView+TRegisterCell.m in Sources */,
 				4DB7E5292126589F009FDA22 /* WMMenuItem.m in Sources */,
+				BC5504A1217300B9003CBEC1 /* TSUnlockOrderDetailModel.m in Sources */,
 				4D0FEEAC212BB03F0021E9E8 /* TCMHInfoSection.m in Sources */,
 				BCA3E066216BA707004B7C19 /* TAreaTool.m in Sources */,
 				4D0FEEA7212BB03F0021E9E8 /* TCMHInfoTableViewCell.m in Sources */,
@@ -1272,6 +1341,7 @@
 				BCA3E067216BA707004B7C19 /* TCSelectAreaView.m in Sources */,
 				BCEF7D4A2171DC0A00074688 /* TSORegisterOrderModel.m in Sources */,
 				BCA3E08A216BA76C004B7C19 /* TResponse.m in Sources */,
+				BC55049C2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.m in Sources */,
 				BCA3E082216BA764004B7C19 /* ESystemTool.m in Sources */,
 				BCA3E08E216BA840004B7C19 /* NSString+TDigest.m in Sources */,
 				BCEF7D1921718FF200074688 /* TSHRegisterViewController.m in Sources */,

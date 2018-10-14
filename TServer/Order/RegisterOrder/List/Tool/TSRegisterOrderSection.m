@@ -20,6 +20,13 @@
         [cell configUIWithModel:self.dataSource[index]];
     }
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndex:(NSInteger)index {
+    
+    if (self.didSelectedBlock && self.dataSource.count> index) {
+        self.didSelectedBlock(self.dataSource[index]);
     }
+}
 
 @end

@@ -10,6 +10,7 @@
 #import "TSRegisterOrderSection.h"
 #import "TSORegisterOrderModel.h"
 #import "TOTableViewTool.h"
+#import "TSORegisterOrderDetailVC.h"
 @interface TSORegisterOrderVC ()
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) TOTableViewTool *tableViewTool;
@@ -34,12 +35,11 @@
 - (void) setupSubview {
     
     self.view.backgroundColor = [UIColor colorWithHexString:@"#f5f5f5"];
-    
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     self.tableView.backgroundColor = [UIColor colorWithHexString:@"#f5f5f5"];
     self.tableView.delegate = self.tableViewTool;
     self.tableView.dataSource = self.tableViewTool;
-    self.tableView.allowsSelection = NO;
+//    self.tableView.allowsSelection = NO;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, CGFLOAT_MIN)];
     self.tableView.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, CGFLOAT_MIN)];
@@ -115,6 +115,14 @@
     [self.tableView reloadData];
 }
 
+#pragma mark - routerFunc
+
+- (void)routerDetailVcWithModel:(TSORegisterOrderListModel *)orderModel {
+    
+    TSORegisterOrderDetailVC *dvc = [[TSORegisterOrderDetailVC alloc] init];
+    dvc.order_id = orderModel.order_id;
+    [self.navigationController pushViewController:dvc animated:YES];
+}
 
 #pragma mark - getterFunc
 
@@ -131,6 +139,10 @@
     if (_section == nil) {
         _section = [[TSRegisterOrderSection alloc] init];
         [_section tableViewRegisterView:self.tableView];
+        WEAK_REF(self);
+        [_section setDidSelectedBlock:^(id  _Nonnull model) {
+            [weak_self routerDetailVcWithModel:model];
+        }];
     }
     return _section;
 }

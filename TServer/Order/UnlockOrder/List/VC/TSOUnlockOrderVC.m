@@ -10,6 +10,7 @@
 #import "TSRegisterOrderSection.h"
 #import "TSORegisterOrderModel.h"
 #import "TOTableViewTool.h"
+#import "TSRegisterOrderDetailViewController.h"
 @interface TSOUnlockOrderVC ()
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) TOTableViewTool *tableViewTool;
@@ -39,7 +40,7 @@
     self.tableView.backgroundColor = [UIColor colorWithHexString:@"#f5f5f5"];
     self.tableView.delegate = self.tableViewTool;
     self.tableView.dataSource = self.tableViewTool;
-    self.tableView.allowsSelection = NO;
+//    self.tableView.allowsSelection = NO;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, CGFLOAT_MIN)];
     self.tableView.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, CGFLOAT_MIN)];
@@ -115,6 +116,15 @@
     [self.tableView reloadData];
 }
 
+#pragma mark - routerFunc
+
+- (void)routerWithModel:(TSORegisterOrderListModel *)orderModel {
+    
+    TSRegisterOrderDetailViewController *dvc = [[TSRegisterOrderDetailViewController alloc] init];
+    dvc.order_id = orderModel.order_id;
+    [self.navigationController pushViewController:dvc animated:YES];
+}
+
 
 #pragma mark - getterFunc
 
@@ -131,6 +141,10 @@
     if (_section == nil) {
         _section = [[TSRegisterOrderSection alloc] init];
         [_section tableViewRegisterView:self.tableView];
+        WEAK_REF(self);
+        [_section setDidSelectedBlock:^(id  _Nonnull model) {
+            [weak_self routerWithModel:model];
+        }];
     }
     return _section;
 }
