@@ -18,7 +18,32 @@ NSString *const TCMHHeaderCellClassName = @"TCMHHeaderCell";
     self.selectionStyle = UITableViewCellSelectionStyleNone;
 
 }
+- (NSString*)weekdayStringFromDate:(NSDate*)inputDate {
+    
+    NSArray *weekdays = [NSArray arrayWithObjects: [NSNull null], @"周日", @"周一", @"周二", @"周三", @"星期四", @"周五", @"周六", nil];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSCalendarUnit calendarUnit = NSCalendarUnitWeekday|NSCalendarUnitMonth|NSCalendarUnitDay;
+    NSDateComponents *theComponents = [calendar components:calendarUnit fromDate:inputDate];
+    
+    NSString *dateStr = [NSString stringWithFormat:@"%ld月%ld日 %@",theComponents.month,theComponents.day,[weekdays objectAtIndex:theComponents.weekday]];
+    
+    return dateStr;
+}
 
+- (void)reloadUi {
+    
+    
+    TCUserManger *manger = [TCUserManger shareUserManger];
+    if (manger.userModel == nil) {
+        return;
+    }
+    self.dateInfoLbl.text = [self weekdayStringFromDate:[NSDate date]];
+    [self.headerImav sd_setImageWithURL:[NSURL URLWithString:kUnNilStr(manger.userModel.avatar)] placeholderImage:kDefaultHeadImg];
+    self.nickNameLbl.text = kUnNilStr(manger.userModel.nickname);
+    [self.delegateBtn setTitle:kUnNilStr(manger.userModel.type_name) forState:UIControlStateNormal];
+#warning 这里需要修改
+    self.orderNumLbl.text = kUnNilStr(@"订单数接口为返回");
+}
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
