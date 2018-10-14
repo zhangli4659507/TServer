@@ -17,6 +17,7 @@
                 <outlet property="okBtn" destination="TbY-mO-LqA" id="KYY-hN-QV3"/>
                 <outlet property="orderIdLbl" destination="WL8-0P-55q" id="2Qk-zI-ORH"/>
                 <outlet property="priceLbl" destination="EAz-cN-mkT" id="hID-Kx-OSX"/>
+                <outlet property="uploadImav" destination="wN6-Ow-RUr" id="e4q-rQ-0qL"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="wxTxt" destination="rIy-fe-rgv" id="7YC-Ub-w7F"/>
             </connections>

@@ -37,8 +37,11 @@
             (!finishBlock) ?:finishBlock(@"");
         } else {
             NSDictionary *dicInfo =   [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
+            TResponse *response = [TResponse mj_objectWithKeyValues:dicInfo];
             NSLog(@"%@",dicInfo);
-            (!finishBlock)?:finishBlock(dicInfo[@"path"]);
+            if (response.code == TRequestSuccessCode && [response.data isKindOfClass:[NSDictionary class]] && response.data[@"path"]) {
+              (!finishBlock)?:finishBlock(response.data[@"path"]);
+            }
         }
     }];
     [uploadTask resume];

@@ -62,6 +62,13 @@
 		BC55049C2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55049A2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.m */; };
 		BC55049D2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC55049B2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.xib */; };
 		BC5504A1217300B9003CBEC1 /* TSUnlockOrderDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5504A0217300B9003CBEC1 /* TSUnlockOrderDetailModel.m */; };
+		BC5504AC21730CCD003CBEC1 /* TSWxListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5504AA21730CCD003CBEC1 /* TSWxListTableViewCell.m */; };
+		BC5504AD21730CCD003CBEC1 /* TSWxListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5504AB21730CCD003CBEC1 /* TSWxListTableViewCell.xib */; };
+		BC5504B021730D69003CBEC1 /* TSWxListSection.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5504AF21730D69003CBEC1 /* TSWxListSection.m */; };
+		BC5504B321730D83003CBEC1 /* TSWxInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5504B221730D83003CBEC1 /* TSWxInfoModel.m */; };
+		BC5504B62173103B003CBEC1 /* TSWxListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5504B52173103B003CBEC1 /* TSWxListViewController.m */; };
+		BC5504BB217313EA003CBEC1 /* TSAddWxUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5504B9217313EA003CBEC1 /* TSAddWxUserViewController.m */; };
+		BC5504BC217313EA003CBEC1 /* TSAddWxUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5504BA217313EA003CBEC1 /* TSAddWxUserViewController.xib */; };
 		BCA3E055216BA636004B7C19 /* TAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E044216BA636004B7C19 /* TAlertController.m */; };
 		BCA3E056216BA636004B7C19 /* MMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E045216BA636004B7C19 /* MMAlertView.m */; };
 		BCA3E057216BA636004B7C19 /* MMSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E046216BA636004B7C19 /* MMSheetView.m */; };
@@ -223,6 +230,18 @@
 		BC55049B2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSRegisterOrderDetailViewController.xib; sourceTree = "<group>"; };
 		BC55049F217300B9003CBEC1 /* TSUnlockOrderDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSUnlockOrderDetailModel.h; sourceTree = "<group>"; };
 		BC5504A0217300B9003CBEC1 /* TSUnlockOrderDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSUnlockOrderDetailModel.m; sourceTree = "<group>"; };
+		BC5504A921730CCD003CBEC1 /* TSWxListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSWxListTableViewCell.h; sourceTree = "<group>"; };
+		BC5504AA21730CCD003CBEC1 /* TSWxListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSWxListTableViewCell.m; sourceTree = "<group>"; };
+		BC5504AB21730CCD003CBEC1 /* TSWxListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSWxListTableViewCell.xib; sourceTree = "<group>"; };
+		BC5504AE21730D69003CBEC1 /* TSWxListSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSWxListSection.h; sourceTree = "<group>"; };
+		BC5504AF21730D69003CBEC1 /* TSWxListSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSWxListSection.m; sourceTree = "<group>"; };
+		BC5504B121730D83003CBEC1 /* TSWxInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSWxInfoModel.h; sourceTree = "<group>"; };
+		BC5504B221730D83003CBEC1 /* TSWxInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSWxInfoModel.m; sourceTree = "<group>"; };
+		BC5504B42173103B003CBEC1 /* TSWxListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSWxListViewController.h; sourceTree = "<group>"; };
+		BC5504B52173103B003CBEC1 /* TSWxListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSWxListViewController.m; sourceTree = "<group>"; };
+		BC5504B8217313EA003CBEC1 /* TSAddWxUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAddWxUserViewController.h; sourceTree = "<group>"; };
+		BC5504B9217313EA003CBEC1 /* TSAddWxUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAddWxUserViewController.m; sourceTree = "<group>"; };
+		BC5504BA217313EA003CBEC1 /* TSAddWxUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSAddWxUserViewController.xib; sourceTree = "<group>"; };
 		BCA3E044216BA636004B7C19 /* TAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAlertController.m; sourceTree = "<group>"; };
 		BCA3E045216BA636004B7C19 /* MMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAlertView.m; sourceTree = "<group>"; };
 		BCA3E046216BA636004B7C19 /* MMSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSheetView.m; sourceTree = "<group>"; };
@@ -732,6 +751,7 @@
 		4DB7E5C1212698E1009FDA22 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				BC5504A221730C5E003CBEC1 /* WxUser */,
 				BCA3E0A4216BA8C1004B7C19 /* ChangePwd */,
 				BCA3E094216BA86F004B7C19 /* Login */,
 				BCA3E08F216BA86E004B7C19 /* Register */,
@@ -810,6 +830,81 @@
 				BC5504A0217300B9003CBEC1 /* TSUnlockOrderDetailModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BC5504A221730C5E003CBEC1 /* WxUser */ = {
+			isa = PBXGroup;
+			children = (
+				BC5504B7217313D4003CBEC1 /* AddWxUser */,
+				BC5504A421730C75003CBEC1 /* WxList */,
+				BC5504A321730C6E003CBEC1 /* AddWx */,
+			);
+			path = WxUser;
+			sourceTree = "<group>";
+		};
+		BC5504A321730C6E003CBEC1 /* AddWx */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddWx;
+			sourceTree = "<group>";
+		};
+		BC5504A421730C75003CBEC1 /* WxList */ = {
+			isa = PBXGroup;
+			children = (
+				BC5504A821730C96003CBEC1 /* View */,
+				BC5504A721730C8F003CBEC1 /* Tool */,
+				BC5504A621730C8A003CBEC1 /* Model */,
+				BC5504A521730C84003CBEC1 /* VC */,
+			);
+			path = WxList;
+			sourceTree = "<group>";
+		};
+		BC5504A521730C84003CBEC1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BC5504B42173103B003CBEC1 /* TSWxListViewController.h */,
+				BC5504B52173103B003CBEC1 /* TSWxListViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BC5504A621730C8A003CBEC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC5504B121730D83003CBEC1 /* TSWxInfoModel.h */,
+				BC5504B221730D83003CBEC1 /* TSWxInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC5504A721730C8F003CBEC1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BC5504AE21730D69003CBEC1 /* TSWxListSection.h */,
+				BC5504AF21730D69003CBEC1 /* TSWxListSection.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		BC5504A821730C96003CBEC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC5504A921730CCD003CBEC1 /* TSWxListTableViewCell.h */,
+				BC5504AA21730CCD003CBEC1 /* TSWxListTableViewCell.m */,
+				BC5504AB21730CCD003CBEC1 /* TSWxListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC5504B7217313D4003CBEC1 /* AddWxUser */ = {
+			isa = PBXGroup;
+			children = (
+				BC5504B8217313EA003CBEC1 /* TSAddWxUserViewController.h */,
+				BC5504B9217313EA003CBEC1 /* TSAddWxUserViewController.m */,
+				BC5504BA217313EA003CBEC1 /* TSAddWxUserViewController.xib */,
+			);
+			path = AddWxUser;
 			sourceTree = "<group>";
 		};
 		BCA3E043216BA636004B7C19 /* MMPopupView-private */ = {
@@ -1220,6 +1315,7 @@
 				4DB7E5012126573E009FDA22 /* MBProgressHUD.bundle in Resources */,
 				4D0FEEA5212BB03F0021E9E8 /* TCMHInfoTableViewCell.xib in Resources */,
 				BCA3E07A216BA758004B7C19 /* loding.gif in Resources */,
+				BC5504AD21730CCD003CBEC1 /* TSWxListTableViewCell.xib in Resources */,
 				BCA3E065216BA707004B7C19 /* TCSelectAreaView.xib in Resources */,
 				4D366A30217091FD004B5E1D /* TCUserInfoViewController.xib in Resources */,
 				BCA3E071216BA74F004B7C19 /* TFailhub.xib in Resources */,
@@ -1229,6 +1325,7 @@
 				4DB7E6192126B48A009FDA22 /* LaunchScreen.xib in Resources */,
 				BCA3E079216BA758004B7C19 /* TLodingHub.xib in Resources */,
 				BCEF7D372171A92500074688 /* TSHUnlockCell.xib in Resources */,
+				BC5504BC217313EA003CBEC1 /* TSAddWxUserViewController.xib in Resources */,
 				BCA3E09F216BA86F004B7C19 /* TCRegisterViewController.xib in Resources */,
 				BCEF7D592171E55E00074688 /* TSORegisterOrderDetailVC.xib in Resources */,
 				4DAEE00821256553009FFB4B /* Assets.xcassets in Resources */,
@@ -1298,6 +1395,7 @@
 				BCA3E08B216BA76C004B7C19 /* THTTPRequestTool.m in Sources */,
 				4DB7E5262126589F009FDA22 /* WMScrollView.m in Sources */,
 				BCA3E068216BA707004B7C19 /* TAreaModel.m in Sources */,
+				BC5504B021730D69003CBEC1 /* TSWxListSection.m in Sources */,
 				4DB7E6172126B40B009FDA22 /* UIBarButtonItem+WB.m in Sources */,
 				4DB7E54A21265C02009FDA22 /* UIColor+Hex.m in Sources */,
 				4DB7E55D21266185009FDA22 /* NSString+MD5.m in Sources */,
@@ -1344,6 +1442,7 @@
 				BC55049C2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.m in Sources */,
 				BCA3E082216BA764004B7C19 /* ESystemTool.m in Sources */,
 				BCA3E08E216BA840004B7C19 /* NSString+TDigest.m in Sources */,
+				BC5504BB217313EA003CBEC1 /* TSAddWxUserViewController.m in Sources */,
 				BCEF7D1921718FF200074688 /* TSHRegisterViewController.m in Sources */,
 				BCEF7D4D2171DCEB00074688 /* TSRegisterOrderSection.m in Sources */,
 				4D0FEEA9212BB03F0021E9E8 /* TCMHHeaderCell.m in Sources */,
@@ -1351,11 +1450,13 @@
 				4D0FEEA8212BB03F0021E9E8 /* TNUHeadBgView.m in Sources */,
 				BCA3E05C216BA636004B7C19 /* MMPopupItem.m in Sources */,
 				BCA3E05A216BA636004B7C19 /* MMPopupView.m in Sources */,
+				BC5504AC21730CCD003CBEC1 /* TSWxListTableViewCell.m in Sources */,
 				4DB7E5BA212675E3009FDA22 /* TTabBarViewController.m in Sources */,
 				4DB7E5CA21269946009FDA22 /* TSOrderViewController.m in Sources */,
 				4D0FEEB9212BB0A80021E9E8 /* TOBaseSection.m in Sources */,
 				BCEF7D512171DD0900074688 /* TSRegisterOrderCell.m in Sources */,
 				4DB7E55A21265E06009FDA22 /* T2TView.m in Sources */,
+				BC5504B321730D83003CBEC1 /* TSWxInfoModel.m in Sources */,
 				4DB7E55021265C8B009FDA22 /* UIView+AddOther.m in Sources */,
 				BCA3E06C216BA74B004B7C19 /* TUploadTool.m in Sources */,
 				BCEF7D2721719DE800074688 /* TSHRegisterOerderListModel.m in Sources */,
@@ -1372,6 +1473,7 @@
 				4DAEE00E21256553009FFB4B /* main.m in Sources */,
 				BCEF7D362171A92500074688 /* TSHUnlockCell.m in Sources */,
 				BCA3E083216BA764004B7C19 /* ESandBoxTool.m in Sources */,
+				BC5504B62173103B003CBEC1 /* TSWxListViewController.m in Sources */,
 				BCA3E058216BA636004B7C19 /* MMPopupCategory.m in Sources */,
 				4D0FEEBA212BB0A80021E9E8 /* TOTableViewTool.m in Sources */,
 				4DAEE00021256552009FFB4B /* AppDelegate.m in Sources */,

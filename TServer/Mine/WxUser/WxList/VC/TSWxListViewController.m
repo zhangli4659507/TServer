@@ -1,30 +1,31 @@
 //
-//  TSOUnlockOrderVC.m
+//  TSWxListViewController.m
 //  TServer
 //
-//  Created by mark_zhang on 2018/10/13.
+//  Created by mark_zhang on 2018/10/14.
 //  Copyright © 2018年 Mark. All rights reserved.
 //
 
-#import "TSOUnlockOrderVC.h"
-#import "TSRegisterOrderSection.h"
-#import "TSORegisterOrderModel.h"
+#import "TSWxListViewController.h"
+#import "TSWxInfoModel.h"
+#import "TSWxListSection.h"
 #import "TOTableViewTool.h"
-#import "TSRegisterOrderDetailViewController.h"
-@interface TSOUnlockOrderVC ()
+#import "TSAddWxUserViewController.h"
+#import "TSAddWxUserViewController.h"
+@interface TSWxListViewController ()
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) TOTableViewTool *tableViewTool;
-@property (nonatomic, strong) TSRegisterOrderSection *section;
+@property (nonatomic, strong) TSWxListSection *section;
 @property (nonatomic, assign) BOOL isRequest;
 @property (nonatomic, assign) NSUInteger pgIndex;
-@property (nonatomic, strong) NSMutableArray<TSORegisterOrderListModel *> *dataArr;
+@property (nonatomic, strong) NSMutableArray<TSWxInfoListModel *> *dataArr;
 @end
 
-@implementation TSOUnlockOrderVC
+@implementation TSWxListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.title = @"微信列表";
     [self setupSubview];
     [self layoutSubview];
     [self.tableView.mj_header beginRefreshing];
@@ -35,19 +36,21 @@
 - (void) setupSubview {
     
     self.view.backgroundColor = [UIColor colorWithHexString:@"#f5f5f5"];
-    
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     self.tableView.backgroundColor = [UIColor colorWithHexString:@"#f5f5f5"];
     self.tableView.delegate = self.tableViewTool;
     self.tableView.dataSource = self.tableViewTool;
-//    self.tableView.allowsSelection = NO;
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    //    self.tableView.allowsSelection = NO;
+//    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, CGFLOAT_MIN)];
     self.tableView.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, CGFLOAT_MIN)];
     self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(pushDownRefesh)];
     self.tableView.mj_footer = [MJRefreshAutoFooter footerWithRefreshingTarget:self refreshingAction:@selector(pushUpRefesh)];
     self.tableView.mj_footer.hidden = YES;
     [self.view addSubview:self.tableView];
+    
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithTitle:@"添加" titleColor:[UIColor whiteColor] target:self action:@selector(actionAddWxUserInfo)];
+    
     
 }
 
@@ -58,6 +61,21 @@
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
+}
+
+#pragma mark - actionFunc
+
+- (void)actionAddWxUserInfo {
+    if (self.isRequest) {
+        return;
+    }
+    TSAddWxUserViewController *avc = [[TSAddWxUserViewController alloc] init];
+    WEAK_REF(self);
+    [avc setAddWxSuccessBlock:^{
+        [weak_self.tableView.mj_header beginRefreshing];
+    }];
+    [self.navigationController pushViewController:avc animated:YES];
+    
 }
 
 #pragma mark - setupData
@@ -86,13 +104,13 @@
     if (self.pgIndex == 1) {
         [TLodingHub setGifOnView:self.view withTitle:@"正在加载..."];
     }
-    [THTTPRequestTool postSignRequestDataWithUrl:@"api/jiedan/order/get_order_unseal_list" par:parInfoDic signDicInfo:signDic finishBlock:^(TResponse *response) {
+    [THTTPRequestTool postSignRequestDataWithUrl:@"api/jiedan/weixin/get_wx_sn_list" par:parInfoDic signDicInfo:signDic finishBlock:^(TResponse *response) {
         self.isRequest = NO;
         [TLodingHub hideAllHUDsForView:self.view];
         [self.tableView.mj_footer endRefreshing];
         [self.tableView.mj_header endRefreshing];
         if (response.code == TRequestSuccessCode && [response.data isKindOfClass:[NSDictionary class]]) {
-            TSORegisterOrderModel *listModel = [TSORegisterOrderModel mj_objectWithKeyValues:response.data];
+            TSWxInfoModel *listModel = [TSWxInfoModel mj_objectWithKeyValues:response.data];
             [self setupDataWithListModel:listModel];
         } else {
             [MBProgressHUD showError:response.msg];
@@ -107,7 +125,7 @@
     }];
 }
 
-- (void)setupDataWithListModel:(TSORegisterOrderModel *)listModel {
+- (void)setupDataWithListModel:(TSWxInfoModel *)listModel {
     
     [self.dataArr addObjectsFromArray:listModel.list];
     self.tableView.mj_footer.hidden = listModel.page_index >= listModel.total_pages;
@@ -118,17 +136,15 @@
 
 #pragma mark - routerFunc
 
-- (void)routerWithModel:(TSORegisterOrderListModel *)orderModel {
-    
-    TSRegisterOrderDetailViewController *dvc = [[TSRegisterOrderDetailViewController alloc] init];
-    dvc.order_id = orderModel.order_id;
-    WEAK_REF(self);
-    [dvc setHandleSuccessBlock:^{
-        [weak_self.tableView.mj_header beginRefreshing];
-    }];
-    [self.navigationController pushViewController:dvc animated:YES];
+- (void)routerDetailVcWithModel:(TSWxInfoListModel *)orderModel {
+    if (self.isSelectType && self.selectItemBlock) {
+        [self navBackAction];
+        self.selectItemBlock(orderModel);
+    }
+//    TSORegisterOrderDetailVC *dvc = [[TSORegisterOrderDetailVC alloc] init];
+//    dvc.order_id = orderModel.order_id;
+//    [self.navigationController pushViewController:dvc animated:YES];
 }
-
 
 #pragma mark - getterFunc
 
@@ -140,27 +156,17 @@
     return _tableViewTool;
 }
 
-- (TSRegisterOrderSection *)section {
+- (TSWxListSection *)section {
     
     if (_section == nil) {
-        _section = [[TSRegisterOrderSection alloc] init];
+        _section = [[TSWxListSection alloc] init];
         [_section tableViewRegisterView:self.tableView];
         WEAK_REF(self);
         [_section setDidSelectedBlock:^(id  _Nonnull model) {
-            [weak_self routerWithModel:model];
+            [weak_self routerDetailVcWithModel:model];
         }];
     }
     return _section;
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
