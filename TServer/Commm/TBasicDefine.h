@@ -77,7 +77,7 @@ __weak typeof(obj) weak_##obj = obj; \
 #define kUnNilStr(str) ((str && ![str isEqual:[NSNull null]])?str:@"")
 
 //整数转换成字符串
-#define kStrWithInter(i) [NSString stringWithFormat:@"%d",i]
+#define kStrWithInter(i) [NSString stringWithFormat:@"%ld",i]
 //float转换成字符串
 #define kStrWithFloat(f) [NSString stringWithFormat:@"%0.1f",f]
 #define kBOOLToBoolStr(state) (state)?@"True":@"False"

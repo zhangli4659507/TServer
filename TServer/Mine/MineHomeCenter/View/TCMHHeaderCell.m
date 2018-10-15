@@ -41,8 +41,7 @@ NSString *const TCMHHeaderCellClassName = @"TCMHHeaderCell";
     [self.headerImav sd_setImageWithURL:[NSURL URLWithString:kUnNilStr(manger.userModel.avatar)] placeholderImage:kDefaultHeadImg];
     self.nickNameLbl.text = kUnNilStr(manger.userModel.nickname);
     [self.delegateBtn setTitle:kUnNilStr(manger.userModel.type_name) forState:UIControlStateNormal];
-#warning 这里需要修改
-    self.orderNumLbl.text = kUnNilStr(@"订单数接口为返回");
+    self.orderNumLbl.text = kStrWithInter(manger.userModel.jiedan_num);
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
