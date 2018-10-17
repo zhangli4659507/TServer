@@ -18,6 +18,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndex:(NSInteger)index {
     
     TCMHHeaderCell *cell = [tableView dequeueReusableCellWithIdentifier:TCMHHeaderCellClassName];
+    WEAK_REF(self);
+    [cell setActionWithDrawBlock:^{
+        weak_self.didSelectedBlock?:weak_self.didSelectedBlock(nil);
+    }];
     [cell reloadUi];
     return cell;
     }

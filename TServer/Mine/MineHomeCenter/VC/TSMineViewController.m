@@ -85,12 +85,27 @@
     
 }
 
+- (void)requestWithDraw {
+    
+    if ([TCUserManger shareUserManger].userModel.jiedan_money <= 0) {
+        [MBProgressHUD showMessage:@"没有约可提现哦~"];
+        return;
+    }
+    
+    
+    
+}
+
 #pragma mark - setupData
 
 - (void)setupData {
     
     TCMineHeaderSection *section = [[TCMineHeaderSection alloc] init];
     [section tableViewRegisterView:self.tableView];
+    WEAK_REF(self);
+    [section setDidSelectedBlock:^(id  _Nonnull model) {
+        [weak_self requestWithDraw];
+    }];
     section.dataSource = @[@1];
     
 //    TCMHInfoSection *secondSection = [[TCMHInfoSection alloc] init];

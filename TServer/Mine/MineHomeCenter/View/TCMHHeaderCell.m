@@ -16,6 +16,9 @@ NSString *const TCMHHeaderCellClassName = @"TCMHHeaderCell";
     [T2TView setRoundCornerFor:self.headerImav radiu:21.5f];
     self.backgroundColor = [UIColor clearColor];
     self.selectionStyle = UITableViewCellSelectionStyleNone;
+    
+    [self.withDrawBtn addTarget:self action:@selector(actionWithDrawBtn) forControlEvents:UIControlEventTouchUpInside];
+    
 
 }
 - (NSString*)weekdayStringFromDate:(NSDate*)inputDate {
@@ -30,6 +33,11 @@ NSString *const TCMHHeaderCellClassName = @"TCMHHeaderCell";
     return dateStr;
 }
 
+- (void)actionWithDrawBtn {
+    
+    !self.actionWithDrawBlock?:self.actionWithDrawBlock();
+}
+
 - (void)reloadUi {
     
     
@@ -42,6 +50,7 @@ NSString *const TCMHHeaderCellClassName = @"TCMHHeaderCell";
     self.nickNameLbl.text = kUnNilStr(manger.userModel.nickname);
     [self.delegateBtn setTitle:kUnNilStr(manger.userModel.type_name) forState:UIControlStateNormal];
     self.orderNumLbl.text = kStrWithInter(manger.userModel.jiedan_num);
+    self.moneyLbl.text = [NSString stringWithFormat:@"余额：%@",manger.userModel.jiedan_money];
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

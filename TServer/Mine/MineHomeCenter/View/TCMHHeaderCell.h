@@ -18,5 +18,8 @@ extern NSString *const TCMHHeaderCellClassName;
 @property (weak, nonatomic) IBOutlet UIImageView *adImav;
 @property (weak, nonatomic) IBOutlet UIButton *msgBtn;
 @property (weak, nonatomic) IBOutlet UILabel *orderNumLbl;
+@property (weak, nonatomic) IBOutlet UILabel *moneyLbl;
+@property (weak, nonatomic) IBOutlet UIButton *withDrawBtn;
+@property (nonatomic, copy) void (^actionWithDrawBlock)();
 - (void)reloadUi;
 @end

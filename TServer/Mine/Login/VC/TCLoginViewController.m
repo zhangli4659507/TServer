@@ -50,8 +50,7 @@
 - (void)requestLogin {
     
     [MBProgressHUD showMessage:@"正在登录..."];
-#warning 这里需要修改
-    NSDictionary *par = @{@"mobile":kUnNilStr(self.mobileTxt.text),@"password":kUnNilStr(self.pwdTxt.text),@"type":@(1)};
+    NSDictionary *par = @{@"mobile":kUnNilStr(self.mobileTxt.text),@"password":kUnNilStr(self.pwdTxt.text),@"type":@(2)};
     [THTTPRequestTool postRequestDataWithUrl:@"api/user/login" par:@{@"data":par} finishBlock:^(TResponse *response) {
         if (response.code == TRequestSuccessCode) {
             [MBProgressHUD hideHUD];
