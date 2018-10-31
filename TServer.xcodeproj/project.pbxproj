@@ -998,10 +998,10 @@
 		BCA3E085216BA76C004B7C19 /* RequestTool */ = {
 			isa = PBXGroup;
 			children = (
+				BCA3E089216BA76C004B7C19 /* TResponse.h */,
 				BCA3E086216BA76C004B7C19 /* TResponse.m */,
 				BCA3E087216BA76C004B7C19 /* THTTPRequestTool.h */,
 				BCA3E088216BA76C004B7C19 /* THTTPRequestTool.m */,
-				BCA3E089216BA76C004B7C19 /* TResponse.h */,
 			);
 			path = RequestTool;
 			sourceTree = "<group>";
