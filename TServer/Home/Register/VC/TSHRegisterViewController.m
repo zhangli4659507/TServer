@@ -76,7 +76,7 @@
     if (self.pgIndex == 1) {
         [TLodingHub setGifOnView:self.view withTitle:@"正在加载..."];
     }
-    [THTTPRequestTool getSignRequestDataWithUrl:@"api/jiedan/order/get_order_register_list" par:parInfoDic signDicInfo:signDic finishBlock:^(TResponse *response) {
+    [THTTPRequestTool getSignRequestDataWithUrl:@"api/jiedan/order/register_order_list" par:parInfoDic signDicInfo:signDic finishBlock:^(TResponse *response) {
         self.isRequest = NO;
         [TLodingHub hideAllHUDsForView:self.view];
         [self.tableView.mj_footer endRefreshing];
