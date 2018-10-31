@@ -50,6 +50,7 @@ NS_INLINE NSString *TimeYMDTextWithDatestr(NSString *originalText)
 
 static NSString *const TLogin_success_notiName = @"TLogin_success_notiName";
 static NSString *const TLogin_Out_NotiName = @"TLogin_Out_NotiName";
+static NSString *const TMoney_change_notiName = @"TMoney_change_notiName";
 static NSString *const TLogin_Token_SaveKey = @"TLogin_Token_SaveKey";
 static NSString *const TLogin_Mobile_saveKey = @"TLogin_Mobile_saveKey";
 static NSString *const TLogin_pwd_saveKey = @"TLogin_pwd_saveKey";

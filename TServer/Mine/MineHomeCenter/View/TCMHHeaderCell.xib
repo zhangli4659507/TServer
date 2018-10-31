@@ -35,7 +35,7 @@
                                     <constraint firstAttribute="height" constant="30" id="suP-Q1-cf8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="充值"/>
+                                <state key="normal" title="提现"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="余额：100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cS-35-JsS">
                                 <rect key="frame" x="170.5" y="15" width="57.5" height="212.5"/>

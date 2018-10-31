@@ -23,7 +23,7 @@
 #import "TCMyFriendViewController.h"
 #import "TCAcountSetViewController.h"
 #import "TCInventFriendVC.h"
-
+#import "TSWithDrawViewController.h"
 #define TMCHHeadViewHeight (152.f + kNavBarHeight)
 @interface TSMineViewController ()<UIScrollViewDelegate>
 @property (nonatomic, strong) UITableView *tableView;
@@ -40,6 +40,7 @@
     [self setUpSubview];
     [self layoutSubview];
     [self setupData];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setupData) name:TMoney_change_notiName object:nil];
     // Do any additional setup after loading the view.
 }
 
@@ -90,9 +91,13 @@
     if ([TCUserManger shareUserManger].userModel.jiedan_money <= 0) {
         [MBProgressHUD showMessage:@"没有约可提现哦~"];
         return;
+    } else if ([TCUserManger shareUserManger].userModel.alipay.length == 0) {
+        [MBProgressHUD showMessage:@"请先在个人中心添加提现支付宝账号~"];
+        return;
     }
     
-    
+    TSWithDrawViewController *dvc = [[TSWithDrawViewController alloc] init];
+    [self.navigationController pushViewController:dvc animated:YES];
     
 }
 

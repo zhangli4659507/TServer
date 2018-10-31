@@ -102,6 +102,11 @@
 		BCA3E0A9216BA8C2004B7C19 /* TCChangePwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA3E0A6216BA8C1004B7C19 /* TCChangePwdViewController.xib */; };
 		BCA3E0AA216BA8C2004B7C19 /* TCChangePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E0A8216BA8C1004B7C19 /* TCChangePwdViewController.m */; };
 		BCA3E0AD216BA8EA004B7C19 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA3E0AB216BA8EA004B7C19 /* UIImage+Scale.m */; };
+		BCB42F492189FAD8002AF33D /* TSWithDrawReordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB42F472189FAD8002AF33D /* TSWithDrawReordCell.m */; };
+		BCB42F4A2189FAD8002AF33D /* TSWithDrawReordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB42F482189FAD8002AF33D /* TSWithDrawReordCell.xib */; };
+		BCB42F4E218A01B1002AF33D /* TSDrawRecordSection.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB42F4D218A01B1002AF33D /* TSDrawRecordSection.m */; };
+		BCB42F52218A03A8002AF33D /* TSWithDrawModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB42F51218A03A8002AF33D /* TSWithDrawModel.m */; };
+		BCB42F56218A0406002AF33D /* TSWithDrawRecordListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB42F55218A0406002AF33D /* TSWithDrawRecordListVC.m */; };
 		BCEF7D1921718FF200074688 /* TSHRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D1821718FF200074688 /* TSHRegisterViewController.m */; };
 		BCEF7D1C2171901200074688 /* TSHUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D1B2171901200074688 /* TSHUnlockViewController.m */; };
 		BCEF7D23217196CC00074688 /* TSHRegisterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF7D21217196CC00074688 /* TSHRegisterCell.m */; };
@@ -304,6 +309,15 @@
 		BCA3E0A8216BA8C1004B7C19 /* TCChangePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCChangePwdViewController.m; sourceTree = "<group>"; };
 		BCA3E0AB216BA8EA004B7C19 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
 		BCA3E0AC216BA8EA004B7C19 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		BCB42F462189FAD8002AF33D /* TSWithDrawReordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSWithDrawReordCell.h; sourceTree = "<group>"; };
+		BCB42F472189FAD8002AF33D /* TSWithDrawReordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSWithDrawReordCell.m; sourceTree = "<group>"; };
+		BCB42F482189FAD8002AF33D /* TSWithDrawReordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSWithDrawReordCell.xib; sourceTree = "<group>"; };
+		BCB42F4C218A01B1002AF33D /* TSDrawRecordSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDrawRecordSection.h; sourceTree = "<group>"; };
+		BCB42F4D218A01B1002AF33D /* TSDrawRecordSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSDrawRecordSection.m; sourceTree = "<group>"; };
+		BCB42F50218A03A8002AF33D /* TSWithDrawModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSWithDrawModel.h; sourceTree = "<group>"; };
+		BCB42F51218A03A8002AF33D /* TSWithDrawModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSWithDrawModel.m; sourceTree = "<group>"; };
+		BCB42F54218A0406002AF33D /* TSWithDrawRecordListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSWithDrawRecordListVC.h; sourceTree = "<group>"; };
+		BCB42F55218A0406002AF33D /* TSWithDrawRecordListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSWithDrawRecordListVC.m; sourceTree = "<group>"; };
 		BCEF7D1721718FF200074688 /* TSHRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHRegisterViewController.h; sourceTree = "<group>"; };
 		BCEF7D1821718FF200074688 /* TSHRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHRegisterViewController.m; sourceTree = "<group>"; };
 		BCEF7D1A2171901200074688 /* TSHUnlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHUnlockViewController.h; sourceTree = "<group>"; };
@@ -1036,9 +1050,9 @@
 		BCA3E095216BA86F004B7C19 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				BCA3E096216BA86F004B7C19 /* TCLoginViewController.xib */,
-				BCA3E097216BA86F004B7C19 /* TCLoginViewController.m */,
 				BCA3E098216BA86F004B7C19 /* TCLoginViewController.h */,
+				BCA3E097216BA86F004B7C19 /* TCLoginViewController.m */,
+				BCA3E096216BA86F004B7C19 /* TCLoginViewController.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -1069,6 +1083,54 @@
 				BCA3E0A6216BA8C1004B7C19 /* TCChangePwdViewController.xib */,
 				BCA3E0A7216BA8C1004B7C19 /* TCChangePwdViewController.h */,
 				BCA3E0A8216BA8C1004B7C19 /* TCChangePwdViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BCB42F442189FAA7002AF33D /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				BCB42F53218A03E2002AF33D /* VC */,
+				BCB42F4F218A035D002AF33D /* model */,
+				BCB42F4B218A018D002AF33D /* Tool */,
+				BCB42F452189FAB7002AF33D /* View */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		BCB42F452189FAB7002AF33D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCB42F462189FAD8002AF33D /* TSWithDrawReordCell.h */,
+				BCB42F472189FAD8002AF33D /* TSWithDrawReordCell.m */,
+				BCB42F482189FAD8002AF33D /* TSWithDrawReordCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB42F4B218A018D002AF33D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BCB42F4C218A01B1002AF33D /* TSDrawRecordSection.h */,
+				BCB42F4D218A01B1002AF33D /* TSDrawRecordSection.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		BCB42F4F218A035D002AF33D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BCB42F50218A03A8002AF33D /* TSWithDrawModel.h */,
+				BCB42F51218A03A8002AF33D /* TSWithDrawModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BCB42F53218A03E2002AF33D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BCB42F54218A0406002AF33D /* TSWithDrawRecordListVC.h */,
+				BCB42F55218A0406002AF33D /* TSWithDrawRecordListVC.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -1256,6 +1318,7 @@
 		BCF444252177882D00A19482 /* WithDraw */ = {
 			isa = PBXGroup;
 			children = (
+				BCB42F442189FAA7002AF33D /* Record */,
 				BCF444262177884800A19482 /* TSWithDrawViewController.h */,
 				BCF444272177884800A19482 /* TSWithDrawViewController.m */,
 				BCF444282177884800A19482 /* TSWithDrawViewController.xib */,
@@ -1337,6 +1400,7 @@
 				BCA3E071216BA74F004B7C19 /* TFailhub.xib in Resources */,
 				BCA3E0A9216BA8C2004B7C19 /* TCChangePwdViewController.xib in Resources */,
 				4D0FEEA6212BB03F0021E9E8 /* TCMHTableFootView.xib in Resources */,
+				BCB42F4A2189FAD8002AF33D /* TSWithDrawReordCell.xib in Resources */,
 				BCF4442A2177884800A19482 /* TSWithDrawViewController.xib in Resources */,
 				BC55049D2172FCE1003CBEC1 /* TSRegisterOrderDetailViewController.xib in Resources */,
 				4DB7E6192126B48A009FDA22 /* LaunchScreen.xib in Resources */,
@@ -1433,6 +1497,7 @@
 				4D0FEEAD212BB03F0021E9E8 /* TCMyFriendViewController.m in Sources */,
 				4D0FEEB1212BB03F0021E9E8 /* TCChangeAvoidViewController.m in Sources */,
 				4DB7E55321265DB8009FDA22 /* UITableView+TRegisterCell.m in Sources */,
+				BCB42F56218A0406002AF33D /* TSWithDrawRecordListVC.m in Sources */,
 				4DB7E5292126589F009FDA22 /* WMMenuItem.m in Sources */,
 				BC5504A1217300B9003CBEC1 /* TSUnlockOrderDetailModel.m in Sources */,
 				4D0FEEAC212BB03F0021E9E8 /* TCMHInfoSection.m in Sources */,
@@ -1464,6 +1529,7 @@
 				BCEF7D1921718FF200074688 /* TSHRegisterViewController.m in Sources */,
 				BCEF7D4D2171DCEB00074688 /* TSRegisterOrderSection.m in Sources */,
 				4D0FEEA9212BB03F0021E9E8 /* TCMHHeaderCell.m in Sources */,
+				BCB42F492189FAD8002AF33D /* TSWithDrawReordCell.m in Sources */,
 				BCEF7D1C2171901200074688 /* TSHUnlockViewController.m in Sources */,
 				4D0FEEA8212BB03F0021E9E8 /* TNUHeadBgView.m in Sources */,
 				BCA3E05C216BA636004B7C19 /* MMPopupItem.m in Sources */,
@@ -1473,6 +1539,7 @@
 				4DB7E5CA21269946009FDA22 /* TSOrderViewController.m in Sources */,
 				4D0FEEB9212BB0A80021E9E8 /* TOBaseSection.m in Sources */,
 				BCEF7D512171DD0900074688 /* TSRegisterOrderCell.m in Sources */,
+				BCB42F52218A03A8002AF33D /* TSWithDrawModel.m in Sources */,
 				4DB7E55A21265E06009FDA22 /* T2TView.m in Sources */,
 				BC5504B321730D83003CBEC1 /* TSWxInfoModel.m in Sources */,
 				4DB7E55021265C8B009FDA22 /* UIView+AddOther.m in Sources */,
@@ -1481,6 +1548,7 @@
 				4D366A2F217091FD004B5E1D /* TCUserInfoViewController.m in Sources */,
 				4D0FEEA3212BB03F0021E9E8 /* TCMHCellConfigModel.m in Sources */,
 				BCA3E056216BA636004B7C19 /* MMAlertView.m in Sources */,
+				BCB42F4E218A01B1002AF33D /* TSDrawRecordSection.m in Sources */,
 				4DB7E56321266246009FDA22 /* TBaseViewcontroller.m in Sources */,
 				4D0FEEA1212BB03F0021E9E8 /* TCAppDownloadViewController.m in Sources */,
 				BCA3E05B216BA636004B7C19 /* TPopViewController.m in Sources */,
