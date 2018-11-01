@@ -88,11 +88,11 @@
 
 - (void)requestWithDraw {
     
-    if ([TCUserManger shareUserManger].userModel.jiedan_money <= 0) {
-        [MBProgressHUD showMessage:@"没有约可提现哦~"];
+    if ([[TCUserManger shareUserManger].userModel.jiedan_money floatValue] <= 0) {
+        [MBProgressHUD showError:@"没有余额可提现哦~"];
         return;
     } else if ([TCUserManger shareUserManger].userModel.alipay.length == 0) {
-        [MBProgressHUD showMessage:@"请先在个人中心添加提现支付宝账号~"];
+        [MBProgressHUD showError:@"请先在个人中心添加提现支付宝账号~"];
         return;
     }
     
