@@ -21,7 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *jd_add_time;//接单时间
 @property (nonatomic, copy) NSString *status_text;//订单状态显示标识
 @property (nonatomic, copy) NSString *jd_finish_time;//接单完成时间
-
+@property (nonatomic, assign) BOOL is_complain;//投诉状态（0-没投诉 1-投诉申请 2-下单放胜 3-接单方胜 4-平台胜 ）
+@property (nonatomic, copy) NSString *is_complain_text;//接单完成时间
 @end
 
 NS_ASSUME_NONNULL_END

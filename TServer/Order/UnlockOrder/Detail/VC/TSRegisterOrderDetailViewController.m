@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *bindBtn;
 @property (weak, nonatomic) IBOutlet UIButton *okBtn;
 
+@property (weak, nonatomic) IBOutlet UILabel *compaintLbl;
 @property (nonatomic, copy) NSString *uploadImageUrl;
 @property (weak, nonatomic) IBOutlet UIImageView *uploadImav;
 @property (nonatomic, strong) TSUnlockOrderDetailModel *detailModel;
@@ -100,6 +101,7 @@
     self.nickNameLbl.text = detailModel.nickname;
     self.addTimeLbl.text = detailModel.add_time;
     self.priceLbl.text = detailModel.order_price;
+    self.compaintLbl.text = kUnNilStr(detailModel.is_complain_text);
     if (detailModel.status == 0) {
         self.wxTxt.placeholder = @"请输入微信号";
     } else {

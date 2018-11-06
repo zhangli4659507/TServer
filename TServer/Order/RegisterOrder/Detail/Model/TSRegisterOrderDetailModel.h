@@ -22,6 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger type;//类型（1拍照上传 2扫码上传）-(1-直接根据链接photo_url显示图片 2-根据链接qrcode_url转为二维码图片显示)
 @property (nonatomic, copy) NSString *photo_url;//图片路径（type=1时使用）
 @property (nonatomic, copy) NSString *qrcode_url;//图片路径（type=2时使用）
+@property (nonatomic, assign) BOOL is_complain;//投诉状态（0-没投诉 1-投诉申请 2-下单放胜 3-接单方胜 4-平台胜 ）
+@property (nonatomic, copy) NSString *is_complain_text;//投诉状态
 @end
 
 NS_ASSUME_NONNULL_END

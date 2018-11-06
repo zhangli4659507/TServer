@@ -20,6 +20,7 @@
 @property (nonatomic, copy) NSString *uploadImageUrl;
 @property (weak, nonatomic) IBOutlet UIImageView *uploadImav;
 @property (weak, nonatomic) IBOutlet UILabel *uploadImavTagLbl;
+@property (weak, nonatomic) IBOutlet UILabel *compaintLbl;
 
 @end
 
@@ -90,7 +91,7 @@
 }
 
 - (void)setupUIWithDetailModel:(TSRegisterOrderDetailModel *)detailModel {
-    
+    self.compaintLbl.text = detailModel.is_complain_text;
     self.okBtn.hidden = detailModel.status == 3 || detailModel.status == 4;
     self.uploadImav.hidden = self.uploadImavTagLbl.hidden = self.okBtn.hidden;
     self.order_signLbl.text = detailModel.order_sn;
