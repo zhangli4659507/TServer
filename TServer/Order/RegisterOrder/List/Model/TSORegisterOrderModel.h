@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *jd_add_time;//接单时间
 @property (nonatomic, copy) NSString *jd_finish_time;//接单完成时间
 @property (nonatomic, copy) NSString *status_text;//订单状态显示标识
+@property (nonatomic, copy) NSString *province_name;//省份名称
 @end
 @interface TSORegisterOrderModel : NSObject
 @property (nonatomic, assign) NSInteger total_count;//总数

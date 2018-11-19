@@ -19,6 +19,10 @@
 @property (weak, nonatomic) IBOutlet UIButton *bindBtn;
 @property (weak, nonatomic) IBOutlet UIButton *okBtn;
 
+@property (weak, nonatomic) IBOutlet UILabel *wxNumLbl;
+@property (weak, nonatomic) IBOutlet UILabel *phoneNumLbl;
+@property (weak, nonatomic) IBOutlet UILabel *provinceNameLbl;
+
 @property (weak, nonatomic) IBOutlet UILabel *compaintLbl;
 @property (nonatomic, copy) NSString *uploadImageUrl;
 @property (weak, nonatomic) IBOutlet UIImageView *uploadImav;
@@ -97,11 +101,14 @@
 
 
 - (void)setupUIWithDetailModel:(TSUnlockOrderDetailModel *)detailModel {
-    self.orderIdLbl.text = detailModel.order_sn;
-    self.nickNameLbl.text = detailModel.nickname;
-    self.addTimeLbl.text = detailModel.add_time;
-    self.priceLbl.text = detailModel.order_price;
+    self.orderIdLbl.text = kUnNilStr(detailModel.order_sn);
+    self.nickNameLbl.text = kUnNilStr(detailModel.nickname);
+    self.addTimeLbl.text = kUnNilStr(detailModel.add_time);
+    self.priceLbl.text = kUnNilStr(detailModel.order_price);
+    self.wxNumLbl.text = kUnNilStr(detailModel.unseal_wx);
+    self.phoneNumLbl.text = kUnNilStr(detailModel.unseal_phone);
     self.compaintLbl.text = kUnNilStr(detailModel.is_complain_text);
+    self.provinceNameLbl.text = kUnNilStr(detailModel.province_name);
     if (detailModel.status == 0) {
         self.wxTxt.placeholder = @"请输入微信号";
     } else {

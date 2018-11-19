@@ -25,7 +25,7 @@ NSString *const TSHUnlockCellClassName = @"TSHUnlockCell";
     self.addTimeLbl.text = model.add_time;
     self.priceLbl.text = [NSString stringWithFormat:@"佣金：%@",model.order_price];
     self.nickNameLbl.text = [NSString stringWithFormat:@"下单人：%@",model.nickname];
-    
+    self.provinceLbl.text = [NSString stringWithFormat:@"省份：%@",kUnNilStr(model.province_name)];
     
 }
 - (IBAction)actionOkBtn:(id)sender {

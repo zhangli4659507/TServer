@@ -24,6 +24,7 @@ NSString *const TSRegisterOrderCellClassName = @"TSRegisterOrderCell";
     self.priceLbl.text = [NSString stringWithFormat:@"佣金：¥%@",model.order_price];
     self.nickNameLbl.text = [NSString stringWithFormat:@"下单人：%@",model.nickname];
     self.addTimeLbl.text = [NSString stringWithFormat:@"时间：%@",model.add_time];
+    self.provinceNameLbl.text = [NSString stringWithFormat:@"省份：%@",model.province_name];
     self.orderStateLbl.text = model.status_text;
     self.stateBtn.hidden=  model.status == 3 || model.status == 4;
 }

@@ -18,6 +18,7 @@ extern NSString *const TSHUnlockCellClassName;
 @property (weak, nonatomic) IBOutlet UILabel *priceLbl;
 @property (weak, nonatomic) IBOutlet UIView *bgView;
 @property (weak, nonatomic) IBOutlet UILabel *addTimeLbl;
+@property (weak, nonatomic) IBOutlet UILabel *provinceLbl;
 @property (nonatomic, copy) void (^actionOrderBlock)(void);
 - (void)configUiWithModel:(TSHUnlockListModel *)model;
 @end

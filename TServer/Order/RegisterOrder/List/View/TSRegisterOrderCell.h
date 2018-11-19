@@ -18,6 +18,7 @@ extern NSString *const TSRegisterOrderCellClassName;
 @property (weak, nonatomic) IBOutlet UILabel *addTimeLbl;
 @property (weak, nonatomic) IBOutlet UILabel *orderStateLbl;
 @property (weak, nonatomic) IBOutlet UIButton *stateBtn;
+@property (weak, nonatomic) IBOutlet UILabel *provinceNameLbl;
 - (void)configUIWithModel:(TSORegisterOrderListModel *)model;
 @end
 

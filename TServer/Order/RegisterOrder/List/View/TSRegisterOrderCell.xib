@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -31,7 +31,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAP-nY-yzU">
-                        <rect key="frame" x="12" y="78" width="31" height="15"/>
+                        <rect key="frame" x="12" y="101" width="31" height="15"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
@@ -58,6 +58,12 @@
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <state key="normal" title="完成"/>
                     </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ib-OJ-xYQ">
+                        <rect key="frame" x="12" y="78" width="31" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="h5t-F7-72o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="5Gh-Lr-E72"/>
@@ -65,9 +71,11 @@
                     <constraint firstItem="XXK-er-DXd" firstAttribute="leading" secondItem="h5t-F7-72o" secondAttribute="leading" id="DW0-5P-mhT"/>
                     <constraint firstItem="joI-Sn-A04" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="FQP-Ez-3JX"/>
                     <constraint firstAttribute="trailing" secondItem="joI-Sn-A04" secondAttribute="trailing" constant="12" id="ITl-P7-Vuu"/>
-                    <constraint firstItem="jAP-nY-yzU" firstAttribute="top" secondItem="XXK-er-DXd" secondAttribute="bottom" constant="8" id="Lx4-zi-EZK"/>
                     <constraint firstItem="E2n-ay-HB5" firstAttribute="top" secondItem="joI-Sn-A04" secondAttribute="bottom" constant="10" id="Oc6-GC-qKg"/>
+                    <constraint firstItem="3ib-OJ-xYQ" firstAttribute="top" secondItem="XXK-er-DXd" secondAttribute="bottom" constant="8" id="T6H-GY-nUV"/>
+                    <constraint firstItem="jAP-nY-yzU" firstAttribute="top" secondItem="3ib-OJ-xYQ" secondAttribute="bottom" constant="8" id="TlG-8w-5Qe"/>
                     <constraint firstAttribute="trailing" secondItem="E2n-ay-HB5" secondAttribute="trailing" constant="12" id="W9L-yl-2gS"/>
+                    <constraint firstItem="3ib-OJ-xYQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="Wsn-EV-sQE"/>
                     <constraint firstItem="jAP-nY-yzU" firstAttribute="leading" secondItem="h5t-F7-72o" secondAttribute="leading" id="XAW-0U-igT"/>
                     <constraint firstItem="Ax0-p3-4Yr" firstAttribute="top" secondItem="h5t-F7-72o" secondAttribute="bottom" constant="8" id="ZYh-uU-e2J"/>
                     <constraint firstItem="h5t-F7-72o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="gLW-Lo-Lo1"/>
@@ -81,6 +89,7 @@
                 <outlet property="orderNumLbl" destination="h5t-F7-72o" id="UbE-jx-pWH"/>
                 <outlet property="orderStateLbl" destination="joI-Sn-A04" id="TgP-P9-Q3V"/>
                 <outlet property="priceLbl" destination="Ax0-p3-4Yr" id="BID-ca-h5k"/>
+                <outlet property="provinceNameLbl" destination="3ib-OJ-xYQ" id="2Ua-Wp-K2y"/>
                 <outlet property="stateBtn" destination="E2n-ay-HB5" id="jds-bm-kMT"/>
             </connections>
             <point key="canvasLocation" x="203" y="-72"/>

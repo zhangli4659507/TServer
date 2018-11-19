@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *add_time;//下单时间
 @property (nonatomic, copy) NSString *nickname;//下单用户昵称
 @property (nonatomic, copy) NSString *status_text;//订单状态显示标识
+@property (nonatomic, copy) NSString *province_name;//省份名称
 @end
 
 @interface TSHUnlockModel : NSObject
