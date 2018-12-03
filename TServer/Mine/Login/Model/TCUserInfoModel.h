@@ -26,6 +26,6 @@
 @property (nonatomic, assign) NSInteger type;//类型1 放单者
 @property (nonatomic, assign) NSInteger jiedan_num;//接单数
 @property (nonatomic, copy) NSString *qrcode;//二维码推广链接
-
+@property (nonatomic, assign) CGFloat max_withdraw_money;//最大提现额度
 
 @end
