@@ -36,6 +36,8 @@
     [super viewDidLoad];
     self.title = @"订单详情";
     [self requestData];
+    [T2TView setRoundCornerFor:self.okBtn radiu:20.f];
+    [T2TView setRoundCornerFor:self.bindBtn radiu:14.f];
     // Do any additional setup after loading the view from its nib.
 }
 

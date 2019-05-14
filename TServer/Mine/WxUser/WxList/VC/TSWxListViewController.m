@@ -40,6 +40,8 @@
     self.tableView.backgroundColor = [UIColor colorWithHexString:@"#f5f5f5"];
     self.tableView.delegate = self.tableViewTool;
     self.tableView.dataSource = self.tableViewTool;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.tableView.estimatedRowHeight = 45.f;
     //    self.tableView.allowsSelection = NO;
 //    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, CGFLOAT_MIN)];
