@@ -13,6 +13,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *moneyTxt;
 @property (weak, nonatomic) IBOutlet UILabel *alipayUserNameLbl;
 @property (weak, nonatomic) IBOutlet UIButton *okBtn;
+@property (weak, nonatomic) IBOutlet UILabel *infoOneLbl;
+@property (weak, nonatomic) IBOutlet UILabel *infoTwoLbl;
 
 @end
 
@@ -24,6 +26,8 @@
     self.alipayUserNameLbl.text = kUnNilStr([TCUserManger shareUserManger].userModel.alipay);
     self.moneyLbl.text = [NSString stringWithFormat:@"可提现：%.2lf元",[TCUserManger shareUserManger].userModel.max_withdraw_money];
     [T2TView setRoundCornerFor:self.okBtn radiu:20.f];
+    self.infoOneLbl.text = kUnNilStr([TCUserManger shareUserManger].userModel.withdraw_info_one);
+    self.infoTwoLbl.text = kUnNilStr([TCUserManger shareUserManger].userModel.withdraw_info_two);
     // Do any additional setup after loading the view from its nib.
 }
 

@@ -9,5 +9,5 @@
 #import "TBaseViewcontroller.h"
 
 @interface TCRegisterViewController : TBaseViewcontroller
-@property (nonatomic, copy) void (^registerSuccessBlock)();
+@property (nonatomic, copy) void (^registerSuccessBlock)(void);
 @end

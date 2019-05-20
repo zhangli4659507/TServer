@@ -13,5 +13,6 @@ target "TServer" do
     pod 'FLAnimatedImage', '~> 1.0.12'
     pod 'Pgyer'
     pod 'PgyUpdate'
+    pod 'ZXingObjC', '~> 3.2.2'
 end
 

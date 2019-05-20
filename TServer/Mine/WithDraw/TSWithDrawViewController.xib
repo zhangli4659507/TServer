@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TSWithDrawViewController">
             <connections>
                 <outlet property="alipayUserNameLbl" destination="3lg-dl-QC2" id="5Se-h1-pod"/>
+                <outlet property="infoOneLbl" destination="8fI-BF-ObL" id="d0g-gP-lMz"/>
+                <outlet property="infoTwoLbl" destination="VwA-Dm-Lsu" id="xvE-iU-eda"/>
                 <outlet property="moneyLbl" destination="Nyg-xR-lrB" id="Ur7-x8-Rkv"/>
                 <outlet property="moneyTxt" destination="7e4-0h-EAs" id="IiE-yY-CPT"/>
                 <outlet property="okBtn" destination="uCy-5q-zrF" id="byo-e4-I57"/>
@@ -70,7 +72,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcG-6R-YyS">
-                    <rect key="frame" x="289" y="140.5" width="74" height="28"/>
+                    <rect key="frame" x="289" y="130.5" width="74" height="28"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="28" id="qMn-Jp-Vnz"/>
                         <constraint firstAttribute="width" constant="74" id="yug-kh-NYN"/>
@@ -84,7 +86,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCy-5q-zrF">
-                    <rect key="frame" x="10" y="213.5" width="335" height="40"/>
+                    <rect key="frame" x="10" y="203.5" width="335" height="40"/>
                     <color key="backgroundColor" red="0.1529411765" green="0.60392156860000001" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="f7F-Oe-RfW"/>
@@ -131,8 +133,8 @@
                     <color key="textColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10元起提现，提现需1元/笔手续费" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VwA-Dm-Lsu">
-                    <rect key="frame" x="14" y="156.5" width="183" height="15"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10元起提现，提现需1元/笔手续费" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VwA-Dm-Lsu">
+                    <rect key="frame" x="14" y="156.5" width="270" height="14.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <color key="textColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -151,14 +153,15 @@
                 <constraint firstItem="Nyg-xR-lrB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="26" id="VpM-gC-vyp"/>
                 <constraint firstItem="uCy-5q-zrF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="bjU-uS-NGx"/>
                 <constraint firstItem="Nyg-xR-lrB" firstAttribute="top" secondItem="MlS-Zi-pyG" secondAttribute="bottom" constant="8" id="cpW-iZ-PBc"/>
+                <constraint firstItem="lcG-6R-YyS" firstAttribute="leading" secondItem="VwA-Dm-Lsu" secondAttribute="trailing" constant="5" id="eMI-JQ-dr5"/>
                 <constraint firstItem="MlS-Zi-pyG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kOh-Y9-oYM"/>
                 <constraint firstItem="MlS-Zi-pyG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pyp-99-Jj4"/>
-                <constraint firstItem="lcG-6R-YyS" firstAttribute="top" secondItem="oxf-vZ-0Sk" secondAttribute="bottom" constant="15" id="qiu-qO-87A"/>
+                <constraint firstItem="lcG-6R-YyS" firstAttribute="top" secondItem="oxf-vZ-0Sk" secondAttribute="bottom" constant="5" id="qiu-qO-87A"/>
                 <constraint firstItem="8fI-BF-ObL" firstAttribute="top" secondItem="oxf-vZ-0Sk" secondAttribute="bottom" constant="8" id="sP5-cF-y3V"/>
                 <constraint firstItem="VwA-Dm-Lsu" firstAttribute="top" secondItem="8fI-BF-ObL" secondAttribute="bottom" constant="8" id="uuh-Rh-qLK"/>
                 <constraint firstAttribute="trailing" secondItem="oxf-vZ-0Sk" secondAttribute="trailing" id="zx8-p7-1AF"/>
             </constraints>
-            <point key="canvasLocation" x="-20" y="-8"/>
+            <point key="canvasLocation" x="-210.40000000000001" y="-49.925037481259373"/>
         </view>
     </objects>
     <resources>

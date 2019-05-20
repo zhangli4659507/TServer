@@ -42,10 +42,9 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeRootVc) name:TLogin_Out_NotiName object:nil];
     [self changeRootVc];
     //启动基本SDK
-#warning 这里key还未填写
-    [[PgyManager sharedPgyManager] startManagerWithAppId:@"PGY_APP_ID"];
+    [[PgyManager sharedPgyManager] startManagerWithAppId:@"f38a8fb7ccf47bb8e45da77556d65dfa"];
     //启动更新检查SDK
-    [[PgyUpdateManager sharedPgyManager] startManagerWithAppId:@"PGY_APP_ID"];
+    [[PgyUpdateManager sharedPgyManager] startManagerWithAppId:@"f38a8fb7ccf47bb8e45da77556d65dfa"];
     [[PgyUpdateManager sharedPgyManager] checkUpdate];
     [[PgyManager sharedPgyManager] setEnableFeedback:NO];
     // Override point for customization after application launch.

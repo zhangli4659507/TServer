@@ -26,7 +26,7 @@ NSString *const TSRegisterOrderCellClassName = @"TSRegisterOrderCell";
     self.addTimeLbl.text = [NSString stringWithFormat:@"时间：%@",model.add_time];
     self.provinceNameLbl.text = [NSString stringWithFormat:@"省份：%@",model.province_name];
     self.orderStateLbl.text = model.status_text;
-    self.stateBtn.hidden=  model.status == 3 || model.status == 4;
+    self.stateBtn.hidden=  model.status != 2;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

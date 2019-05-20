@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger order_id;//订单id
 @property (nonatomic, copy) NSString *order_sn;//订单编号
 @property (nonatomic, copy) NSString *order_price;//订单价格
-@property (nonatomic, assign) NSInteger status;//订单状态 0下单成功 1付款成功 2-被接单 3-已完成（可投诉） 4-已完成（不可投诉了）
+@property (nonatomic, assign) NSInteger status;//订单状态 0下单成功 1付款成功 2-被接单 3-已完成（可投诉） 4-已完成（不可投诉了）5是代表订单真正失败     6是接单或者下单一方主动点击失败
 @property (nonatomic, copy) NSString *add_time;//下单时间
 @property (nonatomic, copy) NSString *nickname;//下单用户昵称
 @property (nonatomic, copy) NSString *jd_add_time;//接单时间

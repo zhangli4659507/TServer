@@ -8,6 +8,7 @@
 
 #import "TSHRegisterSection.h"
 #import "TSHRegisterCell.h"
+
 @implementation TSHRegisterSection
 - (void)tableViewRegisterView:(UITableView *)tableView {
     
@@ -18,8 +19,7 @@
     
     TSHRegisterCell *cell = [tableView dequeueReusableCellWithIdentifier:TSHRegisterCellClassName];
     if(self.dataSource.count > index) {
-        
-        [cell configUiWithListModel:self.dataSource[index]];
+        [cell setOrderListmodel:self.dataSource[index]];
         WEAK_REF(self);
         [cell setActionOrderBlock:^{
             !weak_self.didSelectedBlock?:weak_self.didSelectedBlock(weak_self.dataSource[index]);

@@ -19,7 +19,8 @@ extern NSString *const TSHRegisterCellClassName;
 @property (weak, nonatomic) IBOutlet UIButton *orderBtn;
 @property (weak, nonatomic) IBOutlet UIView *bgView;
 @property (nonatomic, copy) void (^actionOrderBlock)(void);
-- (void)configUiWithListModel:(TSHRegisterOerderListModel *)model;
+@property (nonatomic, weak) TSHRegisterOerderListModel *orderListmodel;
+//- (void)configUiWithListModel:(TSHRegisterOerderListModel *)model;
 
 @end
 

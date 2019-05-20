@@ -27,6 +27,7 @@
 		4D0FEEB2212BB03F0021E9E8 /* TCInventFriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEE9B212BB03F0021E9E8 /* TCInventFriendVC.m */; };
 		4D0FEEB9212BB0A80021E9E8 /* TOBaseSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEEB6212BB0A80021E9E8 /* TOBaseSection.m */; };
 		4D0FEEBA212BB0A80021E9E8 /* TOTableViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FEEB7212BB0A80021E9E8 /* TOTableViewTool.m */; };
+		4D13448E22927B9F00107F01 /* TSTimerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D13448D22927B9F00107F01 /* TSTimerTool.m */; };
 		4D366A2F217091FD004B5E1D /* TCUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D366A2C217091FC004B5E1D /* TCUserInfoViewController.m */; };
 		4D366A30217091FD004B5E1D /* TCUserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D366A2D217091FC004B5E1D /* TCUserInfoViewController.xib */; };
 		4DAEE00021256552009FFB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDFFF21256552009FFB4B /* AppDelegate.m */; };
@@ -167,6 +168,8 @@
 		4D0FEEB6212BB0A80021E9E8 /* TOBaseSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOBaseSection.m; sourceTree = "<group>"; };
 		4D0FEEB7212BB0A80021E9E8 /* TOTableViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOTableViewTool.m; sourceTree = "<group>"; };
 		4D0FEEB8212BB0A80021E9E8 /* TOBaseSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOBaseSection.h; sourceTree = "<group>"; };
+		4D13448C22927B9F00107F01 /* TSTimerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTimerTool.h; sourceTree = "<group>"; };
+		4D13448D22927B9F00107F01 /* TSTimerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTimerTool.m; sourceTree = "<group>"; };
 		4D366A2C217091FC004B5E1D /* TCUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUserInfoViewController.m; sourceTree = "<group>"; };
 		4D366A2D217091FC004B5E1D /* TCUserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCUserInfoViewController.xib; sourceTree = "<group>"; };
 		4D366A2E217091FD004B5E1D /* TCUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUserInfoViewController.h; sourceTree = "<group>"; };
@@ -581,6 +584,15 @@
 			path = TableViewTool;
 			sourceTree = "<group>";
 		};
+		4D13448B22927B7900107F01 /* TimeTool */ = {
+			isa = PBXGroup;
+			children = (
+				4D13448C22927B9F00107F01 /* TSTimerTool.h */,
+				4D13448D22927B9F00107F01 /* TSTimerTool.m */,
+			);
+			path = TimeTool;
+			sourceTree = "<group>";
+		};
 		4DAEDFF221256552009FFB4B = {
 			isa = PBXGroup;
 			children = (
@@ -709,6 +721,7 @@
 		4DB7E55721265DF5009FDA22 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				4D13448B22927B7900107F01 /* TimeTool */,
 				BCA3E085216BA76C004B7C19 /* RequestTool */,
 				BCA3E07B216BA763004B7C19 /* FileCacheTool */,
 				BCA3E073216BA758004B7C19 /* LoadingHub */,
@@ -1431,6 +1444,7 @@
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/TOWebViewController/TOWebViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/ZXingObjC/ZXingObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -1442,6 +1456,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOWebViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZXingObjC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1499,6 +1514,7 @@
 				4DB7E55321265DB8009FDA22 /* UITableView+TRegisterCell.m in Sources */,
 				BCB42F56218A0406002AF33D /* TSWithDrawRecordListVC.m in Sources */,
 				4DB7E5292126589F009FDA22 /* WMMenuItem.m in Sources */,
+				4D13448E22927B9F00107F01 /* TSTimerTool.m in Sources */,
 				BC5504A1217300B9003CBEC1 /* TSUnlockOrderDetailModel.m in Sources */,
 				4D0FEEAC212BB03F0021E9E8 /* TCMHInfoSection.m in Sources */,
 				BCA3E066216BA707004B7C19 /* TAreaTool.m in Sources */,

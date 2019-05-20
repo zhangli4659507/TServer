@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EDDD86F240C76FCBBD4D2182CD07C1E1"
+               BlueprintIdentifier = "F0E4BEBCCD4656D39A9D44A510092A8D"
                BuildableName = "TOWebViewControllerLocalizable.bundle"
                BlueprintName = "TOWebViewController-TOWebViewControllerLocalizable"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EDDD86F240C76FCBBD4D2182CD07C1E1"
+            BlueprintIdentifier = "F0E4BEBCCD4656D39A9D44A510092A8D"
             BuildableName = "TOWebViewControllerLocalizable.bundle"
             BlueprintName = "TOWebViewController-TOWebViewControllerLocalizable"
             ReferencedContainer = "container:Pods.xcodeproj">

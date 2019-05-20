@@ -10,6 +10,7 @@
 #import "TSHRegisterOerderListModel.h"
 #import "TOTableViewTool.h"
 #import "TSHRegisterSection.h"
+#import "TSTimerTool.h"
 @interface TSHRegisterViewController ()
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) TOTableViewTool *tableViewTool;
